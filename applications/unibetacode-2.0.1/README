@@ -1,0 +1,102 @@
+This is the README file for the unibetacode package.
+
+Information about the latest version is in the NEWS file.
+
+This package contains utilities for conversion of polytonic Greek
+between Beta Code and Unicode UTF-8 formats.
+
+Version 2.0 added the libunibetacode library with functions
+to convert between Greek, Coptic, and Hebrew Beta Code and
+UTF-8 Unicode.  See the libunibetacode(3) man page for details.
+
+Beta code is a plain ASCII encoding scheme developed in the
+the 1970s for representing classical Greek.  It is the standard
+encoding scheme employed by many Greek classical manuscript
+repositories, including the Thesaurus Linguae Graecae Project
+at the University of California, Irvine, and the Perseus
+Digital Library Project at Tufts University.
+
+Two programs written in flex(1) provide this Beta Code to
+Unicode conversion.  The sources are in the src directory:
+
+     - unibetaprep  converts custom TLG numeric codes
+
+     - beta2uni     converts Beta Code documents to UTF-8
+
+     - uni2beta     converts UTF-8 documents to Beta Code
+
+If you downloaded this source package, instructions for
+building and installation can be found in the INSTALL file
+and license information is in the COPYING file.
+
+If you are a downstream maintainer porting this package
+to a new architecture, you can remove all files that
+Autotools added with the command
+
+     autoreconf -f -i && ./configure && make orig
+
+In all other cases, typing the following command will
+usually build the software on your system:
+
+     ./configure
+     make
+
+Then test that the programs are operating correctly by running
+
+     make check
+
+This testing uses files in the "examples" directory to check for
+proper operation of the unibetaprep, beta2uni, and uni2beta programs
+on the target system.  Files in "examples" directory ending in ".beta"
+are in Beta Code format; those ending in ".utf8" are in Unicode UTF-8
+format.  Those files can serve as useful samples.
+
+The "greek-beta.txt" file in the "examples" directory is an ASCII
+table showing each Unicode code point in the Greek Extended block,
+U+1F00..U+1FFF, that the library functions will translate to polytonic
+Unicode code points.
+
+Further information on these programs and the Beta Code format that
+they implement is contained in the following man pages, located in
+the "man" directory, which are installed during package installation:
+
+     unibetaprep(1)
+
+     beta2uni(1)
+
+     uni2beta(1)
+
+     unibetacode(5)
+
+
+Consult the INSTALL file for detailed installation instructions.
+
+To install the programs and man pages on your system, edit the top-level
+Makefile to define the destination directories.  Then type
+
+     make install
+
+By default, binaries will be installed in /usr/local/bin and man pages
+will be installed in /usr/local/share/man.
+
+
+LICENSE
+--------
+
+The license is contained in the COPYING file.  A summary of the license
+appears below.
+
+      This program is free software: you can redistribute it and/or modify
+      it under the terms of the GNU General Public License as published by
+      the Free Software Foundation, either version 2 of the License, or
+      (at your option) any later version.
+
+      This program is distributed in the hope that it will be useful,
+      but WITHOUT ANY WARRANTY; without even the implied warranty of
+      MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+      GNU General Public License for more details.
+
+      You should have received a copy of the GNU General Public License
+      along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+

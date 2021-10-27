@@ -1,0 +1,104 @@
+.TH UNIBETAPREP 1 "2019 Jan 26"
+.SH NAME
+unibetaprep \- Pre-process Beta Code files for \fBbeta2uni\fP(1)
+.SH SYNOPSIS
+.br
+.B unibetaprep
+[\-i \fIinput_file.pre\fP] [\-o \fIoutput_file.beta\fP]
+.SH DESCRIPTION
+\fBunibetaprep\fP(1)
+reads a document encoded using Beta Code that may contain
+special character codes from the full Beta Code of the
+Thesaurus Linguae Graecae (TLG) specification, and converts it
+to a Beta Code file that has those special characters converted
+to Unicode escape sequences.  This departs from the traditional
+encoding of those special characters in favor of Unicode code
+point assignments.
+.PP
+Beta Code is an ASCII-only encoding scheme most commonly used
+for digital representation of polytonic Greek.
+.PP
+Beta Code has become a widely-adopted standard for encoding
+classical Greek.  It was developed by David Packard in the 1970s
+and adopted by the Thesaurus Linguae Graecae (TLG) Project at
+the University of California, Irvine shortly thereafter.
+This encoding was later adopted by the Perseus Project in the
+1980s (originally at Harvard University, now at Tufts University)
+and by many other collections of classical and Koine Greek.
+Today, the TLG corpus alone contains over 100 million words
+from classical to Byzantine Greek.
+.PP
+The TLG uses uppercase Latin letters; the Perseus Project uses
+lowercase.
+\fBunibetaprep\fP(1)
+will accept either.
+.PP
+Many classicists who use Beta Code have been actively involved
+in The Unicode Standard, with evolving recommendations for mapping
+between Beta Code and Unicode.
+\fBunibetaprep\fP(1)
+provides a capability for GNU/Linux users who wish to convert
+Beta Code texts to Unicode.
+.PP
+The most notable range of special characters in the TLG
+specification is the complete range of Byzantine Musical
+Symbols, in the Unicode range U+1D000 through U+1D0FF,
+inclusive.  This range corresponds to the TLG special
+character encodings "#2000" through "#2245", respectively.
+If a character sequence in the TLG Beta Code specification
+corresponds to a Unicode glyph or glyph combination,
+\fBunibetaprep\fP should handle the translation correctly.
+.PP
+Most of these Beta Code sequences consist of a "#", "%",
+"<", ">", "[", or "]" character followed by one or more
+decimal digits.  Sequences corresponding to idiosyncratic
+Beta Code glyphs are not translated to Unicode.  The Beta Code
+quotation mark sequences "1, "2, "4, and "5 are converted to
+represent Unicode code points U+201E, U+201C, U+201A, and U+201B,
+respectively.  For other special code sequences, consult the
+.I TLG Beta Code Quick Reference Guide,
+or examine the flex program source in file unibetaprep.l.
+.PP
+The output of \fBunibetaprep\fP is designed to provide the
+input to \fBbeta2uni\fP(1), which then produces UTF-8 Unicode
+output.
+.PP
+Note: Thesaurus Linguae Graecae and TLG are registered trademarks
+of the University of California.
+.SH OPTIONS
+.TP 12
+\-i
+Specify the input file. The default is STDIN.
+.TP
+\-o
+Specify the output file. The default is STDOUT.
+.PP
+Sample usage:
+.PP
+.RS
+unibetaprep \-i \fImy_input_file.pre\fP \-o \fImy_output_file.beta\fP
+.RE
+.PP
+The output file, \fImy_output_file.beta,\fP can then be used
+as input for \fBbeta2uni\fP(1) for conversion into a UTF-8
+Unicode document.
+.SH FILES
+ASCII text files using Beta Code to encode polytonic Greek.
+.SH SEE ALSO
+\fBbeta2uni\fP(1),
+\fBuni2beta\fP(1),
+\fBlibunibetacode\fP(3),
+\fBunibetacode\fP(5)
+.SH AUTHOR
+.B unibetaprep
+was written by Paul Hardy.
+.SH LICENSE
+.B unibetaprep
+is Copyright \(co 2018, 2019, 2020 Paul Hardy.
+.PP
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+.SH BUGS
+No known bugs exist.

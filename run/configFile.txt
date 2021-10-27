@@ -1,0 +1,12 @@
+ATTRIBUTE "tag" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}
+ATTRIBUTE "lemma" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}
+ATTRIBUTE "notes" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}

@@ -1,0 +1,15 @@
+get gcc/make/etc:
+https://mkyong.com/mac/how-to-install-gcc-compiler-on-mac-os-x/
+https://stackoverflow.com/questions/1469994/using-make-on-os-x
+
+get flex:
+https://stackoverflow.com/questions/5214978/installing-flex-lexical-analyzer-on-mac
+https://github.com/westes/flex
+
+cd morpheus-master/src
+make
+
+also: unibetacode:
+./configure
+make
+make install
