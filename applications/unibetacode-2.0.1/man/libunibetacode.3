@@ -1,0 +1,290 @@
+.TH LIBUNIBETACODE 3 "2020 Apr 11"
+.SH NAME
+libunibetacode \- Library for Beta Code to Unicode conversion
+.SH SYNOPSIS
+.I int
+.br
+.B ub_beta2greek
+(\fIchar *beta_string\fP, \fIint max_beta_string\fP, \fIchar *utf8_string\fP, \fIint max_utf8_string\fP);
+.PP
+.I int
+.br
+.B ub_beta2coptic
+(\fIchar *beta_string\fP, \fIint max_beta_string\fP, \fIchar *utf8_string\fP, \fIint max_utf8_string\fP);
+.PP
+.I int
+.br
+.B ub_beta2hebrew
+(\fIchar *beta_string\fP, \fIint max_beta_string\fP, \fIchar *utf8_string\fP, \fIint max_utf8_string\fP);
+.PP
+.I int
+.br
+.B ub_greek2beta
+(\fIchar *utf8_string\fP, \fIint max_utf8_string\fP, \fIchar *beta_string\fP, \fIint max_beta_string\fP);
+.PP
+.I int
+.br
+.B ub_coptic2beta
+(\fIchar *utf8_string\fP, \fIint max_utf8_string\fP, \fIchar *beta_string\fP, \fIint max_beta_string\fP);
+.PP
+.I int
+.br
+.B ub_hebrew2beta
+(\fIchar *utf8_string\fP, \fIint max_utf8_string\fP, \fIchar *beta_string\fP, \fIint max_beta_string\fP);
+.PP
+.I int
+.br
+.B ub_codept2utf8
+(\fIunsigned codept\fP, \fIchar *utf8_bytes\fP);
+.PP
+.I int
+.br
+.B ub_utf82codept
+(\fIchar *utf8_bytes\fP, \fIunsigned codept\fP);
+.SH DESCRIPTION
+.B libunibetacode
+is a self-contained C library with functions to convert between
+UTF-8 Unicode and Beta Code, as adopted by the University of
+California, Irvine Thesaurus Linguae Graecae (TLG) Program and
+the Tufts University Perseus Project, among others.
+Beta Code provides a way of encoding polytonic Greek characters
+using plain ASCII characters.  Beta Code also provides some
+support for encoding Coptic and Hebrew.
+.PP
+The
+.B libunibetacode
+package contains three top-level functions to convert from
+Beta Code to UTF-8 Unicode, and three top-level functions
+to convert from UTF-8 Unicode to Beta Code.
+.PP
+The top-level functions to convert Beta Code to UTF-8 Unicode are:
+.PP
+.RS
+\fBub_beta2greek\fP(3)
+converts a Greek Beta Code input string to a UTF-8 output string.
+.PP
+\fBub_beta2coptic\fP(3)
+converts a Coptic Beta Code input string to a UTF-8 output string.
+.PP
+\fBub_beta2hebrew\fP(3)
+converts a Hebrew Beta Code input string to a UTF-8 output string.
+.RE
+.PP
+The top-level functions to convert UTF-8 Unicode to Beta code are:
+.PP
+.RS
+\fBub_greek2beta\fP(3)
+converts a Greek UTF-8 input string to a Greek Beta Code output string.
+.PP
+\fBub_coptic2beta\fP(3)
+converts a Coptic UTF-8 input string to a Coptic Beta Code output string.
+.PP
+\fBub_hebrew2beta\fP(3)
+converts a Hebrew UTF-8 input string to a Hebrew Beta Code output string.
+.RE
+.PP
+In addition:
+.RS
+.PP
+\fBub_codept2utf8\fP(3) converts a Unicode \fIcode point\fP
+to a UTF-8 output string.
+.PP
+\fBub_utf82codept\fP(3) converts a Unicode UTF-8 string to
+to a Unicode code point.
+.RE
+.PP
+A Unicode code point is an assignment to a specific
+numeric value for glyphs and other entities in Unicode fonts.
+By convention, Unicode code points are given by
+their Unicode numeric values in the form U+xxxx, where "xxxx"
+is a string of four hexadecimal digits representing a glyph
+in the Unicode Basic Multilingual Plane.
+.PP
+All of these functions are non-destructive: they will not
+alter the input strings that are passed to them.
+.PP
+State is not preserved between calls to any of these functions.
+.PP
+The Beta Code conversion functions (\fBub_beta2greek\fP,
+\fBub_beta2coptic\fP, and \fBub_beta2hebrew\fP) expect the
+input string to contain only Beta Code sequences for
+Greek, Coptic, or Hebrew, respectively.
+Likewise, the language-specific UTF-8 to Beta Code conversion
+functions (\fBub_greek2beta\fP, \fBub_coptic2beta\fP,
+and \fBub_hebrew2beta\fP) expect the input string to contain
+only UTF-8 code points that map to valid Beta Code sequences
+in the respective language.
+.PP
+The functions \fBub_codept2utf8\fP and \fBub_utf82codept\fP
+support the entire Unicode space of U+0000 through U+10FFF.
+Thus they are not tied to one Beta Code language (Greek, Coptic,
+or Hebrew), and so can complement the other functions.
+.PP
+\fBlibunibetacode\fP supports the language-specific Beta Code letter
+and punctutation symbol mappings described in \fBunibetacode\fP(5).
+.PP
+The additional capabilities described in \fBunibetacode\fP(5)
+section "EXTENSIONS FOR ASCII AND UNICODE" are not implemented.
+There is also no function to perform the equivalent of the
+standalone program \fBunibetaprep\fP(1).  As a consequence,
+\fBub_beta2greek\fP does not support the full Beta Code
+numeric sequence range beginning with '#' and followed by
+a decimal number.  For example, the Unicode Byzantine Music
+Symbols having TLG Beta Code encodings of '#2000' through '#2245'
+(corresponding to Unicode code points U+1D000 through U+1D0F5)
+are not supported.
+.PP
+The three Beta Code to UTF-8 Unicode functions also do not support
+the Unicode code point description format of the form "\\uxxxx"
+that \fBbeta2uni\fP(1) supports.  That limits the usefulness of
+\fBub_beta2hebrew\fP, because the TLG Beta Code specification
+only contains encodings for Hebrew consonants, not for vowels
+or cantillation marks.  A user program could use \fBub_codept2utf8\fP
+along with \fBub_beta2hebrew\fP to fill this gap.
+.PP
+Balanced double quotes are supported in \fBub_beta2greek\fP and
+\fBub_beta2coptic\fP, but the opening and closing quotation
+marks must appear in the same input string because state is not
+preserved between calls to those functions.  (An input string
+can contain embedded newlines.)  Quotation marks in \fBub_beta2hebrew\fP
+are output as the ASCII double quote mark (").
+.PP
+The \fBub_greek2beta\fP function will determine whether a Greek
+letter follows a lower-case sigma in the input UTF-8 string, and
+based upon that convert Greek medial and final small sigma to "s"
+if context will make the conversion back from Beta Code to UTF-8
+unambiguous.  If this is not the case, small sigma will be converted
+to "s1" for small medial sigma or "s2" for small final sigma.
+For example, if a final sigma is followed by a letter, then the
+final sigma will be converted to Beta Code as "s2" to ensure proper
+conversion back from Beta Code into UTF-8.
+.PP
+Note: Thesaurus Linguae Graecae and TLG are registered trademarks
+of the University of California.
+.SH PARAMETERS
+The top-level functions described in this document take
+the following parameters:
+.RS
+.TP 20
+\fIbeta_string\fP
+A null-terminated string with Beta Code sequences for
+the corresponding script (Greek, Coptic, or Hebrew).
+This string is an input for functions that convert
+from Beta Code to UTF-8, and an output for functions
+that convert from UTF-8 to Beta Code.
+.TP
+\fImax_beta_string\fP
+The maximum size of \fIbeta_string\fP, in bytes,
+to prevent accesses past the end of the array.
+.TP
+\fIutf8_string\fP
+A null-terminated string with UTF-8 Unicode sequences for
+the corresponding script (Greek, Coptic, or Hebrew).
+This string is an output for functions that convert
+from Beta Code to UTF-8, and an input for functions
+that convert from UTF-8 to Beta Code.
+.TP
+\fImax_utf8_string\fP
+The maximum size of \fIutf8_string\fP, in bytes,
+to prevent accesses past the end of the array.
+.TP
+\fIcodept\fP
+An unsigned 32-bit Unicode code point.
+This is an input to \fBub_codept2utf8\fP,
+and an output from \fBub_utf82codept\fP.
+.TP
+\fIutf8_bytes\fP
+The null-terminated UTF-8 byte string corresponding to
+the Unicode code point stored in \fIcodept\fP.
+This is an output from \fBub_codept2utf8\fP,
+and an input to \fBub_utf82codept\fP.
+.RE
+.SS "UNICODE GREEK"
+The Greek Extended range of The Unicode Standard
+(U+1F00 \- U+1FFF) contains 16 small and
+capital vowels that have identical representation
+in the Greek and Coptic range (U+0370 \- U+03FF).
+These are vowels with an \fIoxia\fP (acute) accent in the
+Greek Extended range; they have equivalent glyphs with
+a \fItonos\fP (acute) accent in the Greek and Coptic range.
+Because of this duplication, the use of these 16 Greek
+Extended glyphs is deprecated.
+.PP
+However, unlike the \fBbeta2uni\fP program, by default
+the function \fBub_beta2greek\fP maps to those 16
+deprecated code points.  This was done after observing
+that many fonts contain consistent looking glyphs
+in the Unicode Greek Extended block that do not have
+a consistent appearance with the Greek and Coptic block.
+.PP
+The choice between these two options is compiled in with
+a #define statement near the beginning of "\fCub_beta2greek.c\fP",
+which is in the "src/libsrc" directory in the source distribution.
+To avoid conversion to these 16 deprecated code points, change
+the following two lines:
+.PP
+.RS
+\fC// #define GREEK_COMBINING beta2combining\fP
+.br
+\fC#define GREEK_COMBINING beta2combining_alt\fP
+.RE
+.PP
+to this:
+.PP
+.RS
+\fC#define GREEK_COMBINING beta2combining\fP
+.br
+\fC// #define GREEK_COMBINING beta2combining_alt\fP
+.RE
+.PP
+and then recompile the package by running "\fCmake\fP"
+in the top-level package source directory.
+.SH "RETURN VALUES"
+Each of the library functions returns the number
+of bytes in the UTF-8 output string, not including the
+final null character that terminates the string.
+.SH SAMPLES
+The directory "examples" in the source distribution contains
+samples with mappings from Beta Code to UTF-8 and vice versa.
+The "genesis-1-1.beta" and "genesis-1-1.utf8" files
+show the Bible verse Genesis 1:1 in Koine Greek (from the
+Septuagint), Hebrew, and Bohairic Coptic in Beta Code
+and UTF-8, respectively.
+.PP
+The program "test/ublibcheck.c" in the source distribution
+is a sample program that calls \fBub_beta2greek\fP,
+\fBub_beta2coptic\fP, and \fBub_beta2hebrew\fP to convert
+the above-mentioned Genesis 1:1 passage from Beta Code to UTF-8.
+Then \fBub_greek2beta\fP, \fBub_coptic2beta\fP, and
+\fBub_hebrew2beta\fP are invoked for a round-trip conversion.
+If the round-trip conversion from Beta Code to UTF-8 and back
+to Beta Code succeeds for all three languages, the program exits
+with an exit status of 0.  Each of the three Beta Code to UTF-8
+functions calls \fBub_codept2utf8\fP to produce its UTF-8 output.
+Hence this program tests all of the top-level library functions.
+Once the "\fCmake install\fP" command above has completed,
+the test program can be copied to another directory and compiled
+separately as a starting point for new software as follows:
+.PP
+.RS
+\fCcc ublibcheck.c -o ublibcheck -lunibetacode\fP
+.RE
+.SH SEE ALSO
+\fBunibetaprep\fP(1),
+\fBbeta2uni\fP(1),
+\fBuni2beta\fP(1),
+\fBunibetacode\fP(5)
+.SH AUTHOR
+The
+.B unibetacode
+package was created by Paul Hardy.
+.SH LICENSE
+.B libunibetacode
+is Copyright \(co 2020 Paul Hardy.
+.PP
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+.SH BUGS
+No known bugs exist.  However, all corner cases have not been tested.

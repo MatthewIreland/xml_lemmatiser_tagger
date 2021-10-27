@@ -1,0 +1,77 @@
+2020-04-25 Paul Hardy <unifoundry@unifoundry.com>
+	* Version 2.0.1.
+	* Remove use of libtool; only build static library
+	  libunibetacode.a, not shared library.
+	* Updated man/libunibetacode.3 man page.
+
+2020-04-11 Paul Hardy <unifoundry@unifoundry.com>
+	* Version 2.0.
+	* Added a library for conversion between Beta Code and
+	  Unicode to the existing standalone programs.  This
+	  will simplify writing new standalone programs to
+	  process Beta Code.
+	* Added libtool support to Autotools files to support
+	  newly created library.
+	* examples:
+	  - Added "greek-beta.txt" table of Unicode code points
+	    in the Greek Extended Unicode block, U+1F00..U+1FFF,
+	    and the equivalent Beta Code ASCII sequences.
+	* man:
+	  - Added man page libunibetacode.3 for the new library,
+	    and added new man pages that source libunibetacode.3:
+
+	       - ub_beta2greek.3          - ub_greek2beta.3
+	       - ub_beta2coptic.3         - ub_coptic2beta.3
+	       - ub_beta2hebrew.3         - ub_hebrew2beta.3
+	       - ub_codept2utf8.3         - ub_utf82codept.3
+
+	  - Changed mention of "test/reference" directory to
+	    "examples" directory in unibetacode.5 man page.
+	  - Modified man/Makefile.am for new man pages.
+	* src:
+	  - Moved standalone programs from the previous release
+	    to src/progsrc.
+	  - Created subdirectory src/libsrc for library sources.
+	  - Modified src/Makefile.am to support updated directory.
+	* src/libsrc/*.h:
+	  - Copied some tables from src/progsrc/beta2uni.l, but
+	    changed data types from uint32_t to unsigned so
+	    others using the library won't need to include
+	    stdlib.h in their programs if they don't want to
+	    for some reason.
+	  - Added new #defines and the table ub_beta2combining
+	    for looking up pre-formed polytonic Greek code points,
+	    mostly in the U+1F00..U+1FFF Greek Extended Unicode block.
+	  - Added table comb2uni to map Beta Code ASCII combining
+	    characters to Unicode Greek combining characters.
+	  - New tables added to new .h files in src/libsrc as needed.
+	* test directory:
+	  - Added new program, test/ublibcheck.c, to check for
+	    proper linking with the new libunibetacode library.
+	    This converts Greek, Coptic, and Hebrew Beta Code to
+	    UTF-8, and then back again.  Checks for successful
+	    round-trip conversion.  If this links and executes
+	    correctly, it will have an exit status of zero when
+	    "make check" is run.
+	  - Modified test/Makefile.am to add ublibcheck test.
+
+2019-05-11 Paul Hardy <unifoundry@unifoundry.com>
+	* Version 1.3.
+	* src/uni2beta.l:
+	  - Removed "outword" array; no longer used.
+	  - Convert U+00B7 to ":" in Greek mode.
+	  - For final sigma, print "s2", not "s", if U+1F00..U+1FFF follow.
+	  - For medial sigma, print "s", not "s1", if U+1F00..U+1FFF follow.
+
+2019-01-26 Paul Hardy <unifoundry@unifoundry.com>
+	* Version 1.2.
+	* Improved text in man/unibetacode.5 and man/unibetaprep.1.
+
+2018-08-04 Paul Hardy <unifoundry@unifoundry.com>
+	* Version 1.1.  Added "orig" target in Makefile.am to remove
+	  all Autotools-generated files, returning the source package
+	  to its pristine state.
+
+2018-07-20 Paul Hardy <unifoundry@unifoundry.com>
+	* Version: 1.0
+	* Initial version.

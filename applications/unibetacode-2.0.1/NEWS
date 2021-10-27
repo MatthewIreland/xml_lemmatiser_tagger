@@ -1,0 +1,25 @@
+2020-04-25 Version 2.0.1
+     Removed libtool use.  Now only building the static library
+     libunibetacode.a, not the shared library.
+
+2020-04-11 Version 2.0
+     Added libunibetacode library, which provides a suite of
+     functions to convert Greek, Coptic, and Hebrew between
+     Beta Code and UTF-8 Unicode.  See the new man page
+     libunibetacode(3) for details.
+
+2019-05-11 Version 1.3
+     Modified src/uni2beta.l to handle initia/medial or final sigma
+     automatically if Greek Extended range (U+1F00..U+1FFF) follows.
+
+2019-01-26 Version 1.2
+     Improved text in man/unibetacode.5 and man/unibetaprep.1.
+
+2018-08-04 Version 1.1
+     Added "make orig" target to restore pristine pre-Autotools tarball.
+     This is to help downstream distros port packages to new architectures,
+     as well as to guarantee that all files are build with the latest
+     versions of Autotools programs.
+
+2018-07-20 Version 1.0
+   This is the first release of this package.

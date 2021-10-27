@@ -1,0 +1,48 @@
+#!/bin/sh
+
+#
+#  Author: Paul Hardy, unifoundry <at> unifoundry.com
+#
+#  Copyright (C) 2018, 2019, 2020 Paul Hardy
+#
+#  LICENSE:
+#
+#     This program is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#     You should have received a copy of the GNU General Public License
+#     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+echo "*** Running Tests..."
+./test-prep-1 || exit 1
+echo "test-prep-1  PASSED"
+
+./test-2utf8-1 || exit 1
+echo "test-2utf8-1 PASSED"
+
+./test-2utf8-2 || exit 1
+echo "test-2utf8-2 PASSED"
+
+./test-2beta-1 || exit 1
+echo "test-2beta-1 PASSED"
+
+./test-2beta-2 || exit 1
+echo "test-2beta-2 PASSED"
+
+# If ublibcheck isn't compiled yet, run make.
+if [ ! -e ./ublibcheck ]
+then
+	make ublibcheck
+fi
+(./ublibcheck > ublibcheck.log) || exit 1
+echo "ublibcheck   PASSED"
+
+echo "*** Finished Tests"
+

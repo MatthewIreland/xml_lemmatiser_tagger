@@ -1,0 +1,76 @@
+#!/bin/sh
+
+#
+#  Author: Paul Hardy, unifoundry <at> unifoundry.com
+#
+#  Copyright (C) 2018, 2019, 2020 Paul Hardy
+#
+#  LICENSE:
+#
+#     This program is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#     You should have received a copy of the GNU General Public License
+#     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+set -e
+
+# The input file to convert
+INFILE=../examples/byzantine.utf8
+
+# The output file of the conversion
+OUTFILE=test-2beta-1.beta
+
+# The reference file to compare the output against
+CMPFILE=../examples/byzantine.beta
+
+#
+# Create temporary directory for test
+# output if AUTOPKGTEST_TMP is undefined.
+# Debian GNU/Linux defines AUTOPKGTEST_TMP.
+#
+if [ "x${AUTOPKGTEST_TMP}" = "x" ] ; then
+   TEST_TMP=$(mktemp -d)
+   trap "\rm -rf ${AUTOPKGTEST_TMP}" 0 INT QUIT ABRT PIPE TERM
+else
+   TEST_TMP=${AUTOPKGTEST_TMP}
+fi
+
+#
+# Point to the source directory for test.
+#
+if [ "x${srcdir}" = "x" ] ; then
+   srcdir=.
+fi
+
+#
+# Point to binary executable; unibetacode_bindir
+# should be defined for "make installcheck".
+# Otherwise, leave undefined for "make check".
+#
+if [ "x${unibetacode_bindir}" = "x" ] ; then
+   unibetacode_bindir=../src
+fi
+
+${unibetacode_bindir}/uni2beta  \
+   < ${srcdir}/${INFILE}           \
+   > ${TEST_TMP}/${OUTFILE}
+
+diff ${srcdir}/${CMPFILE} ${TEST_TMP}/${OUTFILE} || \
+	(echo "test-2beta-1 FAILED; output in ${TEST_TMP}/${OUTFILE}" ; exit 1)
+
+#
+# If AUTOPKGTEST_TMP was defined, don't remove it;
+# a Debian calling process will take care of that.
+#
+if [ "x${AUTOPKGTEST_TMP}" = "x" ] ; then
+   \rm -rf ${TEST_TMP}
+fi
+

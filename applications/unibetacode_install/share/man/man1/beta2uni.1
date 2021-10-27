@@ -1,0 +1,76 @@
+.TH BETA2UNI 1 "2018 Jun 23"
+.SH NAME
+beta2uni \- Convert a polytonic Greek document from Beta Code to UTF-8
+.SH SYNOPSIS
+.br
+.B beta2uni
+[\-b] [\-i \fIinput_file.utf8\fP] [\-o \fIoutput_file.beta\fP]
+.SH DESCRIPTION
+\fBbeta2uni\fP(1)
+reads a document encoded using Beta Code and converts it to
+UTF-8 Unicode.  Beta Code is an ASCII-only encoding scheme most
+commonly used for digital representation of polytonic Greek.
+.PP
+Beta Code has become a widely-adopted standard for encoding
+classical Greek.  It was developed by David Packard in the 1970s
+and adopted by the Thesaurus Linguae Graecae (TLG) Project at
+the University of California, Irvine shortly thereafter.
+This encoding was later adopted by the Perseus Project in the
+1980s (originally at Harvard University, now at Tufts University)
+and by many other collections of classical and Koine Greek.
+Today, the TLG corpus alone contains over 100 million words
+from classical to Byzantine Greek.
+.PP
+The TLG uses uppercase Latin letters; the Perseus Project uses
+lowercase.
+\fBbeta2uni\fP(1)
+will accept either.
+.PP
+Many classicists who use Beta Code have been actively involved
+in The Unicode Standard, with evolving recommendations for mapping
+between Beta Code and Unicode.
+\fBbeta2uni\fP(1)
+provides a capability for GNU/Linux users who wish to convert
+Beta Code texts to Unicode.
+.PP
+Note: Thesaurus Linguae Graecae and TLG are registered trademarks
+of the University of California.
+.SH OPTIONS
+.TP 12
+\-b
+Begin the UTF-8 output file with the UTF-8 encoding of
+the Unicode Byte Order Mark, U+FFFE.  This is
+.I not
+the default.
+.TP
+\-i
+Specify the input file. The default is STDIN.
+.TP
+\-o
+Specify the output file. The default is STDOUT.
+.PP
+Sample usage:
+.PP
+.RS
+beta2uni \-i \fImy_input_file.beta\fP \-o \fImy_output_file.utf8\fP
+.RE
+.SH FILES
+ASCII text files using Beta Code to encode polytonic Greek.
+.SH SEE ALSO
+\fBunibetaprep\fP(1),
+\fBuni2beta\fP(1),
+\fBlibunibetacode\fP(3),
+\fBunibetacode\fP(5)
+.SH AUTHOR
+.B beta2uni
+was written by Paul Hardy.
+.SH LICENSE
+.B beta2uni
+is Copyright \(co 2018, 2019, 2020 Paul Hardy.
+.PP
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+.SH BUGS
+No known bugs exist.

@@ -1,0 +1,6 @@
+# load morpheus
+export PATH=$PATH:/home/sqek/linguini/applications/morpheus/morpheus-master/bin
+export MORPHLIB=/home/sqek/linguini/applications/morpheus/morpheus-master/stemlib
+
+# load unibetacode
+export PATH=$PATH:/home/sqek/linguini/applications/unibetacode_install/bin
