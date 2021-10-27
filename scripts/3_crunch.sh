@@ -19,6 +19,8 @@ outFile="$inFile.crunched"
 
 [ ! -z "$already_unicode" ] && echo "crunching $inFile as unicode" || echo "crunching $inFile as beta-code"
 
+start_time=$SECONDS
+
 punctuations="[.,:;_#-]"
 [ ! -z $already_unicode ] && punctuations="[][()†“”‘’&·—ʹ.,:;_#-]"
 
@@ -129,3 +131,6 @@ done < "$inFile"
 # doing processing to temporary files, then renaming to outFile, means that outFile only exists in a finished state for interrupting/restarting processing
 mv "$tempFile" "$outFile"
 echo "done crunching $outFile"
+
+elapsed=$(( SECONDS - start_time ))
+eval "echo Time taken: $(date -ud "@$elapsed" +'$((%s/3600/24)) days %H hr %M min %S sec')"
