@@ -126,6 +126,8 @@ while read -r line; do
  
   echo "$analysis" >> $outFile
 
+  sleep 1
+
 done < "$inFile"
 
 # doing processing to temporary files, then renaming to outFile, means that outFile only exists in a finished state for interrupting/restarting processing
