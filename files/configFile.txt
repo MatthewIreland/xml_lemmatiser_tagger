@@ -1,0 +1,42 @@
+DOCSTRUCTURE "doc"
+ENCODING "UTF-8"
+INFO ""
+LANGUAGE "Ancient Greek"
+LPOSLIST ""
+NAME "test"
+PATH "/corpora/ca/user_data/username/manatee/test_2"
+TAGSETDOC ""
+VERTICAL "| ca_getvertical '/corpora/ca/user_data/username/registry/test_2' 'doc'"
+WPOSLIST ""
+ATTRIBUTE "word" {
+}
+ATTRIBUTE "lc" {
+    ARG1 "C"
+    DYNAMIC "utf8lowercase"
+    DYNLIB "internal"
+    DYNTYPE "index"
+    FROMATTR "word"
+    FUNTYPE "s"
+    LABEL "word (lowercase)"
+    TRANSQUERY "yes"
+}
+/****************** leave the above as Sketchengine generates it, then insert the next chunk ****************/
+ATTRIBUTE "tag" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}
+ATTRIBUTE "lemma" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}
+ATTRIBUTE "notes" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}
+/****************** leave the rest as Sketchengine generates it ****************/
+STRUCTURE "s" {
+}
+STRUCTURE "g" {
+    DISPLAYBEGIN "_EMPTY_"
+    DISPLAYTAG "0"
+}

@@ -1,0 +1,9 @@
+The applications may need to be rebuilt for your system,
+look at applications/instructions for tips
+
+Change to the 'run' directory and add source files
+in the perseus format to the in folder
+
+Then call loadApps to update the path
+then ./allrunPar.sh -n nThreads(default 8) nameString(default "*.xml")
+This will process all files in in/ which match "**/*.xml" in parallel with 8 threads
