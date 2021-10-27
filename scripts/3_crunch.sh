@@ -117,44 +117,12 @@ while read -r line; do
 
   # if we've got here, it's an actual greek word
   word="$line"
-  [ ! -z "$already_unicode" ] && word="`uni2beta <<< "$line"`"
-  tags=""
-  lemmas=""
-  others=""
-	# cruncher error messages are appended to crunchErrors
-  # get the lemmas, separated by semicolons, removing numbers from the end
-  lemmas="`echo "$word" | cruncher -l 2>>crunchErrors | tail -n +2 | sed 's/[0-9]$//' | sort -u | head -c -1 | tr '\n' ';'`"
-  # get the cruncher results into an array
-  readarray -ts 1 crunchedA <<< `cruncher <<< "$word" 2>>crunchErrors | sed "s/<NL>//g" | sed "s#</NL>#\n#g"`
-  # loop through crunched lines
-  for crunched in "${crunchedA[@]}"; do
-    # character before first space is the tag, support multi-character tags as well
-    tag=`grep -o "^[^ ]*" <<< "$crunched"`
-    # if tags doesn't have the tag in it already
-    if ! grep -q "$tag" <<< "$tags"; then
-      # set tags to tag if empty, otherwise append
-      [ -z "$tags" ] && tags="$tag" || tags="$tags;$tag"
-    fi
-    # delete the first two non-whitespace sequences to remove the tags and lemmas, then replace whitespace with dots, to get the analysis/notes as a useable string
-    other="`sed 's/^\S\S*\s\s*\S\S*\s\s*//g' <<< "$crunched" | sed 's/\s\s*/./g'`"
-    # same as with tags
-    if ! grep -q "$other" <<< "$others"; then
-      [ -z "$others" ] && others="$other" || others="$others;$other"
-    fi
-  done
-  # always treat an apostrophe ' as ʼ, not as a breve diacritic (so a' becomes αʼ not ᾰ )
-  word="`sed "s/'/ʼ/g" <<< "$word"`"
-  lemmas="`sed "s/'/ʼ/g" <<< "$lemmas"`"
-  # format: word<tab>Tag<tab>lemma<tab>other
-  echo "`beta2uni <<< "$word"`"$'\t'"$tags"$'\t'"`beta2uni <<< "$lemmas"`"$'\t'"$others" >> "$tempFile"
-  # one line is faster as it doesn't have to repeatedly open the file, but the original code below is more legible
-  # echo -n "`beta2uni <<< "$word"`" >> $outFile
-  # echo -ne "\t" >> $outFile
-  # echo -n "$tags" >> $outFile
-  # echo -ne "\t" >> $outFile
-  # echo -n "`beta2uni <<< "$lemmas"`" >> $outFile
-  # echo -ne "\t" >> $outFile
-  # echo "$others" >> $outFile
+  analysis=$(
+      . /home/matthew/victoria/linguini/scripts/venv/bin/activate
+      python /home/matthew/victoria/linguini/scripts/perseus_query.py "$word"
+  )
+ 
+  echo "$analysis" >> $outFile
 
 done < "$inFile"
 
