@@ -119,12 +119,13 @@ while read -r line; do
 
   # if we've got here, it's an actual greek word
   word="$line"
+  script_dir=$(dirname $(readlink -f "$0"))
   analysis=$(
-      . /home/matthew/victoria/linguini/scripts/venv/bin/activate
-      python /home/matthew/victoria/linguini/scripts/perseus_query.py "$word"
+      . $script_dir/venv/bin/activate
+      python $script_dir/perseus_query.py "$word"
   )
  
-  echo "$analysis" >> $outFile
+  echo "$analysis" >> $tempFile
 
   sleep 1
 
