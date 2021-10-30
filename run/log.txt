@@ -1,0 +1,64 @@
+
+out/aristot/AristotPol1.xml.vert already exists, skipping
+out/xen/XenAna4.xml.vert already exists, skipping
+out/xen/XenAna2.xml.vert already exists, skipping
+out/xen/XenAna3.xml.vert already exists, skipping
+out/xen/XenAna1.xml.vert already exists, skipping
+out/thuc/Thuc5.xml.vert already exists, skipping
+out/lysias/Lysias (relevant ones).xml.vert already exists, skipping
+out/isoc/isocrates_04.xml.vert already exists, skipping
+splitting header and body of working/corpus/plato/Plato (Gorgias).xml
+working/corpus/plato/Plato (Gorgias).xml.body.vertical already exists, skipping verticalisation
+crunching working/corpus/plato/Plato (Gorgias).xml.body.vertical as beta-code
+crunching [1000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [2000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [3000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [4000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [5000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [6000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [7000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [8000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [9000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [10000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [11000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [12000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [13000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [14000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [15000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [16000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [17000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [18000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [19000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [20000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [21000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [22000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [23000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [24000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [25000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [26000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [27000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [28000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [29000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [30000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [31000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [32000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [33000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [34000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [35000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [36000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [37000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [38000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [39000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [40000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [41000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [42000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [43000 of 43923 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+done crunching working/corpus/plato/Plato (Gorgias).xml.body.vertical.crunched
+Time taken: 0 days 11 hr 04 min 17 sec
+reformatting metadata of working/corpus/plato/Plato (Gorgias).xml.body.vertical.crunched
+done reformatting metadata of working/corpus/plato/Plato (Gorgias).xml.body.vertical.crunched.metad
+added header to working/corpus/plato/Plato (Gorgias).xml.vert
+done
+killing descendant processes
+re-assembling vertical file
+done
