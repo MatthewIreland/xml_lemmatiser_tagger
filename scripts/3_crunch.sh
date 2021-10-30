@@ -124,8 +124,8 @@ while read -r line; do
       . $script_dir/venv/bin/activate
       python $script_dir/perseus_query.py "$word"
   )
- 
-  echo "$analysis" >> $tempFile
+
+  echo "$analysis" >> "$tempFile"
 
   sleep 1
 
