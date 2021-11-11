@@ -80,8 +80,20 @@ if __name__ == "__main__":
     word = sys.argv[1]
 
     try:
-        analysis = PerseusAnalysis(word)
+        # remove brackets
+        translation_table = dict.fromkeys(map(ord, '（）'), None)
+        stripped_word = word.translate(translation_table)
+
+        # deal with bracket at start of work
+        if "（" in word:
+            print("（")
+
+        analysis = PerseusAnalysis(stripped_word)
         print(analysis.get_tab_separated_vertical_format())
+
+        if "）" in word:
+            print("）")
+
     except Exception:
         unicode_greek_word = betacode.conv.beta_to_uni(word)
         print(unicode_greek_word)
