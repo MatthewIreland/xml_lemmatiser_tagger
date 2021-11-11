@@ -12,6 +12,7 @@ class PerseusAnalysis:
 
     def __get_perseus_analysis(self, greek_word):
         greek_word_encoded = urllib.parse.quote_plus(greek_word)
+        unicode_greek_word = betacode.conv.beta_to_uni(word)
 
         try:
             file = urllib.request.urlopen(f"https://www.perseus.tufts.edu/hopper/morph?l={greek_word_encoded}&la=greek")
@@ -38,6 +39,9 @@ class PerseusAnalysis:
         for match in matches:
             pos_tags.append(match[1].split(" ")[0])
             num_pos_tags += 1
+            with open('all_pos_tags.txt', 'a') as f:
+                for tag in match[1].split(" "):
+                    f.write(f"{unicode_greek_word}     {tag}\n")
 
         if num_pos_tags == 0:
             with open('errors.txt', 'a') as f:
