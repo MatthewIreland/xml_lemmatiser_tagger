@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
     try:
         # remove brackets
-        translation_table = dict.fromkeys(map(ord, '（）'), None)
+        translation_table = dict.fromkeys(map(ord, '（）†'), None)
         stripped_word = word.translate(translation_table)
 
         # deal with bracket at start of work
