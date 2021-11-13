@@ -52,8 +52,9 @@ class PerseusAnalysis:
 
         num_lemmata = 0
         for match in matches:
-            lemmata.append(match)
-            num_lemmata += 1
+            if match != "ἔχω2":
+                lemmata.append(match)
+                num_lemmata += 1
 
         if num_lemmata == 0:
             with open('errors.txt', 'a') as f:
