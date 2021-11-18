@@ -22,6 +22,7 @@ il    ιλ    can't find lemma
 9    9    can't find lemma
 63    63    can't find pos tags
 63    63    can't find lemma
+ta\    τὰ    can't find pos tags
 *qeode/ktou    Θεοδέκτου    can't find pos tags
 *qeode/ktou    Θεοδέκτου    can't find lemma
 *surakou/sais    Συρακούσαις    can't find pos tags
@@ -118,10 +119,6 @@ pampo/llois    παμπόλλοις    can't find lemma
 *)arxago/ras    Ἀρχαγόρας    can't find lemma
 *khfiso/dwros    Κηφισόδωρος    can't find pos tags
 *khfiso/dwros    Κηφισόδωρος    can't find lemma
-†e)ntau=qa    †ἐνταῦθα    can't find pos tags
-†e)ntau=qa    †ἐνταῦθα    can't find lemma
-pole/mioi†    πολέμιοι†    can't find pos tags
-pole/mioi†    πολέμιοι†    can't find lemma
 *lousieu\s    Λουσιεὺς    can't find pos tags
 *lousieu\s    Λουσιεὺς    can't find lemma
 *xeiri/sofos    Χειρίσοφος    can't find pos tags
@@ -206,8 +203,6 @@ pole/mioi†    πολέμιοι†    can't find lemma
 *tiri/bazos    Τιρίβαζος    can't find lemma
 *eu)fra/thn    Εὐφράτην    can't find pos tags
 *eu)fra/thn    Εὐφράτην    can't find lemma
-†pentekai/deka†    †πεντεκαίδεκα†    can't find pos tags
-†pentekai/deka†    †πεντεκαίδεκα†    can't find lemma
 borra=s    βορρᾶς    can't find pos tags
 borra=s    βορρᾶς    can't find lemma
 *xeiri/sofos    Χειρίσοφος    can't find pos tags
@@ -300,10 +295,6 @@ pa/mpolla    πάμπολλα    can't find lemma
 *skuqhnw=n    Σκυθηνῶν    can't find lemma
 *gumnia/s    Γυμνιάς    can't find pos tags
 *gumnia/s    Γυμνιάς    can't find lemma
-†th=s    †τῆς    can't find pos tags
-†th=s    †τῆς    can't find lemma
-xw/ras†    χώρας†    can't find pos tags
-xw/ras†    χώρας†    can't find lemma
 *qh/xhs    Θήχης    can't find pos tags
 *qh/xhs    Θήχης    can't find lemma
 *skuqhnw=n    Σκυθηνῶν    can't find pos tags
@@ -324,8 +315,6 @@ xw/ras†    χώρας†    can't find lemma
 *)orxome/nios    Ὀρχομένιος    can't find lemma
 *trapezou/ntioi    Τραπεζούντιοι    can't find pos tags
 *trapezou/ntioi    Τραπεζούντιοι    can't find lemma
-†e(/teroi†    †ἕτεροι†    can't find pos tags
-†e(/teroi†    †ἕτεροι†    can't find lemma
 *b    Β    can't find pos tags
 *b    Β    can't find lemma
 *)artace/rchn    Ἀρταξέρξην    can't find pos tags
@@ -438,10 +427,6 @@ xw/ras†    χώρας†    can't find lemma
 *kle/arxos    Κλέαρχος    can't find lemma
 *kle/arxos    Κλέαρχος    can't find pos tags
 *kle/arxos    Κλέαρχος    can't find lemma
-†e)k    †ἐκ    can't find pos tags
-†e)k    †ἐκ    can't find lemma
-de\†    δὲ†    can't find pos tags
-de\†    δὲ†    can't find lemma
 *kle/arxos    Κλέαρχος    can't find pos tags
 *kle/arxos    Κλέαρχος    can't find lemma
 *kle/arxos    Κλέαρχος    can't find pos tags
@@ -472,6 +457,7 @@ de\†    δὲ†    can't find lemma
 *)ariai=os    Ἀριαῖος    can't find lemma
 *)ariai=on    Ἀριαῖον    can't find pos tags
 *)ariai=on    Ἀριαῖον    can't find lemma
+oi(    οἱ    can't find pos tags
 *)ariai=on    Ἀριαῖον    can't find pos tags
 *)ariai=on    Ἀριαῖον    can't find lemma
 *klea/rxw|    Κλεάρχῳ    can't find pos tags
@@ -642,10 +628,6 @@ sautw=|    σαυτῷ    can't find lemma
 *peri/nqou    Περίνθου    can't find lemma
 *klea/rxw|    Κλεάρχῳ    can't find pos tags
 *klea/rxw|    Κλεάρχῳ    can't find lemma
-†e)n    †ἐν    can't find pos tags
-†e)n    †ἐν    can't find lemma
-prosw/pois†    προσώποις†    can't find pos tags
-prosw/pois†    προσώποις†    can't find lemma
 *leonti/nw|    Λεοντίνῳ    can't find pos tags
 *leonti/nw|    Λεοντίνῳ    can't find lemma
 *)aristi/ppou    Ἀριστίππου    can't find pos tags
@@ -700,14 +682,13 @@ e)capathqei/s—ou)x    ἐξαπατηθείς—οὐχ    can't find lemma
 *klea/nwr    Κλεάνωρ    can't find lemma
 *ce/rchs    Ξέρξης    can't find pos tags
 *ce/rchs    Ξέρξης    can't find lemma
-†*ku/reioi†    †Κύρειοι†    can't find pos tags
-†*ku/reioi†    †Κύρειοι†    can't find lemma
 *tissafe/rnhs    Τισσαφέρνης    can't find pos tags
 *tissafe/rnhs    Τισσαφέρνης    can't find lemma
 *tissafe/rnhn    Τισσαφέρνην    can't find pos tags
 *tissafe/rnhn    Τισσαφέρνην    can't find lemma
 *pisi/das    Πισίδας    can't find pos tags
 *pisi/das    Πισίδας    can't find lemma
+poreuoi/meqa/    πορευοίμεθά    can't find pos tags
 *klea/rxous    Κλεάρχους    can't find pos tags
 *klea/rxous    Κλεάρχους    can't find lemma
 *xeiri/sofos    Χειρίσοφος    can't find pos tags
@@ -724,8 +705,6 @@ e)capathqei/s—ou)x    ἐξαπατηθείς—οὐχ    can't find lemma
 *zapa/tan    Ζαπάταν    can't find lemma
 *xeiri/sofos    Χειρίσοφος    can't find pos tags
 *xeiri/sofos    Χειρίσοφος    can't find lemma
-†tou/tw|†    †τούτῳ†    can't find pos tags
-†tou/tw|†    †τούτῳ†    can't find lemma
 *klea/rxou    Κλεάρχου    can't find pos tags
 *klea/rxou    Κλεάρχου    can't find lemma
 *polustra/tou    Πολυστράτου    can't find pos tags
@@ -734,18 +713,12 @@ e)capathqei/s—ou)x    ἐξαπατηθείς—οὐχ    can't find lemma
 *tissafe/rnhn    Τισσαφέρνην    can't find lemma
 *ti/grhta    Τίγρητα    can't find pos tags
 *ti/grhta    Τίγρητα    can't find lemma
-†pro\s    †πρὸς    can't find pos tags
-†pro\s    †πρὸς    can't find lemma
-po/lei†    πόλει†    can't find pos tags
-po/lei†    πόλει†    can't find lemma
 *tissafe/rnhs    Τισσαφέρνης    can't find pos tags
 *tissafe/rnhs    Τισσαφέρνης    can't find lemma
 pa/mpolu    πάμπολυ    can't find pos tags
 pa/mpolu    πάμπολυ    can't find lemma
 *tissafe/rnhs    Τισσαφέρνης    can't find pos tags
 *tissafe/rnhs    Τισσαφέρνης    can't find lemma
-kai\†    καὶ†    can't find pos tags
-kai\†    καὶ†    can't find lemma
 *tissafe/rnhs    Τισσαφέρνης    can't find pos tags
 *tissafe/rnhs    Τισσαφέρνης    can't find lemma
 *tissafe/rnhs    Τισσαφέρνης    can't find pos tags
@@ -782,8 +755,6 @@ kai\†    καὶ†    can't find lemma
 *xeiri/sofe    Χειρίσοφε    can't find lemma
 *xeiri/sofos    Χειρίσοφος    can't find pos tags
 *xeiri/sofos    Χειρίσοφος    can't find lemma
-†qauma/zein†    †θαυμάζειν†    can't find pos tags
-†qauma/zein†    †θαυμάζειν†    can't find lemma
 *mhdi/an    Μηδίαν    can't find pos tags
 *mhdi/an    Μηδίαν    can't find lemma
 *)ekba/tana    Ἐκβάτανα    can't find pos tags
@@ -1076,10 +1047,6 @@ sautou=    σαυτοῦ    can't find lemma
 *kle/arxos    Κλέαρχος    can't find lemma
 *eu)fra/th|    Εὐφράτῃ    can't find pos tags
 *eu)fra/th|    Εὐφράτῃ    can't find lemma
-†kai\    †καὶ    can't find pos tags
-†kai\    †καὶ    can't find lemma
-stra/teuma†    στράτευμα†    can't find pos tags
-stra/teuma†    στράτευμα†    can't find lemma
 *kle/arxon    Κλέαρχον    can't find pos tags
 *kle/arxon    Κλέαρχον    can't find lemma
 *)ariai=o/s    Ἀριαῖός    can't find pos tags
@@ -1110,18 +1077,6 @@ stra/teuma†    στράτευμα†    can't find lemma
 *tissafe/rnous    Τισσαφέρνους    can't find lemma
 *pisi/das    Πισίδας    can't find pos tags
 *pisi/das    Πισίδας    can't find lemma
-†a)ciou=sqai†    †ἀξιοῦσθαι†    can't find pos tags
-†a)ciou=sqai†    †ἀξιοῦσθαι†    can't find lemma
-†plousiwte/rous†    †πλουσιωτέρους†    can't find pos tags
-†plousiwte/rous†    †πλουσιωτέρους†    can't find lemma
-†kalw=s    †καλῶς    can't find pos tags
-†kalw=s    †καλῶς    can't find lemma
-peiqarxei=n†    πειθαρχεῖν†    can't find pos tags
-peiqarxei=n†    πειθαρχεῖν†    can't find lemma
-†o(\    †ὃ    can't find pos tags
-†o(\    †ὃ    can't find lemma
-au)=†    αὖ†    can't find pos tags
-au)=†    αὖ†    can't find lemma
 *)oro/ntas    Ὀρόντας    can't find pos tags
 *)oro/ntas    Ὀρόντας    can't find lemma
 polloi\pro\s    πολλοὶπρὸς    can't find pos tags
@@ -1134,10 +1089,6 @@ polloi\pro\s    πολλοὶπρὸς    can't find lemma
 *tissafe/rnous    Τισσαφέρνους    can't find lemma
 *kle/arxos    Κλέαρχος    can't find pos tags
 *kle/arxos    Κλέαρχος    can't find lemma
-†h)\    †ἢ    can't find pos tags
-†h)\    †ἢ    can't find lemma
-a)rh/contes†    ἀρήξοντες†    can't find pos tags
-a)rh/contes†    ἀρήξοντες†    can't find lemma
 *tissafe/rnhn    Τισσαφέρνην    can't find pos tags
 *tissafe/rnhn    Τισσαφέρνην    can't find lemma
 *tissafe/rnhs    Τισσαφέρνης    can't find pos tags
@@ -1148,10 +1099,6 @@ a)rh/contes†    ἀρήξοντες†    can't find lemma
 *)amfipoli/ths    Ἀμφιπολίτης    can't find lemma
 *tissafe/rnhs    Τισσαφέρνης    can't find pos tags
 *tissafe/rnhs    Τισσαφέρνης    can't find lemma
-†e)pi\    †ἐπὶ    can't find pos tags
-†e)pi\    †ἐπὶ    can't find lemma
-cu/lou†    ξύλου†    can't find pos tags
-cu/lou†    ξύλου†    can't find lemma
 *kle/arxos    Κλέαρχος    can't find pos tags
 *kle/arxos    Κλέαρχος    can't find lemma
 *surako/sion    Συρακόσιον    can't find pos tags
@@ -1996,8 +1943,6 @@ seautou=    σεαυτοῦ    can't find lemma
 *niki/ou    Νικίου    can't find lemma
 *nikhra/tou    Νικηράτου    can't find pos tags
 *nikhra/tou    Νικηράτου    can't find lemma
-†a)pa/rantos    †ἀπάραντος    can't find pos tags
-†a)pa/rantos    †ἀπάραντος    can't find lemma
 †    †    can't find pos tags
 †    †    can't find lemma
 *)alkibia/dhs    Ἀλκιβιάδης    can't find pos tags
@@ -2016,7 +1961,6 @@ seautou=    σεαυτοῦ    can't find lemma
 ‘h(    ‘ἡ    can't find lemma
 ’    ’    can't find pos tags
 ’    ’    can't find lemma
-kai\    καὶ    can't find pos tags
 prou/xh|    προύχῃ    can't find pos tags
 prou/xh|    προύχῃ    can't find lemma
 *brasi/das    Βρασίδας    can't find pos tags
@@ -2441,18 +2385,10 @@ ei(lwteu/ein    εἱλωτεύειν    can't find lemma
 *eu)molpi/dai    Εὐμολπίδαι    can't find lemma
 *(ekato/mnws    Ἑκατόμνως    can't find pos tags
 *(ekato/mnws    Ἑκατόμνως    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
@@ -2461,20 +2397,14 @@ ei(lwteu/ein    εἱλωτεύειν    can't find lemma
 *gorgi/ou    Γοργίου    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-a)\n    ἂν    can't find pos tags
-a)\n    ἂν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
@@ -2487,8 +2417,6 @@ a)\n    ἂν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *gorgi/ou    Γοργίου    can't find pos tags
 *gorgi/ou    Γοργίου    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
@@ -2503,326 +2431,100 @@ a)\n    ἂν    can't find lemma
 *)aristofw=n    Ἀριστοφῶν    can't find lemma
 *)aglaofw=ntos    Ἀγλαοφῶντος    can't find pos tags
 *)aglaofw=ntos    Ἀγλαοφῶντος    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=nti    Χαιρεφῶντι    can't find pos tags
 *xairefw=nti    Χαιρεφῶντι    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=ntos    Χαιρεφῶντος    can't find pos tags
 *xairefw=ntos    Χαιρεφῶντος    can't find lemma
 *gorgi/ou    Γοργίου    can't find pos tags
 *gorgi/ou    Γοργίου    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-kalw=s    καλῶς    can't find pos tags
-kalw=s    καλῶς    can't find lemma
-        can't find pos tags
-        can't find lemma
-a)lla\    ἀλλὰ    can't find pos tags
-a)lla\    ἀλλὰ    can't find lemma
-te/xnhs    τέχνης    can't find pos tags
-te/xnhs    τέχνης    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-ou(/tws    οὕτως    can't find pos tags
-ou(/tws    οὕτως    can't find lemma
-lo/gwn    λόγων    can't find pos tags
-lo/gwn    λόγων    can't find lemma
 a)ndriantopoii/a    ἀνδριαντοποιία    can't find pos tags
 a)ndriantopoii/a    ἀνδριαντοποιία    can't find lemma
-toiau/tas    τοιαύτας    can't find pos tags
-toiau/tas    τοιαύτας    can't find lemma
-to\    τὸ    can't find pos tags
-to\    τὸ    can't find lemma
-        can't find pos tags
-        can't find lemma
-ti/s    τίς    can't find pos tags
-ti/s    τίς    can't find lemma
-dh/mw|    δήμῳ    can't find pos tags
-dh/mw|    δήμῳ    can't find lemma
 e)/xei—peri\    ἔχει—περὶ    can't find pos tags
 e)/xei—peri\    ἔχει—περὶ    can't find lemma
 peritto/n—diafe/rei    περιττόν—διαφέρει    can't find pos tags
 peritto/n—diafe/rei    περιττόν—διαφέρει    can't find lemma
-        can't find pos tags
-        can't find lemma
-le/geis    λέγεις    can't find pos tags
-le/geis    λέγεις    can't find lemma
-        can't find pos tags
-        can't find lemma
 —ei)    —εἰ    can't find pos tags
 —ei)    —εἰ    can't find lemma
-a)gaqo\n    ἀγαθὸν    can't find pos tags
-a)gaqo\n    ἀγαθὸν    can't find lemma
-        can't find pos tags
-        can't find lemma
-e)stin    ἐστιν    can't find pos tags
-e)stin    ἐστιν    can't find lemma
-        can't find pos tags
-        can't find lemma
-th\n    τὴν    can't find pos tags
-th\n    τὴν    can't find lemma
-w(s    ὡς    can't find pos tags
-w(s    ὡς    can't find lemma
-th=s    τῆς    can't find pos tags
-th=s    τῆς    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-to\    τὸ    can't find pos tags
-to\    τὸ    can't find lemma
-soi    σοι    can't find pos tags
-soi    σοι    can't find lemma
-dh=lon    δῆλον    can't find pos tags
-dh=lon    δῆλον    can't find lemma
 e)panerwtw=—o(/per    ἐπανερωτῶ—ὅπερ    can't find pos tags
 e)panerwtw=—o(/per    ἐπανερωτῶ—ὅπερ    can't find lemma
 sautou=    σαυτοῦ    can't find pos tags
 sautou=    σαυτοῦ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-peiqou=s    πειθοῦς    can't find pos tags
-peiqou=s    πειθοῦς    can't find lemma
-th=s    τῆς    can't find pos tags
-th=s    τῆς    can't find lemma
-xwri/wn    χωρίων    can't find pos tags
-xwri/wn    χωρίων    can't find lemma
-u(p'    ὑπ’    can't find pos tags
-u(p'    ὑπ’    can't find lemma
-tau=ta    ταῦτα    can't find pos tags
-tau=ta    ταῦτα    can't find lemma
 *qemistokle/ous    Θεμιστοκλέους    can't find pos tags
 *qemistokle/ous    Θεμιστοκλέους    can't find lemma
 *qemistokle/ous    Θεμιστοκλέους    can't find pos tags
 *qemistokle/ous    Θεμιστοκλέους    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-ou)damou=    οὐδαμοῦ    can't find pos tags
-ou)damou=    οὐδαμοῦ    can't find lemma
-ga\r    γὰρ    can't find pos tags
-ga\r    γὰρ    can't find lemma
-tou\s    τοὺς    can't find pos tags
-tou\s    τοὺς    can't find lemma
-        can't find pos tags
-        can't find lemma
-plh/qesin    πλήθεσιν    can't find pos tags
-plh/qesin    πλήθεσιν    can't find lemma
 a)fairei=sqai—    ἀφαιρεῖσθαι—    can't find pos tags
 a)fairei=sqai—    ἀφαιρεῖσθαι—    can't find lemma
 poih=sai—ou)/te    ποιῆσαι—οὔτε    can't find pos tags
 poih=sai—ou)/te    ποιῆσαι—οὔτε    can't find lemma
-e)pi\    ἐπὶ    can't find pos tags
-e)pi\    ἐπὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
-h)ci/wsan    ἠξίωσαν    can't find pos tags
-h)ci/wsan    ἠξίωσαν    can't find lemma
-        can't find pos tags
-        can't find lemma
-do/ca    δόξα    can't find pos tags
-do/ca    δόξα    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
-a)lla\    ἀλλὰ    can't find pos tags
-a)lla\    ἀλλὰ    can't find lemma
-pa/nu    πάνυ    can't find pos tags
-pa/nu    πάνυ    can't find lemma
-mhxanh\n    μηχανὴν    can't find pos tags
-mhxanh\n    μηχανὴν    can't find lemma
-a)=ra    ἆρα    can't find pos tags
-a)=ra    ἆρα    can't find lemma
-ei)do/sin    εἰδόσιν    can't find pos tags
-ei)do/sin    εἰδόσιν    can't find lemma
 a)fiknou/menon—ou)    ἀφικνούμενον—οὐ    can't find pos tags
 a)fiknou/menon—ou)    ἀφικνούμενον—οὐ    can't find lemma
 —poih/seis    —ποιήσεις    can't find pos tags
 —poih/seis    —ποιήσεις    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-toi=s    τοῖς    can't find pos tags
-toi=s    τοῖς    can't find lemma
-nu=n    νῦν    can't find pos tags
-nu=n    νῦν    can't find lemma
-r(h/twr    ῥήτωρ    can't find pos tags
-r(h/twr    ῥήτωρ    can't find lemma
-to\n    τὸν    can't find pos tags
-to\n    τὸν    can't find lemma
 oi)/ei—o(/ti    οἴει—ὅτι    can't find pos tags
 oi)/ei—o(/ti    οἴει—ὅτι    can't find lemma
-toi=s    τοῖς    can't find pos tags
-toi=s    τοῖς    can't find lemma
 lo/gois—tou=to    λόγοις—τοῦτο    can't find pos tags
 lo/gois—tou=to    λόγοις—τοῦτο    can't find lemma
 e)rwth/mata—e)pei\    ἐρωτήματα—ἐπεὶ    can't find pos tags
 e)rwth/mata—e)pei\    ἐρωτήματα—ἐπεὶ    can't find lemma
 —a)ll'    —ἀλλ’    can't find pos tags
 —a)ll'    —ἀλλ’    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
 e)pano/rqou—    ἐπανόρθου—    can't find pos tags
 e)pano/rqou—    ἐπανόρθου—    can't find lemma
 ei)=—kai\    εἶ—καὶ    can't find pos tags
 ei)=—kai\    εἶ—καὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
-e)ce/stai    ἐξέσται    can't find pos tags
-e)ce/stai    ἐξέσται    can't find lemma
 sauto\n    σαυτὸν    can't find pos tags
 sauto\n    σαυτὸν    can't find lemma
-        can't find pos tags
-        can't find lemma
-suggra/mmati    συγγράμματι    can't find pos tags
-suggra/mmati    συγγράμματι    can't find lemma
-fhmi\    φημὶ    can't find pos tags
-fhmi\    φημὶ    can't find lemma
-h(donh=s    ἡδονῆς    can't find pos tags
-h(donh=s    ἡδονῆς    can't find lemma
 *gorgi/ou    Γοργίου    can't find pos tags
 *gorgi/ou    Γοργίου    can't find lemma
-*gorgi/as    Γοργίας    can't find pos tags
-*gorgi/as    Γοργίας    can't find lemma
 oi)=da—kai\    οἶδα—καὶ    can't find pos tags
 oi)=da—kai\    οἶδα—καὶ    can't find lemma
 h(gei=tai—o(\    ἡγεῖται—ὃ    can't find pos tags
 h(gei=tai—o(\    ἡγεῖται—ὃ    can't find lemma
-au)tou=    αὐτοῦ    can't find pos tags
-au)tou=    αὐτοῦ    can't find lemma
-ga/r    γάρ    can't find pos tags
-ga/r    γάρ    can't find lemma
-        can't find pos tags
-        can't find lemma
 e)/gwge—ta\    ἔγωγε—τὰ    can't find pos tags
 e)/gwge—ta\    ἔγωγε—τὰ    can't find lemma
 kalw=—e)peidh\    καλῶ—ἐπειδὴ    can't find pos tags
 kalw=—e)peidh\    καλῶ—ἐπειδὴ    can't find lemma
-        can't find pos tags
-        can't find lemma
-o(/de    ὅδε    can't find pos tags
-o(/de    ὅδε    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 —ou)    —οὐ    can't find pos tags
 —ou)    —οὐ    can't find lemma
 stoxasame/nh—te/traxa    στοχασαμένη—τέτραχα    can't find pos tags
 stoxasame/nh—te/traxa    στοχασαμένη—τέτραχα    can't find lemma
-prospoiei=tai    προσποιεῖται    can't find pos tags
-prospoiei=tai    προσποιεῖται    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-fhmi    φημι    can't find pos tags
-fhmi    φημι    can't find lemma
 *pw=le—tou=to    Πῶλε—τοῦτο    can't find pos tags
 *pw=le—tou=to    Πῶλε—τοῦτο    can't find lemma
 le/gw—o(/ti    λέγω—ὅτι    can't find pos tags
 le/gw—o(/ti    λέγω—ὅτι    can't find lemma
-        can't find pos tags
-        can't find lemma
 gewme/trai—h)/dh    γεωμέτραι—ἤδη    can't find pos tags
 gewme/trai—h)/dh    γεωμέτραι—ἤδη    can't find lemma
-ga\r    γὰρ    can't find pos tags
-ga\r    γὰρ    can't find lemma
 a)kolouqh/sais—o(/ti    ἀκολουθήσαις—ὅτι    can't find pos tags
 a)kolouqh/sais—o(/ti    ἀκολουθήσαις—ὅτι    can't find lemma
-sw/mati    σώματι    can't find pos tags
-sw/mati    σώματι    can't find lemma
 *)anacago/rou    Ἀναξαγόρου    can't find pos tags
 *)anacago/rou    Ἀναξαγόρου    can't find lemma
 *pw=le—su\    Πῶλε—σὺ    can't find pos tags
 *pw=le—su\    Πῶλε—σὺ    can't find lemma
 e)/mpeiros—o(mou=    ἔμπειρος—ὁμοῦ    can't find pos tags
 e)/mpeiros—o(mou=    ἔμπειρος—ὁμοῦ    can't find lemma
-a)nti/strofon    ἀντίστροφον    can't find pos tags
-a)nti/strofon    ἀντίστροφον    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
-te    τε    can't find pos tags
-te    τε    can't find lemma
 sautou=    σαυτοῦ    can't find pos tags
 sautou=    σαυτοῦ    can't find lemma
-a)pokteinu/asin    ἀποκτεινύασιν    can't find pos tags
-a)pokteinu/asin    ἀποκτεινύασιν    can't find lemma
-ou)de\n    οὐδὲν    can't find pos tags
-ou)de\n    οὐδὲν    can't find lemma
 to\n—ou)    τὸν—οὐ    can't find pos tags
 to\n—ou)    τὸν—οὐ    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
 a)nh/r—    ἀνήρ—    can't find pos tags
 a)nh/r—    ἀνήρ—    can't find lemma
-se    σε    can't find pos tags
-se    σε    can't find lemma
-to\    τὸ    can't find pos tags
-to\    τὸ    can't find lemma
 ）    ）    can't find pos tags
 ）    ）    can't find lemma
-e)kei=no    ἐκεῖνο    can't find pos tags
-e)kei=no    ἐκεῖνο    can't find lemma
-        can't find pos tags
-        can't find lemma
-ta\    τὰ    can't find pos tags
-ta\    τὰ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-toiou=tos    τοιοῦτος    can't find pos tags
-toiou=tos    τοιοῦτος    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-e)/stai—ou(/tw    ἔσται—οὕτω    can't find pos tags
-e)/stai—ou(/tw    ἔσται—οὕτω    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-palaioi=s    παλαιοῖς    can't find pos tags
-palaioi=s    παλαιοῖς    can't find lemma
+e)/stai—ou(/tw    ἔσται—οὕτω    can't find pos tags
+e)/stai—ou(/tw    ἔσται—οὕτω    can't find lemma
 *perdi/kkou    Περδίκκου    can't find pos tags
 *perdi/kkou    Περδίκκου    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 *)alke/tou    Ἀλκέτου    can't find pos tags
 *)alke/tou    Ἀλκέτου    can't find lemma
 *perdi/kkou    Περδίκκου    can't find pos tags
@@ -2831,176 +2533,44 @@ palaioi=s    παλαιοῖς    can't find lemma
 *)alke/tou    Ἀλκέτου    can't find lemma
 *)alke/th|    Ἀλκέτῃ    can't find pos tags
 *)alke/th|    Ἀλκέτῃ    can't find lemma
-        can't find pos tags
-        can't find lemma
 *perdi/kkas    Περδίκκας    can't find pos tags
 *perdi/kkas    Περδίκκας    can't find lemma
-o)li/gon    ὀλίγον    can't find pos tags
-o)li/gon    ὀλίγον    can't find lemma
 *perdi/kkou    Περδίκκου    can't find pos tags
 *perdi/kkou    Περδίκκου    can't find lemma
-sou=    σοῦ    can't find pos tags
-sou=    σοῦ    can't find lemma
-        can't find pos tags
-        can't find lemma
-th\n    τὴν    can't find pos tags
-th\n    τὴν    can't find lemma
 *niki/as    Νικίας    can't find pos tags
 *niki/as    Νικίας    can't find lemma
 *nikhra/tou    Νικηράτου    can't find pos tags
 *nikhra/tou    Νικηράτου    can't find lemma
-*)aristokra/ths    Ἀριστοκράτης    can't find pos tags
-*)aristokra/ths    Ἀριστοκράτης    can't find lemma
 *skelli/ou    Σκελλίου    can't find pos tags
 *skelli/ou    Σκελλίου    can't find lemma
-a)\n    ἂν    can't find pos tags
-a)\n    ἂν    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-turanni/di    τυραννίδι    can't find pos tags
-turanni/di    τυραννίδι    can't find lemma
-tw=n    τῶν    can't find pos tags
-tw=n    τῶν    can't find lemma
 di/khn—duoi=n    δίκην—δυοῖν    can't find pos tags
 di/khn—duoi=n    δίκην—δυοῖν    can't find lemma
-me\n    μὲν    can't find pos tags
-me\n    μὲν    can't find lemma
 ei)/h—a)qliw/teros    εἴη—ἀθλιώτερος    can't find pos tags
 ei)/h—a)qliw/teros    εἴη—ἀθλιώτερος    can't find lemma
-        can't find pos tags
-        can't find lemma
-de\    δὲ    can't find pos tags
-de\    δὲ    can't find lemma
-        can't find pos tags
-        can't find lemma
-ou)    οὐ    can't find pos tags
-ou)    οὐ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-to\    τὸ    can't find pos tags
-to\    τὸ    can't find lemma
-prw=ton    πρῶτον    can't find pos tags
-prw=ton    πρῶτον    can't find lemma
-        can't find pos tags
-        can't find lemma
-h)\    ἢ    can't find pos tags
-h)\    ἢ    can't find lemma
-w)\n    ὢν    can't find pos tags
-w)\n    ὢν    can't find lemma
-        can't find pos tags
-        can't find lemma
-o(    ὁ    can't find pos tags
-o(    ὁ    can't find lemma
-toiou=ton    τοιοῦτον    can't find pos tags
-toiou=ton    τοιοῦτον    can't find lemma
-kola/zwn    κολάζων    can't find pos tags
-kola/zwn    κολάζων    can't find lemma
-        can't find pos tags
-        can't find lemma
-a)palla/ttetai    ἀπαλλάττεται    can't find pos tags
-a)palla/ttetai    ἀπαλλάττεται    can't find lemma
-xrhma/twn    χρημάτων    can't find pos tags
-xrhma/twn    χρημάτων    can't find lemma
-nundh\    νυνδὴ    can't find pos tags
-nundh\    νυνδὴ    can't find lemma
-u(perba/llousa    ὑπερβάλλουσα    can't find pos tags
-u(perba/llousa    ὑπερβάλλουσα    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-tou=to    τοῦτο    can't find pos tags
-tou=to    τοῦτο    can't find lemma
-nouqetei=sqai    νουθετεῖσθαι    can't find pos tags
-nouqetei=sqai    νουθετεῖσθαι    can't find lemma
-o(/ti    ὅτι    can't find pos tags
-o(/ti    ὅτι    can't find lemma
-a)di/kw|    ἀδίκῳ    can't find pos tags
-a)di/kw|    ἀδίκῳ    can't find lemma
-to\    τὸ    can't find pos tags
-to\    τὸ    can't find lemma
-a)dikou=nta    ἀδικοῦντα    can't find pos tags
-a)dikou=nta    ἀδικοῦντα    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-tis    τις    can't find pos tags
-tis    τις    can't find lemma
 tou)nanti/on—kathgorei=n    τοὐναντίον—κατηγορεῖν    can't find pos tags
 tou)nanti/on—kathgorei=n    τοὐναντίον—κατηγορεῖν    can't find lemma
-h)dikhkw\s    ἠδικηκὼς    can't find pos tags
-h)dikhkw\s    ἠδικηκὼς    can't find lemma
-        can't find pos tags
-        can't find lemma
 e)xqrou=—tou=to    ἐχθροῦ—τοῦτο    can't find pos tags
 e)xqrou=—tou=to    ἐχθροῦ—τοῦτο    can't find lemma
 eu)labhte/on—e)a\n    εὐλαβητέον—ἐὰν    can't find pos tags
 eu)labhte/on—e)a\n    εὐλαβητέον—ἐὰν    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-w(s    ὡς    can't find pos tags
-w(s    ὡς    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
 *xairefw=n    Χαιρεφῶν    can't find pos tags
 *xairefw=n    Χαιρεφῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
-r(a/|dion    ῥᾴδιον    can't find pos tags
-r(a/|dion    ῥᾴδιον    can't find lemma
 *)alkibia/dou    Ἀλκιβιάδου    can't find pos tags
 *)alkibia/dou    Ἀλκιβιάδου    can't find lemma
 *kleini/ou    Κλεινίου    can't find pos tags
 *kleini/ou    Κλεινίου    can't find lemma
-a)/nw    ἄνω    can't find pos tags
-a)/nw    ἄνω    can't find lemma
-ta\    τὰ    can't find pos tags
-ta\    τὰ    can't find lemma
 *kleini/eios    Κλεινίειος    can't find pos tags
 *kleini/eios    Κλεινίειος    can't find lemma
-a)ei\    ἀεὶ    can't find pos tags
-a)ei\    ἀεὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
 *gorgi/ou    Γοργίου    can't find pos tags
 *gorgi/ou    Γοργίου    can't find lemma
-r(htorikh\n    ῥητορικὴν    can't find pos tags
-r(htorikh\n    ῥητορικὴν    can't find lemma
 fai/h—dia\    φαίη—διὰ    can't find pos tags
 fai/h—dia\    φαίη—διὰ    can't find lemma
 a)gapa=n—kai/    ἀγαπᾶν—καί    can't find pos tags
 a)gapa=n—kai/    ἀγαπᾶν—καί    can't find lemma
-e)k    ἐκ    can't find pos tags
-e)k    ἐκ    can't find lemma
-ai)sxu/nhtai    αἰσχύνηται    can't find pos tags
-ai)sxu/nhtai    αἰσχύνηται    can't find lemma
-ou)de\    οὐδὲ    can't find pos tags
-ou)de\    οὐδὲ    can't find lemma
-tou\s    τοὺς    can't find pos tags
-tou\s    τοὺς    can't find lemma
-a)pofai/nei    ἀποφαίνει    can't find pos tags
-a)pofai/nei    ἀποφαίνει    can't find lemma
 *ce/rchs    Ξέρξης    can't find pos tags
 *ce/rchs    Ξέρξης    can't find lemma
-h)\    ἢ    can't find pos tags
-h)\    ἢ    can't find lemma
-katadoulou/meqa    καταδουλούμεθα    can't find pos tags
-katadoulou/meqa    καταδουλούμεθα    can't find lemma
-e)ntau=qa    ἐνταῦθα    can't find pos tags
-e)ntau=qa    ἐνταῦθα    can't find lemma
 *pi/ndaros    Πίνδαρος    can't find pos tags
 *pi/ndaros    Πίνδαρος    can't find lemma
 o(/ti—    ὅτι—    can't find pos tags
@@ -3025,12 +2595,6 @@ pws—to\    πως—τὸ    can't find pos tags
 pws—to\    πως—τὸ    can't find lemma
 e)pi/stamai—le/gei    ἐπίσταμαι—λέγει    can't find pos tags
 e)pi/stamai—le/gei    ἐπίσταμαι—λέγει    can't find lemma
-        can't find pos tags
-        can't find lemma
-gegone/nai    γεγονέναι    can't find pos tags
-gegone/nai    γεγονέναι    can't find lemma
-politikh\n    πολιτικὴν    can't find pos tags
-politikh\n    πολιτικὴν    can't find lemma
 Fr    φρ    can't find pos tags
 Fr    φρ    can't find lemma
 Antiope    αντιοπε    can't find pos tags
@@ -3039,240 +2603,54 @@ Fr    φρ    can't find pos tags
 Fr    φρ    can't find lemma
 Antiope    αντιοπε    can't find pos tags
 Antiope    αντιοπε    can't find lemma
-        can't find pos tags
-        can't find lemma
-e)/gwge    ἔγωγε    can't find pos tags
-e)/gwge    ἔγωγε    can't find lemma
-de\    δὲ    can't find pos tags
-de\    δὲ    can't find lemma
-gennai/ou    γενναίου    can't find pos tags
-gennai/ou    γενναίου    can't find lemma
-h)\    ἢ    can't find pos tags
-h)\    ἢ    can't find lemma
-meirakiw/dei    μειρακιώδει    can't find pos tags
-meirakiw/dei    μειρακιώδει    can't find lemma
 *sw/krates—kai/    Σώκρατες—καί    can't find pos tags
 *sw/krates—kai/    Σώκρατες—καί    can't find lemma
 sh=|—ou)k    σῇ—οὐκ    can't find pos tags
 sh=|—ou)k    σῇ—οὐκ    can't find lemma
-o(/ti    ὅτι    can't find pos tags
-o(/ti    ὅτι    can't find lemma
 sautw=|    σαυτῷ    can't find pos tags
 sautw=|    σαυτῷ    can't find lemma
-de\    δὲ    can't find pos tags
-de\    δὲ    can't find lemma
-mikra\    μικρὰ    can't find pos tags
-mikra\    μικρὰ    can't find lemma
-        can't find pos tags
-        can't find lemma
-ga\r    γὰρ    can't find pos tags
-ga\r    γὰρ    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
 *)afidnai=on    Ἀφιδναῖον    can't find pos tags
 *)afidnai=on    Ἀφιδναῖον    can't find lemma
 *)androti/wnos    Ἀνδροτίωνος    can't find pos tags
 *)androti/wnos    Ἀνδροτίωνος    can't find lemma
 *nausiku/dhn    Ναυσικύδην    can't find pos tags
 *nausiku/dhn    Ναυσικύδην    can't find lemma
-eu)labei=sqai    εὐλαβεῖσθαι    can't find pos tags
-eu)labei=sqai    εὐλαβεῖσθαι    can't find lemma
 seautou=    σεαυτοῦ    can't find pos tags
 seautou=    σεαυτοῦ    can't find lemma
-        can't find pos tags
-        can't find lemma
-ti/    τί    can't find pos tags
-ti/    τί    can't find lemma
 e)pithdeute/on    ἐπιτηδευτέον    can't find pos tags
 e)pithdeute/on    ἐπιτηδευτέον    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
 *pi/ndaros    Πίνδαρος    can't find pos tags
 *pi/ndaros    Πίνδαρος    can't find lemma
-        can't find pos tags
-        can't find lemma
-au)to\s    αὐτὸς    can't find pos tags
-au)to\s    αὐτὸς    can't find lemma
-        can't find pos tags
-        can't find lemma
-a)dikei=n    ἀδικεῖν    can't find pos tags
-a)dikei=n    ἀδικεῖν    can't find lemma
-tou=    τοῦ    can't find pos tags
-tou=    τοῦ    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 le/gein—kai\    λέγειν—καὶ    can't find pos tags
 le/gein—kai\    λέγειν—καὶ    can't find lemma
 qhreu/w—ei)    θηρεύω—εἰ    can't find pos tags
 qhreu/w—ei)    θηρεύω—εἰ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-to\n    τὸν    can't find pos tags
-to\n    τὸν    can't find lemma
-        can't find pos tags
-        can't find lemma
-a)ll'    ἀλλ’    can't find pos tags
-a)ll'    ἀλλ’    can't find lemma
-tou\s    τοὺς    can't find pos tags
-tou\s    τοὺς    can't find lemma
 a)palla/ghqi    ἀπαλλάγηθι    can't find pos tags
 a)palla/ghqi    ἀπαλλάγηθι    can't find lemma
-ga\r    γὰρ    can't find pos tags
-ga\r    γὰρ    can't find lemma
-e)piqumiw=n    ἐπιθυμιῶν    can't find pos tags
-e)piqumiw=n    ἐπιθυμιῶν    can't find lemma
-        can't find pos tags
-        can't find lemma
-swfrosu/nhn    σωφροσύνην    can't find pos tags
-swfrosu/nhn    σωφροσύνην    can't find lemma
-gegono/tes    γεγονότες    can't find pos tags
-gegono/tes    γεγονότες    can't find lemma
-        can't find pos tags
-        can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
 le/gwn—    λέγων—    can't find pos tags
 le/gwn—    λέγων—    can't find lemma
 fr    φρ    can't find pos tags
 fr    φρ    can't find lemma
 638    638    can't find pos tags
 638    638    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 *(/aidou—to\    Ἅιδου—τὸ    can't find pos tags
 *(/aidou—to\    Ἅιδου—τὸ    can't find lemma
 le/gwn—ou(=toi    λέγων—οὗτοι    can't find pos tags
 le/gwn—ou(=toi    λέγων—οὗτοι    can't find lemma
-e)me\    ἐμὲ    can't find pos tags
-e)me\    ἐμὲ    can't find lemma
-po/teron    πότερον    can't find pos tags
-po/teron    πότερον    can't find lemma
-me\n    μὲν    can't find pos tags
-me\n    μὲν    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-e)peida\n    ἐπειδὰν    can't find pos tags
-e)peida\n    ἐπειδὰν    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 knhsiw=|—h)\    κνησιῷ—ἢ    can't find pos tags
 knhsiw=|—h)\    κνησιῷ—ἢ    can't find lemma
-        can't find pos tags
-        can't find lemma
 sautw=|    σαυτῷ    can't find pos tags
 sautw=|    σαυτῷ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 *)alwpekh=qen    Ἀλωπεκῆθεν    can't find pos tags
 *)alwpekh=qen    Ἀλωπεκῆθεν    can't find lemma
-        can't find pos tags
-        can't find lemma
-a)polabw\n    ἀπολαβὼν    can't find pos tags
-a)polabw\n    ἀπολαβὼν    can't find lemma
-ga\r    γὰρ    can't find pos tags
-ga\r    γὰρ    can't find lemma
-        can't find pos tags
-        can't find lemma
-h(du\    ἡδὺ    can't find pos tags
-h(du\    ἡδὺ    can't find lemma
-        can't find pos tags
-        can't find lemma
-kakw=s    κακῶς    can't find pos tags
-kakw=s    κακῶς    can't find lemma
-sofo\s    σοφὸς    can't find pos tags
-sofo\s    σοφὸς    can't find lemma
-        can't find pos tags
-        can't find lemma
-lupw=n    λυπῶν    can't find pos tags
-lupw=n    λυπῶν    can't find lemma
-tau/th|    ταύτῃ    can't find pos tags
-tau/th|    ταύτῃ    can't find lemma
-        can't find pos tags
-        can't find lemma
-e)/moige    ἔμοιγε    can't find pos tags
-e)/moige    ἔμοιγε    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-kalo\n    καλὸν    can't find pos tags
-kalo\n    καλὸν    can't find lemma
-ma=llon    μᾶλλον    can't find pos tags
-ma=llon    μᾶλλον    can't find lemma
-moi    μοι    can't find pos tags
-moi    μοι    can't find lemma
-        can't find pos tags
-        can't find lemma
-de\    δὲ    can't find pos tags
-de\    δὲ    can't find lemma
-pra/ttesqai    πράττεσθαι    can't find pos tags
-pra/ttesqai    πράττεσθαι    can't find lemma
-        can't find pos tags
-        can't find lemma
-mh/t'    μήτ’    can't find pos tags
-mh/t'    μήτ’    can't find lemma
-i)/sws    ἴσως    can't find pos tags
-i)/sws    ἴσως    can't find lemma
 a)gaqou=—au)to\    ἀγαθοῦ—αὐτὸ    can't find pos tags
 a)gaqou=—au)to\    ἀγαθοῦ—αὐτὸ    can't find lemma
-h)\    ἢ    can't find pos tags
-h)\    ἢ    can't find lemma
-        can't find pos tags
-        can't find lemma
-sw|zome/nh    σῳζομένη    can't find pos tags
-sw|zome/nh    σῳζομένη    can't find lemma
-xari/zesqai    χαρίζεσθαι    can't find pos tags
-xari/zesqai    χαρίζεσθαι    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 *kinhsi/an    Κινησίαν    can't find pos tags
 *kinhsi/an    Κινησίαν    can't find lemma
 *me/lhtos    Μέλητος    can't find pos tags
 *me/lhtos    Μέλητος    can't find lemma
-me/llei    μέλλει    can't find pos tags
-me/llei    μέλλει    can't find lemma
 *kinhsi/ou    Κινησίου    can't find pos tags
 *kinhsi/ou    Κινησίου    can't find lemma
-        can't find pos tags
-        can't find lemma
-th\n    τὴν    can't find pos tags
-th\n    τὴν    can't find lemma
-        can't find pos tags
-        can't find lemma
-r(htorikh\    ῥητορικὴ    can't find pos tags
-r(htorikh\    ῥητορικὴ    can't find lemma
-xei/rous    χείρους    can't find pos tags
-xei/rous    χείρους    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 *qemistokle/a    Θεμιστοκλέα    can't find pos tags
 *qemistokle/a    Θεμιστοκλέα    can't find lemma
 *ki/mwna    Κίμωνα    can't find pos tags
@@ -3281,298 +2659,67 @@ xei/rous    χείρους    can't find lemma
 *miltia/dhn    Μιλτιάδην    can't find lemma
 o(mologei=n—o(/ti    ὁμολογεῖν—ὅτι    can't find pos tags
 o(mologei=n—o(/ti    ὁμολογεῖν—ὅτι    can't find lemma
-        can't find pos tags
-        can't find lemma
 ei)/h—toiou=ton    εἴη—τοιοῦτον    can't find pos tags
 ei)/h—toiou=ton    εἴη—τοιοῦτον    can't find lemma
-a)ll'    ἀλλ’    can't find pos tags
-a)ll'    ἀλλ’    can't find lemma
-to\    τὸ    can't find pos tags
-to\    τὸ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-poli/tais    πολίταις    can't find pos tags
-poli/tais    πολίταις    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 *gorgi/ou    Γοργίου    can't find pos tags
 *gorgi/ou    Γοργίου    can't find lemma
-ei)=nai    εἶναι    can't find pos tags
-ei)=nai    εἶναι    can't find lemma
 sauto\n    σαυτὸν    can't find pos tags
 sauto\n    σαυτὸν    can't find lemma
 sautw=|    σαυτῷ    can't find pos tags
 sautw=|    σαυτῷ    can't find lemma
-        can't find pos tags
-        can't find lemma
 *)epixa/rmou    Ἐπιχάρμου    can't find pos tags
 *)epixa/rmou    Ἐπιχάρμου    can't find lemma
-di/eimi    δίειμι    can't find pos tags
-di/eimi    δίειμι    can't find lemma
-pw    πω    can't find pos tags
-pw    πω    can't find lemma
-mh\    μὴ    can't find pos tags
-mh\    μὴ    can't find lemma
-ou(=    οὗ    can't find pos tags
-ou(=    οὗ    can't find lemma
-        can't find pos tags
-        can't find lemma
-de/    δέ    can't find pos tags
-de/    δέ    can't find lemma
-        can't find pos tags
-        can't find lemma
-pollh\    πολλὴ    can't find pos tags
-pollh\    πολλὴ    can't find lemma
-eu)dai/mona    εὐδαίμονα    can't find pos tags
-eu)dai/mona    εὐδαίμονα    can't find lemma
-swfrosu/nh    σωφροσύνη    can't find pos tags
-swfrosu/nh    σωφροσύνη    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-lo/gos    λόγος    can't find pos tags
-lo/gos    λόγος    can't find lemma
-o(/sw|per    ὅσῳπερ    can't find pos tags
-o(/sw|per    ὅσῳπερ    can't find lemma
-        can't find pos tags
-        can't find lemma
-te/mnesqai    τέμνεσθαι    can't find pos tags
-te/mnesqai    τέμνεσθαι    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-ti/qhmi    τίθημι    can't find pos tags
-ti/qhmi    τίθημι    can't find lemma
-de\    δὲ    can't find pos tags
-de\    δὲ    can't find lemma
-        can't find pos tags
-        can't find lemma
+skepte/on    σκεπτέον    unknown error
 e)sti/n—ou)    ἐστίν—οὐ    can't find pos tags
 e)sti/n—ou)    ἐστίν—οὐ    can't find lemma
 a)dikh/sei—h)\    ἀδικήσει—ἢ    can't find pos tags
 a)dikh/sei—h)\    ἀδικήσει—ἢ    can't find lemma
-e)pi\    ἐπὶ    can't find pos tags
-e)pi\    ἐπὶ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-a(/pantos    ἅπαντος    can't find pos tags
-a(/pantos    ἅπαντος    can't find lemma
-me/ga    μέγα    can't find pos tags
-me/ga    μέγα    can't find lemma
-me/ga    μέγα    can't find pos tags
-me/ga    μέγα    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-tw=n    τῶν    can't find pos tags
-tw=n    τῶν    can't find lemma
-soi    σοι    can't find pos tags
-soi    σοι    can't find lemma
-        can't find pos tags
-        can't find lemma
 pa/mpolu    πάμπολυ    can't find pos tags
 pa/mpolu    πάμπολυ    can't find lemma
-ou)de\n    οὐδὲν    can't find pos tags
-ou)de\n    οὐδὲν    can't find lemma
-o(poqenou=n    ὁποθενοῦν    can't find pos tags
-o(poqenou=n    ὁποθενοῦν    can't find lemma
-semnu/nwn    σεμνύνων    can't find pos tags
-semnu/nwn    σεμνύνων    can't find lemma
 sautou=    σαυτοῦ    can't find pos tags
 sautou=    σαυτοῦ    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-o(posondh\    ὁποσονδὴ    can't find pos tags
-o(posondh\    ὁποσονδὴ    can't find lemma
-e)comoiw=n    ἐξομοιῶν    can't find pos tags
-e)comoiw=n    ἐξομοιῶν    can't find lemma
-h(/tis    ἥτις    can't find pos tags
-h(/tis    ἥτις    can't find lemma
-ga\r    γὰρ    can't find pos tags
-ga\r    γὰρ    can't find lemma
-be/ltion    βέλτιον    can't find pos tags
-be/ltion    βέλτιον    can't find lemma
-        can't find pos tags
-        can't find lemma
-ou)demi/an    οὐδεμίαν    can't find pos tags
-ou)demi/an    οὐδεμίαν    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-le/gesqai    λέγεσθαι    can't find pos tags
-le/gesqai    λέγεσθαι    can't find lemma
-mhde/na    μηδένα    can't find pos tags
-mhde/na    μηδένα    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-ta\    τὰ    can't find pos tags
-ta\    τὰ    can't find lemma
-        can't find pos tags
-        can't find lemma
 *ki/mwn    Κίμων    can't find pos tags
 *ki/mwn    Κίμων    can't find lemma
 *miltia/dhs    Μιλτιάδης    can't find pos tags
 *miltia/dhs    Μιλτιάδης    can't find lemma
 *qemistoklh=s    Θεμιστοκλῆς    can't find pos tags
 *qemistoklh=s    Θεμιστοκλῆς    can't find lemma
-        can't find pos tags
-        can't find lemma
-e)gego/nesan    ἐγεγόνεσαν    can't find pos tags
-e)gego/nesan    ἐγεγόνεσαν    can't find lemma
-soi    σοι    can't find pos tags
-soi    σοι    can't find lemma
-ei)/per    εἴπερ    can't find pos tags
-ei)/per    εἴπερ    can't find lemma
-        can't find pos tags
-        can't find lemma
 *ki/mwnos    Κίμωνος    can't find pos tags
 *ki/mwnos    Κίμωνος    can't find lemma
 *qemistokle/a    Θεμιστοκλέα    can't find pos tags
 *qemistokle/a    Θεμιστοκλέα    can't find lemma
 *miltia/dhn    Μιλτιάδην    can't find pos tags
 *miltia/dhn    Μιλτιάδην    can't find lemma
-ba/raqron    βάραθρον    can't find pos tags
-ba/raqron    βάραθρον    can't find lemma
-        can't find pos tags
-        can't find lemma
 e)xrw=nto—ou)    ἐχρῶντο—οὐ    can't find pos tags
 e)xrw=nto—ou)    ἐχρῶντο—οὐ    can't find lemma
 e)ce/peson—ou)/te    ἐξέπεσον—οὔτε    can't find pos tags
 e)ce/peson—ou)/te    ἐξέπεσον—οὔτε    can't find lemma
-o(/stis    ὅστις    can't find pos tags
-o(/stis    ὅστις    can't find lemma
-ou)de\n    οὐδὲν    can't find pos tags
-ou)de\n    οὐδὲν    can't find lemma
-tis    τις    can't find pos tags
-tis    τις    can't find lemma
-au)tw=n    αὐτῶν    can't find pos tags
-au)tw=n    αὐτῶν    can't find lemma
-a)reth\n    ἀρετὴν    can't find pos tags
-a)reth\n    ἀρετὴν    can't find lemma
-a)/nqrwpoi    ἄνθρωποι    can't find pos tags
-a)/nqrwpoi    ἄνθρωποι    can't find lemma
 *mi/qaikos    Μίθαικος    can't find pos tags
 *mi/qaikos    Μίθαικος    can't find lemma
 *sa/rambos    Σάραμβος    can't find pos tags
 *sa/rambos    Σάραμβος    can't find lemma
-qaumastou\s    θαυμαστοὺς    can't find pos tags
-qaumastou\s    θαυμαστοὺς    can't find lemma
-oi(    οἱ    can't find pos tags
-oi(    οἱ    can't find lemma
-kakw=n    κακῶν    can't find pos tags
-kakw=n    κακῶν    can't find lemma
-e)stin    ἐστιν    can't find pos tags
-e)stin    ἐστιν    can't find lemma
 *qemistokle/a    Θεμιστοκλέα    can't find pos tags
 *qemistokle/a    Θεμιστοκλέα    can't find lemma
 *ki/mwna    Κίμωνα    can't find pos tags
 *ki/mwna    Κίμωνα    can't find lemma
 *)alkibia/dou    Ἀλκιβιάδου    can't find pos tags
 *)alkibia/dou    Ἀλκιβιάδου    can't find lemma
-prosapollu/wsi    προσαπολλύωσι    can't find pos tags
-prosapollu/wsi    προσαπολλύωσι    can't find lemma
-po/lews    πόλεως    can't find pos tags
-po/lews    πόλεως    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-a)/gnoian    ἄγνοιαν    can't find pos tags
-a)/gnoian    ἄγνοιαν    can't find lemma
-        can't find pos tags
-        can't find lemma
-lamba/noi    λαμβάνοι    can't find pos tags
-lamba/noi    λαμβάνοι    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
 poih/seis—    ποιήσεις—    can't find pos tags
 poih/seis—    ποιήσεις—    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-peri\    περὶ    can't find pos tags
-peri\    περὶ    can't find lemma
 ei)sa/gwn—ou)dei\s    εἰσάγων—οὐδεὶς    can't find pos tags
 ei)sa/gwn—ou)dei\s    εἰσάγων—οὐδεὶς    can't find lemma
 ei)saga/goi—kai\    εἰσαγάγοι—καὶ    can't find pos tags
 ei)saga/goi—kai\    εἰσαγάγοι—καὶ    can't find lemma
-pro\s    πρὸς    can't find pos tags
-pro\s    πρὸς    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-o(/ti    ὅτι    can't find pos tags
-o(/ti    ὅτι    can't find lemma
-dikai/ws    δικαίως    can't find pos tags
-dikai/ws    δικαίως    can't find lemma
-peri\    περὶ    can't find pos tags
-peri\    περὶ    can't find lemma
-fe/ronta    φέροντα    can't find pos tags
-fe/ronta    φέροντα    can't find lemma
-        can't find pos tags
-        can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-foitw=|e/n    φοιτῷέν    can't find pos tags
-foitw=|e/n    φοιτῷέν    can't find lemma
-        can't find pos tags
-        can't find lemma
-*promhqei=    Προμηθεῖ    can't find pos tags
-*promhqei=    Προμηθεῖ    can't find lemma
-        can't find pos tags
-        can't find lemma
-pisteu/w    πιστεύω    can't find pos tags
-pisteu/w    πιστεύω    can't find lemma
-e)/ndhla    ἔνδηλα    can't find pos tags
-e)/ndhla    ἔνδηλα    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-*)asi/as    Ἀσίας    can't find pos tags
-*)asi/as    Ἀσίας    can't find lemma
-u(po\    ὑπὸ    can't find pos tags
-u(po\    ὑπὸ    can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-        can't find pos tags
-        can't find lemma
-pepoi/hken    πεποίηκεν    can't find pos tags
-pepoi/hken    πεποίηκεν    can't find lemma
 a)ni/aton—ou)    ἀνίατον—οὐ    can't find pos tags
 a)ni/aton—ou)    ἀνίατον—οὐ    can't find lemma
 e)ch=n—a)lla\    ἐξῆν—ἀλλὰ    can't find pos tags
 e)ch=n—a)lla\    ἐξῆν—ἀλλὰ    can't find lemma
-tw=n    τῶν    can't find pos tags
-tw=n    τῶν    can't find lemma
-dikai/ws    δικαίως    can't find pos tags
-dikai/ws    δικαίως    can't find lemma
 *)aristei/dhs    Ἀριστείδης    can't find pos tags
 *)aristei/dhs    Ἀριστείδης    can't find lemma
-a)fiko/menos    ἀφικόμενος    can't find pos tags
-a)fiko/menos    ἀφικόμενος    can't find lemma
 *ai)ako/s—e(ka/teros    Αἰακός—ἑκάτερος    can't find pos tags
 *ai)ako/s—e(ka/teros    Αἰακός—ἑκάτερος    can't find lemma
 dika/zei—o(    δικάζει—ὁ    can't find pos tags
 dika/zei—o(    δικάζει—ὁ    can't find lemma
-xrusou=n    χρυσοῦν    can't find pos tags
-xrusou=n    χρυσοῦν    can't find lemma
 au)to\n—    αὐτὸν—    can't find pos tags
 au)to\n—    αὐτὸν—    can't find lemma
 Hom    ηομ    can't find pos tags
@@ -3581,20 +2728,8 @@ Hom    ηομ    can't find lemma
 11    11    can't find lemma
 569    569    can't find pos tags
 569    569    can't find lemma
-a)poqnh/|skw    ἀποθνῄσκω    can't find pos tags
-a)poqnh/|skw    ἀποθνῄσκω    can't find lemma
 sautw=|    σαυτῷ    can't find pos tags
 sautw=|    σαυτῷ    can't find lemma
-        can't find pos tags
-        can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-kai\    καὶ    can't find pos tags
-kai\    καὶ    can't find lemma
-th\n    τὴν    can't find pos tags
-th\n    τὴν    can't find lemma
-peri\    περὶ    can't find pos tags
-peri\    περὶ    can't find lemma
 megi/stwn—ei)s    μεγίστων—εἰς    can't find pos tags
 megi/stwn—ei)s    μεγίστων—εἰς    can't find lemma
 a)paideusi/as—w(/sper    ἀπαιδευσίας—ὥσπερ    can't find pos tags
