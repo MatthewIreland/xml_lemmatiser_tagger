@@ -21,15 +21,19 @@ ATTRIBUTE "lc" {
     TRANSQUERY "yes"
 }
 /****************** leave the above as Sketchengine generates it, then insert the next chunk ****************/
-ATTRIBUTE "tag" {
+ATTRIBUTE "posTags" {
     MULTIVALUE "1"
     MULTISEP ";"
 }
-ATTRIBUTE "lemma" {
+ATTRIBUTE "lemmata" {
     MULTIVALUE "1"
     MULTISEP ";"
 }
-ATTRIBUTE "notes" {
+ATTRIBUTE "verbalMorphologyTags" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}
+ATTRIBUTE "nominalMorphologyTags" {
     MULTIVALUE "1"
     MULTISEP ";"
 }
