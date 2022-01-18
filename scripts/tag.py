@@ -137,6 +137,20 @@ class PerseusAnalysis:
                 if self.__should_log_error(greek_word):
                     f.write(f"{greek_word}    {unicode_greek_word}    can't find lemma\n")
 
+
+        if len(lemmata) == 0:
+            lemmata = ["NO_LEMMA"]
+
+        if len(pos_tags) == 0:
+            pos_tags = ["NO_POS"]
+
+        if len(verbal_morph_tags) == 0:
+            verbal_morph_tags = ["NO_VERBAL_MORPHOLOGY"]
+
+        if len(nominal_morph_tags) == 0:
+            nominal_morph_tags = ["NO_NOMINAL_MORPHOLOGY"]
+
+
         self.__lemmata = list(set(lemmata))
         self.__pos_tags = list(set(pos_tags))
         self.__verbal_morphology = list(set(verbal_morph_tags))
