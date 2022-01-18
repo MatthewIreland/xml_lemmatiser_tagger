@@ -338,13 +338,13 @@ class Tagger:
             "titleStmt",
         ]
         self.__tagsToIgnore = [
-            "gap",
         ]
         self.__knownTags = [
             "add",             # appears before note
             "body",            # wraps main body content
             "del",             # appears before note
             "div1",            # wraps speeches
+            "gap",
             "head",
             "milestone",
             "note",
@@ -401,6 +401,10 @@ class Tagger:
 
         if element.tag == "div1":
             self.__positionInfo.setDiv1(element.attrib.get("type"), element.attrib.get("n"))
+
+        if element.tag == "gap":
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
 
         if element.tag == "head" or element.tag == "title":
             self.__addText(element.text, True, True)
