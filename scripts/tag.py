@@ -126,9 +126,14 @@ class PerseusAnalysis:
         matches = re.findall('<h4 class="greek">(.*)</h4>', data)
 
         num_lemmata = 0
-        for match in matches:
-            # remove any lemmata ending in a digit, e.g. ἔχω2, καί3
-            if not match[-1].isdigit():
+        if len(matches) > 1:
+            for match in matches:
+                # remove any lemmata ending in a digit, e.g. ἔχω2, καί3 (unless only one lemma)
+                if not match[-1].isdigit():
+                    lemmata.append(match)
+                    num_lemmata += 1
+        else:
+            for match in matches:
                 lemmata.append(match)
                 num_lemmata += 1
 
