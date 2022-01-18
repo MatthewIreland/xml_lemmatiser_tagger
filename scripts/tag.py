@@ -486,6 +486,7 @@ class Tagger:
     def __addText(self, unsplitText, forceSectionStart=False, forceSentenceStart=False, sectionMetadata=None):
         if self.__forceNewSectionStartOnNextTag:
             forceSectionStart = True
+        self.__forceNewSectionStartOnNextTag = False
 
         if (forceSectionStart or forceSentenceStart) and self.__currentSentence is not None:
             self.__finishCurrentSentence()
