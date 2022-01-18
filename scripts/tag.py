@@ -104,6 +104,11 @@ class PerseusAnalysis:
         num_pos_tags = 0
         for match in matches:
             for tag in match[1].split(" "):
+                # special case for "part" which implies pos tag is a verb
+                if tag == "part":
+                    pos_tags.append("verb")
+                    num_pos_tags += 1
+
                 if tag in self.__possible_pos_tags:
                     pos_tags.append(tag)
                     num_pos_tags += 1
