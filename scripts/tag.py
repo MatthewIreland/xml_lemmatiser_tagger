@@ -8,9 +8,14 @@ import time
 import xml.etree.ElementTree as ET
 
 
+AnalysisCache = {}
+
 class PerseusAnalysis:
     def __init__(self, greek_word):
         self.__greek_word_betacode = greek_word
+
+        if greek_word in AnalysisCache:
+            return
 
         self.__possible_pos_tags = [
             "adj",
@@ -176,6 +181,9 @@ class PerseusAnalysis:
 
 
     def get_tab_separated_vertical_format(self):
+        if self.__greek_word_betacode in AnalysisCache:
+            return AnalysisCache[self.__greek_word_betacode]
+
         greek_word = betacode.conv.beta_to_uni(self.__greek_word_betacode)
         lemmata = ";".join(self.get_lemmata())
         pos_tags = ";".join(self.get_pos_tags())
@@ -184,6 +192,7 @@ class PerseusAnalysis:
 
         tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
 
+        AnalysisCache[self.__greek_word_betacode] = tab_separated_string
         return tab_separated_string
 
     def __should_log_error(self, betacode_word):
