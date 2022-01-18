@@ -370,11 +370,11 @@ class Tagger:
     def tag(self):
         self.traverseXml(self.__tree.getroot())
 
-        """
-        for elem in self.__tree.iter():
-            print(f"{elem.tag}      {elem.text}    {elem.tail}")
-            self.processElement(elem)
-        """
+        if self.__currentSentence is not None:
+            self.__finishCurrentSentence()
+
+        if self.__currentSection is not None:
+            self.__finishCurrentSection()
 
     def traverseXml(self, element):
         traverseChildren = True
