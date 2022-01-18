@@ -114,20 +114,23 @@ class PerseusAnalysis:
 
         if num_pos_tags == 0:
             with open('errors.txt', 'a') as f:
-                f.write(f"{greek_word}    {unicode_greek_word}    can't find pos tags\n")
+                if self.__should_log_error(greek_word):
+                    f.write(f"{greek_word}    {unicode_greek_word}    can't find pos tags\n")
 
 
         matches = re.findall('<h4 class="greek">(.*)</h4>', data)
 
         num_lemmata = 0
         for match in matches:
-            if match != "ἔχω2":
+            # remove any lemmata ending in a digit, e.g. ἔχω2, καί3
+            if not match[-1].isdigit():
                 lemmata.append(match)
                 num_lemmata += 1
 
         if num_lemmata == 0:
             with open('errors.txt', 'a') as f:
-                f.write(f"{greek_word}    {unicode_greek_word}    can't find lemma\n")
+                if self.__should_log_error(greek_word):
+                    f.write(f"{greek_word}    {unicode_greek_word}    can't find lemma\n")
 
         self.__lemmata = list(set(lemmata))
         self.__pos_tags = list(set(pos_tags))
@@ -158,6 +161,10 @@ class PerseusAnalysis:
         tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
 
         return tab_separated_string
+
+    def __should_log_error(self, betacode_word):
+        # don't log words starting with a capital word to errors, or numerals
+        return not (betacode_word.startswith('*') or any(c.isdigit() for c in betacode_word))
 
 
 class VerticalObject:
