@@ -363,6 +363,7 @@ class Tagger:
         self.__header = VerticalHeader()
         self.__currentSection = None
         self.__currentSentence = None
+        self.__forceNewSectionStartOnNextTag = False
         self.__positionInfo = PositionInfo()
 
         self.__header.setFilename(xml_file_path)
@@ -414,6 +415,8 @@ class Tagger:
 
             if element.tail is not None and element.tail != "" and element.tail != "\n":
                 self.__addText(element.tail, True, True)
+            else:
+                self.__forceNewSectionStartOnNextTag = True
 
         if element.tag == "note":
             traverseChildren = False
@@ -455,6 +458,9 @@ class Tagger:
 
 
     def __addText(self, unsplitText, forceSectionStart=False, forceSentenceStart=False, sectionMetadata=None):
+        if self.__forceNewSectionStartOnNextTag:
+            forceSectionStart = True
+
         if (forceSectionStart or forceSentenceStart) and self.__currentSentence is not None:
             self.__finishCurrentSentence()
 
