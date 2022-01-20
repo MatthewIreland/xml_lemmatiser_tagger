@@ -20,7 +20,7 @@ ATTRIBUTE "lc" {
     LABEL "word (lowercase)"
     TRANSQUERY "yes"
 }
-/****************** leave the above as Sketchengine generates it, then insert the next chunk ****************/
+/****************** user-defined attributes ****************/
 ATTRIBUTE "tag" {
     MULTIVALUE "1"
     MULTISEP ";"
@@ -29,12 +29,28 @@ ATTRIBUTE "lemma" {
     MULTIVALUE "1"
     MULTISEP ";"
 }
-ATTRIBUTE "notes" {
+ATTRIBUTE "nommorph" {
     MULTIVALUE "1"
     MULTISEP ";"
 }
-/****************** leave the rest as Sketchengine generates it ****************/
+ATTRIBUTE "verbmorph" {
+    MULTIVALUE "1"
+    MULTISEP ";"
+}
+/****************** structures ****************/
 STRUCTURE "s" {
+    LABEL "sentence"
+}
+STRUCTURE "p" {
+    ATTRIBUTE speech
+    ATTRIBUTE section
+    ATTRIBUTE part
+    ATTRIBUTE "Book"
+}
+STRUCTURE "doc" {
+    ATTRIBUTE title
+    ATTRIBUTE author
+    LABEL "Document"
 }
 STRUCTURE "g" {
     DISPLAYBEGIN "_EMPTY_"
