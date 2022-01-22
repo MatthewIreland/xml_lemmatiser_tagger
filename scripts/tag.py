@@ -8,10 +8,13 @@ import time
 import xml.etree.ElementTree as ET
 
 
-AnalysisCache = {}
+AnalysisCache = {}  
+#stores the output from Perseus (i.e. POS tag, morphological tags, lemma) when we look up a word; thus, when we see the same word form again, we do not have to
+#go back to Perseus, which reduces the load on Perseus and speeds up the process (this is only at document level, word forms are not shared across documents)
 
 class PerseusAnalysis:
-    def __init__(self, greek_word):
+    def __init__(self, greek_word): 
+        #the init function creates variables that store the tags and the greek word forms (in order to use them further down)
         self.__greek_word_betacode = greek_word
 
         if greek_word in AnalysisCache:
@@ -76,18 +79,19 @@ class PerseusAnalysis:
             "voc",
         ]
 
-        self.__get_perseus_analysis(greek_word)
+        self.__get_perseus_analysis(greek_word) #this function looks up a Greek word form on Perseus and uses the variables defined above regarding POS tags, etc. 
+
 
 
     def __get_perseus_analysis(self, greek_word):
-        greek_word_encoded = urllib.parse.quote_plus(greek_word)
-        unicode_greek_word = betacode.conv.beta_to_uni(greek_word)
+        greek_word_encoded = urllib.parse.quote_plus(greek_word) #rewrites some of the betacode in order to be able to paste it into a webaddress
+        unicode_greek_word = betacode.conv.beta_to_uni(greek_word) #convert betacode into unicode 
 
         try:
-            file = urllib.request.urlopen(f"https://www.perseus.tufts.edu/hopper/morph?l={greek_word_encoded}&la=greek")
-            data = file.read().decode("utf=8")
+            file = urllib.request.urlopen(f"https://www.perseus.tufts.edu/hopper/morph?l={greek_word_encoded}&la=greek") #looks up word forms on the Perseus website
+            data = file.read().decode("utf=8") #stores the webpage showing the analysis of a word form on Perseus 
             file.close()
-        except Exception:
+        except Exception: #deal with the situation when the lookup fails
             try:
                 sys.stderr.write(f"Error looking up {greek_word_encoded}. Retrying...\n")
                 time.sleep(60)
@@ -99,38 +103,38 @@ class PerseusAnalysis:
                 raise e
 
 
-        matches = re.findall('<td class="greek">(.*)</td>.*\n.*<td>(.*)</td>', data)
+        matches = re.findall('<td class="greek">(.*)</td>.*\n.*<td>(.*)</td>', data) #extracts the lemmata and tags from the webpage
 
         lemmata = []
         pos_tags = []
         verbal_morph_tags = []
         nominal_morph_tags = []
 
-        num_pos_tags = 0
+        num_pos_tags = 0 
         for match in matches:
-            for tag in match[1].split(" "):
-                # special case for "part" which implies pos tag is a verb
+            for tag in match[1].split(" "): #split up tags by means of the space character 
+                # special case for "part" which implies pos tag is a verb (part stands for participle and participles are not given a POS tag on Perseus)
                 if tag == "part":
                     pos_tags.append("verb")
                     num_pos_tags += 1
 
-                if tag in self.__possible_pos_tags:
+                if tag in self.__possible_pos_tags: #we check against the list of POS tags set out above
                     pos_tags.append(tag)
                     num_pos_tags += 1
-                if tag in self.__possible_verbal_morph_tags:
+                if tag in self.__possible_verbal_morph_tags: #we check against the list of verbal morphology tags set out above
                     verbal_morph_tags.append(tag)
-                if tag in self.__possible_nominal_morph_tags:
+                if tag in self.__possible_nominal_morph_tags: #we check against the list of nominal morphology tags set out above
                     nominal_morph_tags.append(tag)
 
         if num_pos_tags == 0:
             with open('errors.txt', 'a') as f:
-                if self.__should_log_error(greek_word):
-                    f.write(f"{greek_word}    {unicode_greek_word}    can't find pos tags\n")
+                if self.__should_log_error(greek_word): #does not log capital letters and numbers as errors in the error.txt file
+                    f.write(f"{greek_word}    {unicode_greek_word}    can't find pos tags\n") #creates the error.txt file 
 
 
         matches = re.findall('<h4 class="greek">(.*)</h4>', data)
 
-        num_lemmata = 0
+        num_lemmata = 0 #do the same as above for the morphological tags for the lemmata
         if len(matches) > 1:
             for match in matches:
                 # remove any lemmata ending in a digit, e.g. ἔχω2, καί3 (unless only one lemma)
@@ -147,7 +151,8 @@ class PerseusAnalysis:
                 if self.__should_log_error(greek_word):
                     f.write(f"{greek_word}    {unicode_greek_word}    can't find lemma\n")
 
-
+        #creates labels for the tags of the word forms that cannot be parsed by Perseus
+        #this is also relevant to nouns not having verbal morphology tags and verbs not having nominal morphology tags
         if len(lemmata) == 0:
             lemmata = ["NO_LEMMA"]
 
@@ -160,7 +165,8 @@ class PerseusAnalysis:
         if len(nominal_morph_tags) == 0:
             nominal_morph_tags = ["NO_NOMINAL_MORPHOLOGY"]
 
-
+        #we create new variables that store the de-duplicated tags (as Perseus may offer several parsings for the same word form 
+        #which all display e.g. the same POS tag)
         self.__lemmata = list(set(lemmata))
         self.__pos_tags = list(set(pos_tags))
         self.__verbal_morphology = list(set(verbal_morph_tags))
@@ -180,19 +186,19 @@ class PerseusAnalysis:
         return self.__nominal_morphology
 
 
-    def get_tab_separated_vertical_format(self):
+    def get_tab_separated_vertical_format(self): #creates a row in the vertical table
         if self.__greek_word_betacode in AnalysisCache:
             return AnalysisCache[self.__greek_word_betacode]
 
         greek_word = betacode.conv.beta_to_uni(self.__greek_word_betacode)
-        lemmata = ";".join(self.get_lemmata())
-        pos_tags = ";".join(self.get_pos_tags())
-        verbal_morph_tags = ";".join(self.get_nominal_morphology())
-        nominal_morph_tags = ";".join(self.get_verbal_morphology())
+        lemmata = ";".join(self.get_lemmata()) #separate all the lemmata found for a word form by means of semicolon
+        pos_tags = ";".join(self.get_pos_tags()) #separate all the POS tags found for a word form by means of semicolon
+        verbal_morph_tags = ";".join(self.get_nominal_morphology()) #separate all the verbal morphology tags found for a word form by means of semicolon
+        nominal_morph_tags = ";".join(self.get_verbal_morphology()) #separate all the nominal morphology tags found for a word form by means of semicolon
 
-        tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
+        tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags]) #create one row for each word form found
 
-        AnalysisCache[self.__greek_word_betacode] = tab_separated_string
+        AnalysisCache[self.__greek_word_betacode] = tab_separated_string #we add each row created for a word form to the cache of analyses
         return tab_separated_string
 
     def __should_log_error(self, betacode_word):
@@ -200,11 +206,11 @@ class PerseusAnalysis:
         return not (betacode_word.startswith('*') or any(c.isdigit() for c in betacode_word))
 
 
-class VerticalObject:
+class VerticalObject: #a vertical object is a sentence, section, paragraph or header
     def doAnalysis(self):
         pass
 
-
+#dealing with the metadata (author, title)
 class VerticalHeader(VerticalObject):
     def __init__(self):
         self.__title = None
@@ -226,7 +232,7 @@ class VerticalHeader(VerticalObject):
         print(f"<doc title=\"{self.__title}\" author=\"{self.__author}\">")
 
 
-class VerticalSection(VerticalObject):
+class VerticalSection(VerticalObject):#sections contain sentences, position info (e.g. section number, paragraph number, chapter number, book number)
     def __init__(self, positionInfo):
         self.__positionInfo = PositionInfo()
         self.__positionInfo.copy(positionInfo)
@@ -237,13 +243,13 @@ class VerticalSection(VerticalObject):
 
     def doAnalysis(self):
         positionInfo = self.__positionInfo.render()
-        print(f"<p {positionInfo}>")
+        print(f"<p {positionInfo}>") #the tag starts the section and specifies all the higher-level position info 
         for sentence in self.__sentences:
             sentence.doAnalysis()
-        print("</p>")
+        print("</p>") #the tag closes a section 
 
 
-class VerticalSentence(VerticalObject):
+class VerticalSentence(VerticalObject): #dealing with sentences 
     def __init__(self):
         self.__words = []
 
@@ -254,10 +260,10 @@ class VerticalSentence(VerticalObject):
         print("<s>")
         for word in self.__words:
             analysis = PerseusAnalysis(word)
-            print(analysis.get_tab_separated_vertical_format())
+            print(analysis.get_tab_separated_vertical_format()) #output the row of analyses we created for each word form into the vertical table 
         print("</s>")
 
-class PositionInfo:
+class PositionInfo: #defines the positional info 
     def __init__(self):
         self.book = None          # div1 type="Book"
         self.speech = None        # div1 type="speech"
@@ -303,7 +309,7 @@ class PositionInfo:
 
         raise Exception("unknown milestone unit: " + unit)
 
-    def copy(self, other):
+    def copy(self, other): #whenever we start a new paragraph or section, we copy all the higher level positional information
         self.book = other.book
         self.speech = other.speech
 
@@ -312,7 +318,7 @@ class PositionInfo:
         self.part = other.part
         self.chapter = other.chapter
 
-    def render(self):
+    def render(self): #defines what has to be put in the vertical table so that Sketchengine can work out where we are in the document 
         metadata = ""
 
         if self.book is not None:
@@ -346,7 +352,7 @@ class PositionInfo:
         return metadata
 
 
-    def __reset(self):
+    def __reset(self): #when we start a new speech or book, we do not copy over the lower level positional information from the previous section 
         self.book = None
         self.speech = None
 
@@ -355,7 +361,7 @@ class PositionInfo:
         self.part = None
         self.chapter = None
 
-
+#goes through the xml files of the corpus with the code written above
 class Tagger:
     def __init__(self, xml_file_path):
         self.__headerTagsToIgnore = [
@@ -377,7 +383,7 @@ class Tagger:
             "title",
             "titleStmt",
         ]
-        self.__tagsToIgnore = [
+        self.__tagsToIgnore = [ #tags in the text body to ignore (currently none)
         ]
         self.__knownTags = [
             "add",             # appears before note
@@ -398,7 +404,7 @@ class Tagger:
         ]
 
         self.__xml_file_path = xml_file_path
-        self.__tree = ET.parse(xml_file_path)
+        self.__tree = ET.parse(xml_file_path) #reads the xml file and turns it into something Python can understand 
         self.__verticalObjects = []
         self.__header = VerticalHeader()
         self.__currentSection = None
@@ -408,7 +414,7 @@ class Tagger:
 
         self.__header.setFilename(xml_file_path)
 
-    def tag(self):
+    def tag(self): #goes through the xml file and outputs a row containing the lemma and tags for each word form found 
         self.traverseXml(self.__tree.getroot())
 
         if self.__currentSentence is not None:
@@ -418,14 +424,14 @@ class Tagger:
             self.__finishCurrentSection()
 
     def traverseXml(self, element):
-        traverseChildren = True
+        traverseChildren = True #this helps us not to consider the content of in-text notes (in English, German, etc. e.g. on textual criticism)
 
         if element.tag in self.__tagsToIgnore:
             return
 
         if element.tag not in self.__knownTags:
-            raise Exception("unknown tag: " + element.tag)
-
+            raise Exception("unknown tag: " + element.tag) #this stops the process if we encounter an unknown tag
+        #these are all the different tags that we find in the xml file 
         if element.tag == "teiHeader":
             for elem in element.getchildren():
                 self.traverseHeaderXml(elem)
@@ -448,7 +454,7 @@ class Tagger:
                 self.__addText(element.tail)
 
         if element.tag == "head" or element.tag == "title":
-            self.__addText(element.text, True, True)
+            self.__addText(element.text, True, True) #True, True forces the tagger to start a new sentence and section when we encounter a head or title tag
 
         if element.tag == "milestone":
             self.__positionInfo.setMilestone(element.attrib.get("unit"), element.attrib.get("n"))
@@ -464,13 +470,13 @@ class Tagger:
             if element.tail is not None and element.tail != "" and element.tail != "\n":
                 self.__addText(element.tail)
 
-        if element.tag == "q":
+        if element.tag == "q": #is this a footnote?????
             self.__addText(element.text)
 
             if element.tail is not None and element.tail != "" and element.tail != "\n":
                 self.__addText(element.tail)
 
-        if traverseChildren:
+        if traverseChildren: 
             for elem in element.getchildren():
                 self.traverseXml(elem)
 
@@ -490,11 +496,11 @@ class Tagger:
         for elem in element.getchildren():
             self.traverseHeaderXml(elem)
 
-    def doAnalysis(self):
+    def doAnalysis(self): #creates the vertical file and outputs everything into the vertical file 
         self.__header.doAnalysis()
         for obj in self.__verticalObjects:
             obj.doAnalysis()
-        print("</doc>")
+        print("</doc>") #ends the document 
 
 
     def __addText(self, unsplitText, forceSectionStart=False, forceSentenceStart=False, sectionMetadata=None):
@@ -518,7 +524,7 @@ class Tagger:
             return
 
         # TODO could add glue where the apostrophe is in the middle of the word
-        unsplitText = unsplitText.replace("'", " ")
+        unsplitText = unsplitText.replace("'", " ")#removes all the apostrophes from the text 
 
         for word in self.__splitWords(unsplitText):
             endOfSentence = False
@@ -526,21 +532,22 @@ class Tagger:
             if self.__currentSentence is None:
                 self.__startNewSentence()
 
-            # strip punctuation
+            # strip word forms of punctuation (for the Perseus lookup & we do not output punctuation into the vertical file but use the defined sentences boundary
+            # markers, etc. because Sketchengine can understand these 
             if "." in word:
                 word = word.replace(".", "")
                 endOfSentence = True
-            translation_table = dict.fromkeys(map(ord, '（）† （）()†“”‘’&·—ʹ.,:;_#-"“ʼ‘“”'), None)
+            translation_table = dict.fromkeys(map(ord, '（）† （）()†“”‘’&·—ʹ.,:;_#-"“ʼ‘“”'), None) #get rid of punctuation
             word = word.translate(translation_table)
 
             if len(word) > 0:
                 self.__currentSentence.pushWord(word)
 
             if endOfSentence:
-                self.__finishCurrentSentence()
+                self.__finishCurrentSentence() #if the word had a full stop, finish the current sentence 
 
 
-    def __splitWords(self, text):
+    def __splitWords(self, text): #split words by means of space characters 
         return text.split()
 
     def __startNewSection(self):
@@ -559,7 +566,7 @@ class Tagger:
 
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": #this is running all the code above when you start the program (this program has to be run on each document in the corpus separately, cat)
     xml_file_path = sys.argv[1]
 
     tagger = Tagger(xml_file_path)
