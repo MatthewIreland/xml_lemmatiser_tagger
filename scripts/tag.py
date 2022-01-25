@@ -378,14 +378,17 @@ class Tagger:
             "titleStmt",
         ]
         self.__tagsToIgnore = [
+            "bibl",
         ]
         self.__knownTags = [
             "add",             # appears before note
             "body",            # wraps main body content
+            "cit",
             "del",             # appears before note
             "div1",            # wraps speeches
             "gap",
             "head",
+            "l",
             "milestone",
             "note",
             "p",
@@ -450,13 +453,24 @@ class Tagger:
         if element.tag == "head" or element.tag == "title":
             self.__addText(element.text, True, True)
 
+        if element.tag == "l":
+            self.__addText(element.text)
+
+        if element.tag == "cit":
+            for elem in element.getchildren():
+                self.traverseXml(elem)
+
+            self.__addText(element.tail)
+
         if element.tag == "milestone":
             self.__positionInfo.setMilestone(element.attrib.get("unit"), element.attrib.get("n"))
 
+            unitIsLine = element.attrib.get("unit") == "Line" or element.attrib.get("unit") == "line"
+
             if element.tail is not None and element.tail != "" and element.tail != "\n":
-                self.__addText(element.tail, True, True)
+                self.__addText(element.tail, not unitIsLine, not unitIsLine)
             else:
-                self.__forceNewSectionStartOnNextTag = True
+                self.__forceNewSectionStartOnNextTag = not unitIsLine
 
         if element.tag == "note":
             traverseChildren = False
