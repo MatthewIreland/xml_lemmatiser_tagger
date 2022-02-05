@@ -223,7 +223,10 @@ class VerticalHeader(VerticalObject):
         self.__filename = tail
 
     def doAnalysis(self):
-        print(f"<doc title=\"{self.__title}\" author=\"{self.__author}\">")
+        title = self.__title
+        if title is None or title == "":
+            title = self.__filename
+        print(f"<doc title=\"{title}\" author=\"{self.__author}\">")
 
 
 class VerticalSection(VerticalObject):
