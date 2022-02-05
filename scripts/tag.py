@@ -283,6 +283,7 @@ class PositionInfo:
     def setMilestone(self, unit, n):
         if unit == "section":
             self.section = n
+            self.line = None
             return
 
         if unit == "line" or unit == "Line":
@@ -291,10 +292,12 @@ class PositionInfo:
 
         if unit == "part":
             self.part = n
+            self.line = None
             return
 
         if unit == "chapter":
             self.chapter = n
+            self.line = None
             return
 
         if unit == "para":
