@@ -256,9 +256,21 @@ class VerticalSentence(VerticalObject):
     def doAnalysis(self):
         print("<s>")
         for word in self.__words:
-            analysis = PerseusAnalysis(word)
-            print(analysis.get_tab_separated_vertical_format())
-        print("</s>")
+            try:
+                analysis = PerseusAnalysis(word)
+                print(analysis.get_tab_separated_vertical_format(), flush=True)
+            except:
+                greek_word = betacode.conv.beta_to_uni(word)
+                lemmata = "ERROR"
+                pos_tags = "ERROR"
+                verbal_morph_tags = "ERROR"
+                nominal_morph_tags = "ERROR"
+
+                tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
+                print(tab_separated_string, flush=True)
+
+                with open('errors.txt', 'a') as f:
+                    f.write(f"{greek_word}    unknown error\n")
 
 class PositionInfo:
     def __init__(self):
