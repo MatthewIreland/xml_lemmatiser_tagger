@@ -442,6 +442,9 @@ class Tagger:
         if element.tag == "add":
             self.__addText(element.text)
 
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
+
         if element.tag == "del":
             self.__addText(element.text)
 
