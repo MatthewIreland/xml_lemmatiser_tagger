@@ -563,8 +563,9 @@ class Tagger:
                 self.__startNewSentence()
 
             # strip punctuation
-            if "." in word:
+            if "." in word or ";" in word:    # betacode uses ; for a question mark
                 word = word.replace(".", "")
+                word = word.replace(";", "")
                 endOfSentence = True
             translation_table = dict.fromkeys(map(ord, '（）† （）()†“”‘’&·—ʹ.,:;_#-"“ʼ‘“”'), None)
             word = word.translate(translation_table)
