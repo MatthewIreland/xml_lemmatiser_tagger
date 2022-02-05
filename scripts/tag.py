@@ -268,7 +268,7 @@ class PositionInfo:
         self.chapter = None       # milestone unit="chapter"
 
     def setDiv1(self, type, n):
-        if type == "Book":
+        if type == "Book" or type == "book":
             self.__reset()
             self.book = n
             return
@@ -363,6 +363,7 @@ class Tagger:
             "encodingDesc",
             "extent",
             "funder",
+            "notesStmt",
             "sponsor",
             "principal",
             "profileDesc",
@@ -379,6 +380,7 @@ class Tagger:
         ]
         self.__tagsToIgnore = [
             "bibl",
+            "castList",
         ]
         self.__knownTags = [
             "add",             # appears before note
@@ -457,10 +459,24 @@ class Tagger:
             self.__addText(element.text)
 
         if element.tag == "cit":
+            tail = element.tail
+
             for elem in element.getchildren():
                 self.traverseXml(elem)
 
-            self.__addText(element.tail)
+            if tail is not None and tail != "" and tail != "\n":
+                self.__addText(tail)
+            traverseChildren = False   # already done before adding tail
+
+        if element.tag == "quote":
+            tail = element.tail
+
+            for elem in element.getchildren():
+                self.traverseXml(elem)
+
+            if tail is not None and tail != "" and tail != "\n":
+                self.__addText(tail)
+            traverseChildren = False   # already done before adding tail
 
         if element.tag == "milestone":
             self.__positionInfo.setMilestone(element.attrib.get("unit"), element.attrib.get("n"))
