@@ -553,9 +553,7 @@ class Tagger:
         if unsplitText is None:
             return
 
-        # TODO could add glue where the apostrophe is in the middle of the word
-        unsplitText = unsplitText.replace("'", " ")
-
+        # See betacode spec here: https://en.wikipedia.org/wiki/Beta_Code
         for word in self.__splitWords(unsplitText):
             endOfSentence = False
 
@@ -567,7 +565,7 @@ class Tagger:
                 word = word.replace(".", "")
                 word = word.replace(";", "")
                 endOfSentence = True
-            translation_table = dict.fromkeys(map(ord, '（）† （）()†“”‘’&·—ʹ.,:;_#-"“ʼ‘“”'), None)
+            translation_table = dict.fromkeys(map(ord, '（）† （）†“”‘’&·—ʹ.,:_#-"“ʼ‘“”'), None)
             word = word.translate(translation_table)
 
             if len(word) > 0:
