@@ -271,6 +271,7 @@ class VerticalSentence(VerticalObject):
 
                 with open('errors.txt', 'a') as f:
                     f.write(f"{greek_word}    unknown error\n")
+        print("</s>")
 
 class PositionInfo:
     def __init__(self):
