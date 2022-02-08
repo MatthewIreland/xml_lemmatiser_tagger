@@ -294,6 +294,7 @@ class PositionInfo:
         self.part = None          # milestone unit="part"
         self.chapter = None       # milestone unit="chapter"
         self.page = None          # milestone unit="page"
+        self.tetralogy = None     # milestone unit="tetralogy"
 
     def setDiv1(self, type, n):
         if type == "Book" or type == "book":
@@ -316,6 +317,11 @@ class PositionInfo:
 
         if unit == "line" or unit == "Line":
             self.line = n
+            return
+
+        if unit == "tetralogy":
+            self.tetralogy = n
+            self.line = None
             return
 
         if unit == "part":
@@ -360,6 +366,11 @@ class PositionInfo:
                 metadata += " "
             metadata += f"speech=\"{self.speech}\""
 
+        if self.tetralogy is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"tetralogy=\"{self.speech}\""
+
         if self.section is not None:
             if metadata != "":
                 metadata += " "
@@ -396,6 +407,7 @@ class PositionInfo:
         self.line = None
         self.part = None
         self.chapter = None
+        self.tetralogy = None
 
 
 class Tagger:
@@ -403,6 +415,7 @@ class Tagger:
         self.__headerTagsToIgnore = [
             "biblStruct",     # repeats title and author
             "encodingDesc",
+            "editor",
             "extent",
             "funder",
             "notesStmt",
@@ -547,11 +560,14 @@ class Tagger:
                 self.__forceNewSectionStartOnNextTag = not unitIsLine
 
         # this is not div1 :)
-        # a div is Antiphon's version of a milestone
+        # a div is Antiphon's version of a milestone, but it wraps a section! Note that there may be other
+        # elements (e.g. note) within the section
         if element.tag == "div":
             self.__positionInfo.setMilestone(element.attrib.get("type"), element.attrib.get("n"))
 
             unitIsLine = element.attrib.get("unit") == "Line" or element.attrib.get("unit") == "line"
+
+            self.__addText(element.text, not unitIsLine, not unitIsLine)
 
             if element.tail is not None and element.tail != "" and element.tail != "\n":
                 self.__addText(element.tail, not unitIsLine, not unitIsLine)
