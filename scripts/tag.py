@@ -638,10 +638,30 @@ class Tagger:
         self.__currentSentence = None
 
 
+def __initialise_cache_entry(word_betacode, lemmata_list, pos_list, verbal_morph_list, nominal_morph_list):
+    greek_word = betacode.conv.beta_to_uni(word_betacode)
+    lemmata = ";".join(lemmata_list)
+    pos_tags = ";".join(pos_list)
+    verbal_morph_tags = ";".join(verbal_morph_list)
+    nominal_morph_tags = ";".join(nominal_morph_list)
+
+    tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, nominal_morph_tags, verbal_morph_tags])
+
+    AnalysisCache[word_betacode] = tab_separated_string
+
+def initialise_analysis_cache():
+    """
+    Some words are not listed in Perseus -- some of these are manually annotated to minimise repeated errors
+    """
+    __initialise_cache_entry("a)poktinnu/nai", ["ἀποκτείνω"], ["verb"], ["pres", "inf", "act"], [])
+    __initialise_cache_entry("sautou=", ["σεαυτοῦ"], ["pron"], [], ["gen", "masc", "neut", "sg"])
+
+
 
 if __name__ == "__main__":
     xml_file_path = sys.argv[1]
 
+    initialise_analysis_cache()
     tagger = Tagger(xml_file_path)
     tagger.tag()
     tagger.doAnalysis()
