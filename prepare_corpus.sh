@@ -11,7 +11,8 @@ find ./run/in -name '*.xml' -exec sed -i "s/<\/p>//g" {} +
 find ./run/in -name '*.xml' -exec sed -i "s/<p>//g" {} +
 find ./run/in -name '*.xml' -exec sed -i "s/<\/sp>//g" {} +
 find ./run/in -name '*.xml' -exec sed -i "s/<sp>//g" {} +
-find ./run/in -name '*.xml' -exec sed -i "s/&lt;//g" {} +
-find ./run/in -name '*.xml' -exec sed -i "s/&gt;//g" {} +
-find ./run/in -name '*.xml' -exec sed -i "s/—//g" {} +
-
+find ./run/in -name '*.xml' -exec sed -i "s/&lt;/ /g" {} +
+find ./run/in -name '*.xml' -exec sed -i "s/&gt;/ /g" {} +
+find ./run/in -name '*.xml' -exec sed -i "s/—/ /g" {} +
+find ./run/in -name '*.xml' -exec sed -i "s/（/ /g" {} +
+find ./run/in -name '*.xml' -exec sed -i "s/）/ /g" {} +
