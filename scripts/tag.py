@@ -229,7 +229,10 @@ class VerticalHeader(VerticalObject):
         self.__filename = tail
 
     def doAnalysis(self):
-        print(f"<doc title=\"{self.__title}\" author=\"{self.__author}\">")
+        title = self.__title
+        if title is None or title == "":
+            title = self.__filename
+        print(f"<doc title=\"{title}\" author=\"{self.__author}\">")
 
 
 class VerticalSection(VerticalObject):#sections contain sentences, position info (e.g. section number, paragraph number, chapter number, book number)
@@ -259,9 +262,21 @@ class VerticalSentence(VerticalObject): #dealing with sentences
     def doAnalysis(self):
         print("<s>")
         for word in self.__words:
-            analysis = PerseusAnalysis(word)
-            print(analysis.get_tab_separated_vertical_format()) #output the row of analyses we created for each word form into the vertical table 
-        print("</s>")
+            try:
+                analysis = PerseusAnalysis(word)
+                print(analysis.get_tab_separated_vertical_format(), flush=True)   #output the row of analyses we created for each word form into the vertical table 
+            except:
+                greek_word = betacode.conv.beta_to_uni(word)
+                lemmata = "ERROR"
+                pos_tags = "ERROR"
+                verbal_morph_tags = "ERROR"
+                nominal_morph_tags = "ERROR"
+
+                tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
+                print(tab_separated_string, flush=True)
+
+                with open('errors.txt', 'a') as f:
+                    f.write(f"{greek_word}    unknown error\n")
 
 class PositionInfo: #defines the positional info 
     def __init__(self):
@@ -274,7 +289,7 @@ class PositionInfo: #defines the positional info
         self.chapter = None       # milestone unit="chapter"
 
     def setDiv1(self, type, n):
-        if type == "Book":
+        if type == "Book" or type == "book":
             self.__reset()
             self.book = n
             return
@@ -289,6 +304,7 @@ class PositionInfo: #defines the positional info
     def setMilestone(self, unit, n):
         if unit == "section":
             self.section = n
+            self.line = None
             return
 
         if unit == "line" or unit == "Line":
@@ -297,10 +313,12 @@ class PositionInfo: #defines the positional info
 
         if unit == "part":
             self.part = n
+            self.line = None
             return
 
         if unit == "chapter":
             self.chapter = n
+            self.line = None
             return
 
         if unit == "para":
@@ -369,6 +387,7 @@ class Tagger:
             "encodingDesc",
             "extent",
             "funder",
+            "notesStmt",
             "sponsor",
             "principal",
             "profileDesc",
@@ -384,14 +403,18 @@ class Tagger:
             "titleStmt",
         ]
         self.__tagsToIgnore = [ #tags in the text body to ignore (currently none)
+            "bibl",
+            "castList",
         ]
         self.__knownTags = [
             "add",             # appears before note
             "body",            # wraps main body content
+            "cit",
             "del",             # appears before note
             "div1",            # wraps speeches
             "gap",
             "head",
+            "l",
             "milestone",
             "note",
             "p",
@@ -440,6 +463,9 @@ class Tagger:
         if element.tag == "add":
             self.__addText(element.text)
 
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
+
         if element.tag == "del":
             self.__addText(element.text)
 
@@ -456,13 +482,38 @@ class Tagger:
         if element.tag == "head" or element.tag == "title":
             self.__addText(element.text, True, True) #True, True forces the tagger to start a new sentence and section when we encounter a head or title tag
 
+        if element.tag == "l":
+            self.__addText(element.text)
+
+        if element.tag == "cit":
+            tail = element.tail
+
+            for elem in element.getchildren():
+                self.traverseXml(elem)
+
+            if tail is not None and tail != "" and tail != "\n":
+                self.__addText(tail)
+            traverseChildren = False   # already done before adding tail
+
+        if element.tag == "quote":
+            tail = element.tail
+
+            for elem in element.getchildren():
+                self.traverseXml(elem)
+
+            if tail is not None and tail != "" and tail != "\n":
+                self.__addText(tail)
+            traverseChildren = False   # already done before adding tail
+
         if element.tag == "milestone":
             self.__positionInfo.setMilestone(element.attrib.get("unit"), element.attrib.get("n"))
 
+            unitIsLine = element.attrib.get("unit") == "Line" or element.attrib.get("unit") == "line"
+
             if element.tail is not None and element.tail != "" and element.tail != "\n":
-                self.__addText(element.tail, True, True)
+                self.__addText(element.tail, not unitIsLine, not unitIsLine)
             else:
-                self.__forceNewSectionStartOnNextTag = True
+                self.__forceNewSectionStartOnNextTag = not unitIsLine
 
         if element.tag == "note":
             traverseChildren = False
@@ -523,9 +574,7 @@ class Tagger:
         if unsplitText is None:
             return
 
-        # TODO could add glue where the apostrophe is in the middle of the word
-        unsplitText = unsplitText.replace("'", " ")#removes all the apostrophes from the text 
-
+        # See betacode spec here: https://en.wikipedia.org/wiki/Beta_Code
         for word in self.__splitWords(unsplitText):
             endOfSentence = False
 
@@ -534,10 +583,11 @@ class Tagger:
 
             # strip word forms of punctuation (for the Perseus lookup & we do not output punctuation into the vertical file but use the defined sentences boundary
             # markers, etc. because Sketchengine can understand these 
-            if "." in word:
+            if "." in word or ";" in word:    # betacode uses ; for a question mark
                 word = word.replace(".", "")
+                word = word.replace(";", "")
                 endOfSentence = True
-            translation_table = dict.fromkeys(map(ord, '（）† （）()†“”‘’&·—ʹ.,:;_#-"“ʼ‘“”'), None) #get rid of punctuation
+            translation_table = dict.fromkeys(map(ord, '（）† （）†“”‘’&·—ʹ.,:_#-"“ʼ‘“”'), None)
             word = word.translate(translation_table)
 
             if len(word) > 0:
