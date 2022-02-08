@@ -523,6 +523,18 @@ class Tagger:
             else:
                 self.__forceNewSectionStartOnNextTag = not unitIsLine
 
+        # this is not div1 :)
+        # a div is Antiphon's version of a milestone
+        if element.tag == "div":
+            self.__positionInfo.setMilestone(element.attrib.get("type"), element.attrib.get("n"))
+
+            unitIsLine = element.attrib.get("unit") == "Line" or element.attrib.get("unit") == "line"
+
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail, not unitIsLine, not unitIsLine)
+            else:
+                self.__forceNewSectionStartOnNextTag = not unitIsLine
+
         if element.tag == "note":
             traverseChildren = False
 
