@@ -282,6 +282,7 @@ class PositionInfo:
         self.line = None          # milestone unit="line" or unit="Line"
         self.part = None          # milestone unit="part"
         self.chapter = None       # milestone unit="chapter"
+        self.page = None          # milestone unit="page"
 
     def setDiv1(self, type, n):
         if type == "Book" or type == "book":
@@ -311,6 +312,11 @@ class PositionInfo:
             self.line = None
             return
 
+        if unit == "page":
+            self.page = n
+            self.line = None
+            return
+
         if unit == "chapter":
             self.chapter = n
             self.line = None
@@ -330,6 +336,7 @@ class PositionInfo:
         self.line = other.line
         self.part = other.part
         self.chapter = other.chapter
+        self.page = other.page
 
     def render(self):
         metadata = ""
@@ -356,6 +363,11 @@ class PositionInfo:
             if metadata != "":
                 metadata += " "
             metadata += f"part=\"{self.part}\""
+
+        if self.page is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"page=\"{self.page}\""
 
         if self.chapter is not None:
             if metadata != "":
