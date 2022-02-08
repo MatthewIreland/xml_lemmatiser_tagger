@@ -187,10 +187,10 @@ class PerseusAnalysis:
         greek_word = betacode.conv.beta_to_uni(self.__greek_word_betacode)
         lemmata = ";".join(self.get_lemmata())
         pos_tags = ";".join(self.get_pos_tags())
-        verbal_morph_tags = ";".join(self.get_nominal_morphology())
-        nominal_morph_tags = ";".join(self.get_verbal_morphology())
+        verbal_morph_tags = ";".join(self.get_verbal_morphology())
+        nominal_morph_tags = ";".join(self.get_nominal_morphology())
 
-        tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
+        tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, nominal_morph_tags, verbal_morph_tags])
 
         AnalysisCache[self.__greek_word_betacode] = tab_separated_string
         return tab_separated_string
