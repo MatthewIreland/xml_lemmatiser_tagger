@@ -418,14 +418,18 @@ class Tagger:
             "body",            # wraps main body content
             "cit",
             "del",             # appears before note
+            "div",
             "div1",            # wraps speeches
             "gap",
             "head",
             "l",
+            "lb",              # linebreak
+            "lg",
             "milestone",
             "note",
             "speaker",
             "p",
+            "pb",              # pagebreak
             "q",
             "quote",
             "TEI.2",           # wraps doc
@@ -468,6 +472,11 @@ class Tagger:
                 self.traverseHeaderXml(elem)
             return
 
+        # ignore linebreaks and pagebreaks
+        if element.tag == "lb" or element.tag == "pb":
+            self.__addText(element.tail)
+            return
+
         if element.tag == "add":
             self.__addText(element.text)
 
@@ -493,7 +502,7 @@ class Tagger:
         if element.tag == "l":
             self.__addText(element.text)
 
-        if element.tag == "cit":
+        if element.tag == "cit" or element.tag == "lg":
             tail = element.tail
 
             for elem in element.getchildren():
