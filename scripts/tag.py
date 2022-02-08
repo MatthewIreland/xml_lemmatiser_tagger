@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 
 
 AnalysisCache = {}
+UnicodeMode = False
 
 class PerseusAnalysis:
     def __init__(self, greek_word):
@@ -81,7 +82,11 @@ class PerseusAnalysis:
 
     def __get_perseus_analysis(self, greek_word):
         greek_word_encoded = urllib.parse.quote_plus(greek_word)
-        unicode_greek_word = betacode.conv.beta_to_uni(greek_word)
+
+        if not UnicodeMode:
+            unicode_greek_word = betacode.conv.beta_to_uni(greek_word)
+        else:
+            unicode_greek_word = greek_word
 
         try:
             file = urllib.request.urlopen(f"https://www.perseus.tufts.edu/hopper/morph?l={greek_word_encoded}&la=greek")
@@ -184,7 +189,10 @@ class PerseusAnalysis:
         if self.__greek_word_betacode in AnalysisCache:
             return AnalysisCache[self.__greek_word_betacode]
 
-        greek_word = betacode.conv.beta_to_uni(self.__greek_word_betacode)
+        if not UnicodeMode:
+            greek_word = betacode.conv.beta_to_uni(self.__greek_word_betacode)
+        else:
+            greek_word = self.__greek_word_betacode
         lemmata = ";".join(self.get_lemmata())
         pos_tags = ";".join(self.get_pos_tags())
         verbal_morph_tags = ";".join(self.get_verbal_morphology())
@@ -260,7 +268,10 @@ class VerticalSentence(VerticalObject):
                 analysis = PerseusAnalysis(word)
                 print(analysis.get_tab_separated_vertical_format(), flush=True)
             except:
-                greek_word = betacode.conv.beta_to_uni(word)
+                if not UnicodeMode:
+                    greek_word = betacode.conv.beta_to_uni(word)
+                else:
+                    greek_word = word
                 lemmata = "ERROR"
                 pos_tags = "ERROR"
                 verbal_morph_tags = "ERROR"
@@ -432,6 +443,7 @@ class Tagger:
             "pb",              # pagebreak
             "q",
             "quote",
+            "TEI",             # wraps doc in unicode docs
             "TEI.2",           # wraps doc
             "teiHeader",       # wraps header
             "text",            # wraps body
@@ -467,6 +479,9 @@ class Tagger:
         if element.tag not in self.__knownTags:
             raise Exception("unknown tag: " + element.tag)
 
+        if element.tag == "TEI":
+            UnicodeMode = True
+
         if element.tag == "teiHeader":
             for elem in element.getchildren():
                 self.traverseHeaderXml(elem)
@@ -475,7 +490,6 @@ class Tagger:
         # ignore linebreaks and pagebreaks
         if element.tag == "lb" or element.tag == "pb":
             self.__addText(element.tail)
-            return
 
         if element.tag == "add":
             self.__addText(element.text)
