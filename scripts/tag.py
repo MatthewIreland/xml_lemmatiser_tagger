@@ -411,6 +411,7 @@ class Tagger:
             "l",
             "milestone",
             "note",
+            "speaker",
             "p",
             "q",
             "quote",
@@ -520,6 +521,10 @@ class Tagger:
 
             if element.tail is not None and element.tail != "" and element.tail != "\n":
                 self.__addText(element.tail)
+
+        if element.tag == "speaker":
+            self.__addText(element.text, True, True)
+            self.__addText(element.tail, True, True)
 
         if traverseChildren:
             for elem in element.getchildren():
