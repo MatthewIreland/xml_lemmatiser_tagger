@@ -1,0 +1,1230 @@
+
+splitting header and body of working/corpus/aristot/AristotPol1.xml
+header not found, using default
+verticalising working/corpus/aristot/AristotPol1.xml.body as beta-code
+done verticalising working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching working/corpus/aristot/AristotPol1.xml.body.vertical as beta-code
+crunching [1000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching [2000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching [3000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching [4000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching [5000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching [6000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching [7000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+crunching [8000 of 8293 working/corpus/aristot/AristotPol1.xml.body.vertical] working/corpus/aristot/AristotPol1.xml.body.vertical
+done crunching working/corpus/aristot/AristotPol1.xml.body.vertical.crunched
+Time taken: 0 days 02 hr 32 min 32 sec
+reformatting metadata of working/corpus/aristot/AristotPol1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/aristot/AristotPol1.xml.body.vertical.crunched.metad
+added header to working/corpus/aristot/AristotPol1.xml.vert
+splitting header and body of working/corpus/aristot/AristotRhet3.xml
+header not found, using default
+verticalising working/corpus/aristot/AristotRhet3.xml.body as beta-code
+done verticalising working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching working/corpus/aristot/AristotRhet3.xml.body.vertical as beta-code
+crunching [1000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [2000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [3000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [4000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [5000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [6000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [7000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [8000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [9000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [10000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [11000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [12000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [13000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [14000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+crunching [15000 of 15839 working/corpus/aristot/AristotRhet3.xml.body.vertical] working/corpus/aristot/AristotRhet3.xml.body.vertical
+done crunching working/corpus/aristot/AristotRhet3.xml.body.vertical.crunched
+Time taken: 0 days 04 hr 23 min 57 sec
+reformatting metadata of working/corpus/aristot/AristotRhet3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/aristot/AristotRhet3.xml.body.vertical.crunched.metad
+added header to working/corpus/aristot/AristotRhet3.xml.vert
+splitting header and body of working/corpus/aristot/AristotPol3.xml
+header not found, using default
+verticalising working/corpus/aristot/AristotPol3.xml.body as beta-code
+done verticalising working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching working/corpus/aristot/AristotPol3.xml.body.vertical as beta-code
+crunching [1000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [2000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [3000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [4000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [5000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [6000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [7000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [8000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [9000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [10000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [11000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [12000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+crunching [13000 of 13027 working/corpus/aristot/AristotPol3.xml.body.vertical] working/corpus/aristot/AristotPol3.xml.body.vertical
+done crunching working/corpus/aristot/AristotPol3.xml.body.vertical.crunched
+Time taken: 0 days 04 hr 04 min 36 sec
+reformatting metadata of working/corpus/aristot/AristotPol3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/aristot/AristotPol3.xml.body.vertical.crunched.metad
+added header to working/corpus/aristot/AristotPol3.xml.vert
+splitting header and body of working/corpus/aristot/AristotPol2.xml
+header not found, using default
+verticalising working/corpus/aristot/AristotPol2.xml.body as beta-code
+done verticalising working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching working/corpus/aristot/AristotPol2.xml.body.vertical as beta-code
+crunching [1000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [2000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [3000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [4000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [5000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [6000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [7000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [8000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [9000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [10000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [11000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [12000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+crunching [13000 of 13197 working/corpus/aristot/AristotPol2.xml.body.vertical] working/corpus/aristot/AristotPol2.xml.body.vertical
+done crunching working/corpus/aristot/AristotPol2.xml.body.vertical.crunched
+Time taken: 0 days 04 hr 11 min 32 sec
+reformatting metadata of working/corpus/aristot/AristotPol2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/aristot/AristotPol2.xml.body.vertical.crunched.metad
+added header to working/corpus/aristot/AristotPol2.xml.vert
+splitting header and body of working/corpus/aristot/AristotRhet2.xml
+header not found, using default
+verticalising working/corpus/aristot/AristotRhet2.xml.body as beta-code
+done verticalising working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching working/corpus/aristot/AristotRhet2.xml.body.vertical as beta-code
+crunching [1000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [2000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [3000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [4000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [5000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [6000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [7000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [8000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [9000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [10000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [11000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [12000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [13000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [14000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [15000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [16000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [17000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [18000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [19000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [20000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [21000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+crunching [22000 of 22789 working/corpus/aristot/AristotRhet2.xml.body.vertical] working/corpus/aristot/AristotRhet2.xml.body.vertical
+done crunching working/corpus/aristot/AristotRhet2.xml.body.vertical.crunched
+Time taken: 0 days 06 hr 36 min 26 sec
+reformatting metadata of working/corpus/aristot/AristotRhet2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/aristot/AristotRhet2.xml.body.vertical.crunched.metad
+added header to working/corpus/aristot/AristotRhet2.xml.vert
+splitting header and body of working/corpus/aristot/AristotRhet1.xml
+header not found, using default
+verticalising working/corpus/aristot/AristotRhet1.xml.body as beta-code
+done verticalising working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching working/corpus/aristot/AristotRhet1.xml.body.vertical as beta-code
+crunching [1000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [2000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [3000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [4000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [5000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [6000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [7000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [8000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [9000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [10000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [11000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [12000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [13000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [14000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [15000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [16000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [17000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [18000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [19000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [20000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [21000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+crunching [22000 of 22076 working/corpus/aristot/AristotRhet1.xml.body.vertical] working/corpus/aristot/AristotRhet1.xml.body.vertical
+done crunching working/corpus/aristot/AristotRhet1.xml.body.vertical.crunched
+Time taken: 0 days 06 hr 32 min 58 sec
+reformatting metadata of working/corpus/aristot/AristotRhet1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/aristot/AristotRhet1.xml.body.vertical.crunched.metad
+added header to working/corpus/aristot/AristotRhet1.xml.vert
+splitting header and body of working/corpus/xen/XenMem4.xml
+header not found, using default
+verticalising working/corpus/xen/XenMem4.xml.body as beta-code
+done verticalising working/corpus/xen/XenMem4.xml.body.vertical
+crunching working/corpus/xen/XenMem4.xml.body.vertical as beta-code
+crunching [1000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [2000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [3000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [4000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [5000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [6000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [7000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [8000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [9000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [10000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [11000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+crunching [12000 of 12741 working/corpus/xen/XenMem4.xml.body.vertical] working/corpus/xen/XenMem4.xml.body.vertical
+done crunching working/corpus/xen/XenMem4.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 48 min 41 sec
+reformatting metadata of working/corpus/xen/XenMem4.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenMem4.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenMem4.xml.vert
+splitting header and body of working/corpus/xen/XenMem1.xml
+header not found, using default
+verticalising working/corpus/xen/XenMem1.xml.body as beta-code
+done verticalising working/corpus/xen/XenMem1.xml.body.vertical
+crunching working/corpus/xen/XenMem1.xml.body.vertical as beta-code
+crunching [1000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [2000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [3000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [4000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [5000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [6000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [7000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [8000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [9000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+crunching [10000 of 10430 working/corpus/xen/XenMem1.xml.body.vertical] working/corpus/xen/XenMem1.xml.body.vertical
+done crunching working/corpus/xen/XenMem1.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 17 min 03 sec
+reformatting metadata of working/corpus/xen/XenMem1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenMem1.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenMem1.xml.vert
+splitting header and body of working/corpus/xen/XenMem3.xml
+header not found, using default
+verticalising working/corpus/xen/XenMem3.xml.body as beta-code
+done verticalising working/corpus/xen/XenMem3.xml.body.vertical
+crunching working/corpus/xen/XenMem3.xml.body.vertical as beta-code
+crunching [1000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [2000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [3000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [4000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [5000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [6000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [7000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [8000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [9000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [10000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [11000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [12000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+crunching [13000 of 13284 working/corpus/xen/XenMem3.xml.body.vertical] working/corpus/xen/XenMem3.xml.body.vertical
+done crunching working/corpus/xen/XenMem3.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 48 min 39 sec
+reformatting metadata of working/corpus/xen/XenMem3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenMem3.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenMem3.xml.vert
+splitting header and body of working/corpus/xen/XenAna4.xml
+header not found, using default
+verticalising working/corpus/xen/XenAna4.xml.body as beta-code
+done verticalising working/corpus/xen/XenAna4.xml.body.vertical
+crunching working/corpus/xen/XenAna4.xml.body.vertical as beta-code
+crunching [1000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [2000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [3000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [4000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [5000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [6000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [7000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [8000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [9000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+crunching [10000 of 10627 working/corpus/xen/XenAna4.xml.body.vertical] working/corpus/xen/XenAna4.xml.body.vertical
+done crunching working/corpus/xen/XenAna4.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 18 min 48 sec
+reformatting metadata of working/corpus/xen/XenAna4.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenAna4.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenAna4.xml.vert
+splitting header and body of working/corpus/xen/XenHel4.xml
+header not found, using default
+verticalising working/corpus/xen/XenHel4.xml.body as beta-code
+done verticalising working/corpus/xen/XenHel4.xml.body.vertical
+crunching working/corpus/xen/XenHel4.xml.body.vertical as beta-code
+crunching [1000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [2000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [3000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [4000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [5000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [6000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [7000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [8000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [9000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [10000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [11000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [12000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [13000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+crunching [14000 of 14539 working/corpus/xen/XenHel4.xml.body.vertical] working/corpus/xen/XenHel4.xml.body.vertical
+done crunching working/corpus/xen/XenHel4.xml.body.vertical.crunched
+Time taken: 0 days 04 hr 32 min 03 sec
+reformatting metadata of working/corpus/xen/XenHel4.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenHel4.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenHel4.xml.vert
+splitting header and body of working/corpus/xen/XenAna2.xml
+header not found, using default
+verticalising working/corpus/xen/XenAna2.xml.body as beta-code
+done verticalising working/corpus/xen/XenAna2.xml.body.vertical
+crunching working/corpus/xen/XenAna2.xml.body.vertical as beta-code
+crunching [1000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+crunching [2000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+crunching [3000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+crunching [4000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+crunching [5000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+crunching [6000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+crunching [7000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+crunching [8000 of 8700 working/corpus/xen/XenAna2.xml.body.vertical] working/corpus/xen/XenAna2.xml.body.vertical
+done crunching working/corpus/xen/XenAna2.xml.body.vertical.crunched
+Time taken: 0 days 02 hr 43 min 25 sec
+reformatting metadata of working/corpus/xen/XenAna2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenAna2.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenAna2.xml.vert
+splitting header and body of working/corpus/xen/XenMem2.xml
+header not found, using default
+verticalising working/corpus/xen/XenMem2.xml.body as beta-code
+done verticalising working/corpus/xen/XenMem2.xml.body.vertical
+crunching working/corpus/xen/XenMem2.xml.body.vertical as beta-code
+crunching [1000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [2000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [3000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [4000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [5000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [6000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [7000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [8000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [9000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [10000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [11000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+crunching [12000 of 12262 working/corpus/xen/XenMem2.xml.body.vertical] working/corpus/xen/XenMem2.xml.body.vertical
+done crunching working/corpus/xen/XenMem2.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 38 min 03 sec
+reformatting metadata of working/corpus/xen/XenMem2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenMem2.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenMem2.xml.vert
+splitting header and body of working/corpus/xen/XenAna3.xml
+header not found, using default
+verticalising working/corpus/xen/XenAna3.xml.body as beta-code
+done verticalising working/corpus/xen/XenAna3.xml.body.vertical
+crunching working/corpus/xen/XenAna3.xml.body.vertical as beta-code
+crunching [1000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [2000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [3000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [4000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [5000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [6000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [7000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [8000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+crunching [9000 of 9085 working/corpus/xen/XenAna3.xml.body.vertical] working/corpus/xen/XenAna3.xml.body.vertical
+done crunching working/corpus/xen/XenAna3.xml.body.vertical.crunched
+Time taken: 0 days 02 hr 49 min 57 sec
+reformatting metadata of working/corpus/xen/XenAna3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenAna3.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenAna3.xml.vert
+splitting header and body of working/corpus/xen/XenAna1.xml
+header not found, using default
+verticalising working/corpus/xen/XenAna1.xml.body as beta-code
+done verticalising working/corpus/xen/XenAna1.xml.body.vertical
+crunching working/corpus/xen/XenAna1.xml.body.vertical as beta-code
+crunching [1000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [2000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [3000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [4000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [5000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [6000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [7000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [8000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [9000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [10000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+crunching [11000 of 11892 working/corpus/xen/XenAna1.xml.body.vertical] working/corpus/xen/XenAna1.xml.body.vertical
+done crunching working/corpus/xen/XenAna1.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 46 min 56 sec
+reformatting metadata of working/corpus/xen/XenAna1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenAna1.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenAna1.xml.vert
+splitting header and body of working/corpus/xen/XenHel1.xml
+header not found, using default
+verticalising working/corpus/xen/XenHel1.xml.body as beta-code
+done verticalising working/corpus/xen/XenHel1.xml.body.vertical
+crunching working/corpus/xen/XenHel1.xml.body.vertical as beta-code
+crunching [1000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [2000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [3000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [4000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [5000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [6000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [7000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [8000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+crunching [9000 of 9594 working/corpus/xen/XenHel1.xml.body.vertical] working/corpus/xen/XenHel1.xml.body.vertical
+done crunching working/corpus/xen/XenHel1.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 03 min 40 sec
+reformatting metadata of working/corpus/xen/XenHel1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenHel1.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenHel1.xml.vert
+splitting header and body of working/corpus/xen/XenHel2.xml
+header not found, using default
+verticalising working/corpus/xen/XenHel2.xml.body as beta-code
+done verticalising working/corpus/xen/XenHel2.xml.body.vertical
+crunching working/corpus/xen/XenHel2.xml.body.vertical as beta-code
+crunching [1000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [2000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [3000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [4000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [5000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [6000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [7000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [8000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [9000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+crunching [10000 of 10188 working/corpus/xen/XenHel2.xml.body.vertical] working/corpus/xen/XenHel2.xml.body.vertical
+done crunching working/corpus/xen/XenHel2.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 06 min 49 sec
+reformatting metadata of working/corpus/xen/XenHel2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenHel2.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenHel2.xml.vert
+splitting header and body of working/corpus/xen/XenHel3.xml
+header not found, using default
+verticalising working/corpus/xen/XenHel3.xml.body as beta-code
+done verticalising working/corpus/xen/XenHel3.xml.body.vertical
+crunching working/corpus/xen/XenHel3.xml.body.vertical as beta-code
+crunching [1000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [2000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [3000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [4000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [5000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [6000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [7000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [8000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [9000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [10000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+crunching [11000 of 11013 working/corpus/xen/XenHel3.xml.body.vertical] working/corpus/xen/XenHel3.xml.body.vertical
+done crunching working/corpus/xen/XenHel3.xml.body.vertical.crunched
+Time taken: 0 days 03 hr 31 min 12 sec
+reformatting metadata of working/corpus/xen/XenHel3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/xen/XenHel3.xml.body.vertical.crunched.metad
+added header to working/corpus/xen/XenHel3.xml.vert
+splitting header and body of working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml
+verticalising working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body as beta-code
+done verticalising working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical as beta-code
+crunching [1000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [2000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [3000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [4000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [5000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [6000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [7000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [8000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [9000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [10000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [11000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [12000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [13000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [14000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [15000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [16000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [17000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [18000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [19000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [20000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+crunching [21000 of 21230 working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical
+done crunching working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical.crunched
+Time taken: 0 days 01 hr 54 min 04 sec
+reformatting metadata of working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical.crunched
+done reformatting metadata of working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.body.vertical.crunched.metad
+added header to working/corpus/demosthenes/Demosthenes 1–10 (relevant ones).xml.vert
+splitting header and body of working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml
+verticalising working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body as beta-code
+done verticalising working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical as beta-code
+crunching [1000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [2000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [3000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [4000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [5000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [6000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [7000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [8000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [9000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [10000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [11000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [12000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [13000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [14000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [15000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [16000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [17000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [18000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [19000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [20000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [21000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [22000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [23000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [24000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [25000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [26000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [27000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [28000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+crunching [29000 of 29643 working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical] working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical
+done crunching working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical.crunched
+Time taken: 0 days 02 hr 46 min 42 sec
+reformatting metadata of working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical.crunched
+done reformatting metadata of working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.body.vertical.crunched.metad
+added header to working/corpus/demosthenes/Demosthenes 11–20 (relevant ones).xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus7.xml
+verticalising working/corpus/isaeus/Isaeus7.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus7.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus7.xml.body.vertical as unicode
+crunching [1000 of 4432 working/corpus/isaeus/Isaeus7.xml.body.vertical] working/corpus/isaeus/Isaeus7.xml.body.vertical
+crunching [2000 of 4432 working/corpus/isaeus/Isaeus7.xml.body.vertical] working/corpus/isaeus/Isaeus7.xml.body.vertical
+crunching [3000 of 4432 working/corpus/isaeus/Isaeus7.xml.body.vertical] working/corpus/isaeus/Isaeus7.xml.body.vertical
+crunching [4000 of 4432 working/corpus/isaeus/Isaeus7.xml.body.vertical] working/corpus/isaeus/Isaeus7.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus7.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 21 min 34 sec
+reformatting metadata of working/corpus/isaeus/Isaeus7.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus7.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus7.xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus2.xml
+verticalising working/corpus/isaeus/Isaeus2.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus2.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus2.xml.body.vertical as unicode
+crunching [1000 of 4472 working/corpus/isaeus/Isaeus2.xml.body.vertical] working/corpus/isaeus/Isaeus2.xml.body.vertical
+crunching [2000 of 4472 working/corpus/isaeus/Isaeus2.xml.body.vertical] working/corpus/isaeus/Isaeus2.xml.body.vertical
+crunching [3000 of 4472 working/corpus/isaeus/Isaeus2.xml.body.vertical] working/corpus/isaeus/Isaeus2.xml.body.vertical
+crunching [4000 of 4472 working/corpus/isaeus/Isaeus2.xml.body.vertical] working/corpus/isaeus/Isaeus2.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus2.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 19 min 53 sec
+reformatting metadata of working/corpus/isaeus/Isaeus2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus2.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus2.xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus1.xml
+verticalising working/corpus/isaeus/Isaeus1.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus1.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus1.xml.body.vertical as unicode
+crunching [1000 of 4416 working/corpus/isaeus/Isaeus1.xml.body.vertical] working/corpus/isaeus/Isaeus1.xml.body.vertical
+crunching [2000 of 4416 working/corpus/isaeus/Isaeus1.xml.body.vertical] working/corpus/isaeus/Isaeus1.xml.body.vertical
+crunching [3000 of 4416 working/corpus/isaeus/Isaeus1.xml.body.vertical] working/corpus/isaeus/Isaeus1.xml.body.vertical
+crunching [4000 of 4416 working/corpus/isaeus/Isaeus1.xml.body.vertical] working/corpus/isaeus/Isaeus1.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus1.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 19 min 43 sec
+reformatting metadata of working/corpus/isaeus/Isaeus1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus1.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus1.xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus4.xml
+verticalising working/corpus/isaeus/Isaeus4.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus4.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus4.xml.body.vertical as unicode
+crunching [1000 of 2850 working/corpus/isaeus/Isaeus4.xml.body.vertical] working/corpus/isaeus/Isaeus4.xml.body.vertical
+crunching [2000 of 2850 working/corpus/isaeus/Isaeus4.xml.body.vertical] working/corpus/isaeus/Isaeus4.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus4.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 13 min 14 sec
+reformatting metadata of working/corpus/isaeus/Isaeus4.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus4.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus4.xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus5.xml
+verticalising working/corpus/isaeus/Isaeus5.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus5.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus5.xml.body.vertical as unicode
+crunching [1000 of 5339 working/corpus/isaeus/Isaeus5.xml.body.vertical] working/corpus/isaeus/Isaeus5.xml.body.vertical
+crunching [2000 of 5339 working/corpus/isaeus/Isaeus5.xml.body.vertical] working/corpus/isaeus/Isaeus5.xml.body.vertical
+crunching [3000 of 5339 working/corpus/isaeus/Isaeus5.xml.body.vertical] working/corpus/isaeus/Isaeus5.xml.body.vertical
+crunching [4000 of 5339 working/corpus/isaeus/Isaeus5.xml.body.vertical] working/corpus/isaeus/Isaeus5.xml.body.vertical
+crunching [5000 of 5339 working/corpus/isaeus/Isaeus5.xml.body.vertical] working/corpus/isaeus/Isaeus5.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus5.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 22 min 49 sec
+reformatting metadata of working/corpus/isaeus/Isaeus5.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus5.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus5.xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus6.xml
+verticalising working/corpus/isaeus/Isaeus6.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus6.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus6.xml.body.vertical as unicode
+crunching [1000 of 5983 working/corpus/isaeus/Isaeus6.xml.body.vertical] working/corpus/isaeus/Isaeus6.xml.body.vertical
+crunching [2000 of 5983 working/corpus/isaeus/Isaeus6.xml.body.vertical] working/corpus/isaeus/Isaeus6.xml.body.vertical
+crunching [3000 of 5983 working/corpus/isaeus/Isaeus6.xml.body.vertical] working/corpus/isaeus/Isaeus6.xml.body.vertical
+crunching [4000 of 5983 working/corpus/isaeus/Isaeus6.xml.body.vertical] working/corpus/isaeus/Isaeus6.xml.body.vertical
+crunching [5000 of 5983 working/corpus/isaeus/Isaeus6.xml.body.vertical] working/corpus/isaeus/Isaeus6.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus6.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 26 min 22 sec
+reformatting metadata of working/corpus/isaeus/Isaeus6.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus6.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus6.xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus3.xml
+verticalising working/corpus/isaeus/Isaeus3.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus3.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus3.xml.body.vertical as unicode
+crunching [1000 of 7143 working/corpus/isaeus/Isaeus3.xml.body.vertical] working/corpus/isaeus/Isaeus3.xml.body.vertical
+crunching [2000 of 7143 working/corpus/isaeus/Isaeus3.xml.body.vertical] working/corpus/isaeus/Isaeus3.xml.body.vertical
+crunching [3000 of 7143 working/corpus/isaeus/Isaeus3.xml.body.vertical] working/corpus/isaeus/Isaeus3.xml.body.vertical
+crunching [4000 of 7143 working/corpus/isaeus/Isaeus3.xml.body.vertical] working/corpus/isaeus/Isaeus3.xml.body.vertical
+crunching [5000 of 7143 working/corpus/isaeus/Isaeus3.xml.body.vertical] working/corpus/isaeus/Isaeus3.xml.body.vertical
+crunching [6000 of 7143 working/corpus/isaeus/Isaeus3.xml.body.vertical] working/corpus/isaeus/Isaeus3.xml.body.vertical
+crunching [7000 of 7143 working/corpus/isaeus/Isaeus3.xml.body.vertical] working/corpus/isaeus/Isaeus3.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus3.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 32 min 04 sec
+reformatting metadata of working/corpus/isaeus/Isaeus3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus3.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus3.xml.vert
+splitting header and body of working/corpus/isaeus/Isaeus8.xml
+verticalising working/corpus/isaeus/Isaeus8.xml.body as unicode
+done verticalising working/corpus/isaeus/Isaeus8.xml.body.vertical
+crunching working/corpus/isaeus/Isaeus8.xml.body.vertical as unicode
+crunching [1000 of 5119 working/corpus/isaeus/Isaeus8.xml.body.vertical] working/corpus/isaeus/Isaeus8.xml.body.vertical
+crunching [2000 of 5119 working/corpus/isaeus/Isaeus8.xml.body.vertical] working/corpus/isaeus/Isaeus8.xml.body.vertical
+crunching [3000 of 5119 working/corpus/isaeus/Isaeus8.xml.body.vertical] working/corpus/isaeus/Isaeus8.xml.body.vertical
+crunching [4000 of 5119 working/corpus/isaeus/Isaeus8.xml.body.vertical] working/corpus/isaeus/Isaeus8.xml.body.vertical
+crunching [5000 of 5119 working/corpus/isaeus/Isaeus8.xml.body.vertical] working/corpus/isaeus/Isaeus8.xml.body.vertical
+done crunching working/corpus/isaeus/Isaeus8.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 23 min 08 sec
+reformatting metadata of working/corpus/isaeus/Isaeus8.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isaeus/Isaeus8.xml.body.vertical.crunched.metad
+added header to working/corpus/isaeus/Isaeus8.xml.vert
+splitting header and body of working/corpus/thuc/Thuc2.xml
+header not found, using default
+verticalising working/corpus/thuc/Thuc2.xml.body as beta-code
+done verticalising working/corpus/thuc/Thuc2.xml.body.vertical
+crunching working/corpus/thuc/Thuc2.xml.body.vertical as beta-code
+crunching [1000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [2000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [3000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [4000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [5000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [6000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [7000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [8000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [9000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [10000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [11000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [12000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [13000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [14000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [15000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [16000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [17000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [18000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [19000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [20000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [21000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [22000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+crunching [23000 of 23263 working/corpus/thuc/Thuc2.xml.body.vertical] working/corpus/thuc/Thuc2.xml.body.vertical
+done crunching working/corpus/thuc/Thuc2.xml.body.vertical.crunched
+Time taken: 0 days 02 hr 18 min 19 sec
+reformatting metadata of working/corpus/thuc/Thuc2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/thuc/Thuc2.xml.body.vertical.crunched.metad
+added header to working/corpus/thuc/Thuc2.xml.vert
+splitting header and body of working/corpus/thuc/Thuc4.xml
+header not found, using default
+verticalising working/corpus/thuc/Thuc4.xml.body as beta-code
+done verticalising working/corpus/thuc/Thuc4.xml.body.vertical
+crunching working/corpus/thuc/Thuc4.xml.body.vertical as beta-code
+crunching [1000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [2000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [3000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [4000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [5000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [6000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [7000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [8000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [9000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [10000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [11000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [12000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [13000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [14000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [15000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [16000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [17000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [18000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [19000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [20000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [21000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [22000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [23000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [24000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [25000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [26000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+crunching [27000 of 27206 working/corpus/thuc/Thuc4.xml.body.vertical] working/corpus/thuc/Thuc4.xml.body.vertical
+done crunching working/corpus/thuc/Thuc4.xml.body.vertical.crunched
+Time taken: 0 days 02 hr 35 min 47 sec
+reformatting metadata of working/corpus/thuc/Thuc4.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/thuc/Thuc4.xml.body.vertical.crunched.metad
+added header to working/corpus/thuc/Thuc4.xml.vert
+splitting header and body of working/corpus/thuc/Thuc5.xml
+header not found, using default
+verticalising working/corpus/thuc/Thuc5.xml.body as beta-code
+done verticalising working/corpus/thuc/Thuc5.xml.body.vertical
+crunching working/corpus/thuc/Thuc5.xml.body.vertical as beta-code
+crunching [1000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [2000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [3000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [4000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [5000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [6000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [7000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [8000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [9000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [10000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [11000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [12000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [13000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [14000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [15000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [16000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [17000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [18000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [19000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+crunching [20000 of 20532 working/corpus/thuc/Thuc5.xml.body.vertical] working/corpus/thuc/Thuc5.xml.body.vertical
+done crunching working/corpus/thuc/Thuc5.xml.body.vertical.crunched
+Time taken: 0 days 01 hr 52 min 18 sec
+reformatting metadata of working/corpus/thuc/Thuc5.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/thuc/Thuc5.xml.body.vertical.crunched.metad
+added header to working/corpus/thuc/Thuc5.xml.vert
+splitting header and body of working/corpus/thuc/Thuc1.xml
+header not found, using default
+verticalising working/corpus/thuc/Thuc1.xml.body as beta-code
+done verticalising working/corpus/thuc/Thuc1.xml.body.vertical
+crunching working/corpus/thuc/Thuc1.xml.body.vertical as beta-code
+crunching [1000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [2000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [3000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [4000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [5000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [6000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [7000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [8000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [9000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [10000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [11000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [12000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [13000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [14000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [15000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [16000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [17000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [18000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [19000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [20000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [21000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [22000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [23000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [24000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [25000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [26000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [27000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+crunching [28000 of 28072 working/corpus/thuc/Thuc1.xml.body.vertical] working/corpus/thuc/Thuc1.xml.body.vertical
+done crunching working/corpus/thuc/Thuc1.xml.body.vertical.crunched
+Time taken: 0 days 09 hr 04 min 18 sec
+reformatting metadata of working/corpus/thuc/Thuc1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/thuc/Thuc1.xml.body.vertical.crunched.metad
+added header to working/corpus/thuc/Thuc1.xml.vert
+splitting header and body of working/corpus/thuc/Thuc3.xml
+header not found, using default
+verticalising working/corpus/thuc/Thuc3.xml.body as beta-code
+done verticalising working/corpus/thuc/Thuc3.xml.body.vertical
+crunching working/corpus/thuc/Thuc3.xml.body.vertical as beta-code
+crunching [1000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [2000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [3000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [4000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [5000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [6000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [7000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [8000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [9000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [10000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [11000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [12000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [13000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [14000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [15000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [16000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [17000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [18000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [19000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [20000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [21000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+crunching [22000 of 22920 working/corpus/thuc/Thuc3.xml.body.vertical] working/corpus/thuc/Thuc3.xml.body.vertical
+done crunching working/corpus/thuc/Thuc3.xml.body.vertical.crunched
+Time taken: 0 days 07 hr 17 min 48 sec
+reformatting metadata of working/corpus/thuc/Thuc3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/thuc/Thuc3.xml.body.vertical.crunched.metad
+added header to working/corpus/thuc/Thuc3.xml.vert
+splitting header and body of working/corpus/lysias/Lysias (relevant ones).xml
+verticalising working/corpus/lysias/Lysias (relevant ones).xml.body as beta-code
+done verticalising working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching working/corpus/lysias/Lysias (relevant ones).xml.body.vertical as beta-code
+crunching [1000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [2000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [3000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [4000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [5000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [6000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [7000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [8000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [9000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [10000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [11000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [12000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [13000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [14000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [15000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [16000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [17000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [18000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [19000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [20000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [21000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [22000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [23000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [24000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [25000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [26000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [27000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [28000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [29000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [30000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [31000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [32000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [33000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [34000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+crunching [35000 of 35947 working/corpus/lysias/Lysias (relevant ones).xml.body.vertical] working/corpus/lysias/Lysias (relevant ones).xml.body.vertical
+done crunching working/corpus/lysias/Lysias (relevant ones).xml.body.vertical.crunched
+Time taken: 0 days 02 hr 54 min 06 sec
+reformatting metadata of working/corpus/lysias/Lysias (relevant ones).xml.body.vertical.crunched
+done reformatting metadata of working/corpus/lysias/Lysias (relevant ones).xml.body.vertical.crunched.metad
+added header to working/corpus/lysias/Lysias (relevant ones).xml.vert
+splitting header and body of working/corpus/isoc/isocrates_12.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_12.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching working/corpus/isoc/isocrates_12.xml.body.vertical as beta-code
+crunching [1000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [2000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [3000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [4000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [5000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [6000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [7000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [8000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [9000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [10000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [11000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [12000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [13000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [14000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [15000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [16000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [17000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [18000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [19000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+crunching [20000 of 20159 working/corpus/isoc/isocrates_12.xml.body.vertical] working/corpus/isoc/isocrates_12.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_12.xml.body.vertical.crunched
+Time taken: 0 days 01 hr 56 min 24 sec
+reformatting metadata of working/corpus/isoc/isocrates_12.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_12.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_12.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_04.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_04.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching working/corpus/isoc/isocrates_04.xml.body.vertical as beta-code
+crunching [1000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [2000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [3000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [4000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [5000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [6000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [7000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [8000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [9000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [10000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [11000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [12000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+crunching [13000 of 13828 working/corpus/isoc/isocrates_04.xml.body.vertical] working/corpus/isoc/isocrates_04.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_04.xml.body.vertical.crunched
+Time taken: 0 days 01 hr 16 min 46 sec
+reformatting metadata of working/corpus/isoc/isocrates_04.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_04.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_04.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_05.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_05.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching working/corpus/isoc/isocrates_05.xml.body.vertical as beta-code
+crunching [1000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [2000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [3000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [4000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [5000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [6000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [7000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [8000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [9000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [10000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+crunching [11000 of 11211 working/corpus/isoc/isocrates_05.xml.body.vertical] working/corpus/isoc/isocrates_05.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_05.xml.body.vertical.crunched
+Time taken: 0 days 01 hr 01 min 26 sec
+reformatting metadata of working/corpus/isoc/isocrates_05.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_05.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_05.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_01.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_01.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_01.xml.body.vertical
+crunching working/corpus/isoc/isocrates_01.xml.body.vertical as beta-code
+crunching [1000 of 3956 working/corpus/isoc/isocrates_01.xml.body.vertical] working/corpus/isoc/isocrates_01.xml.body.vertical
+crunching [2000 of 3956 working/corpus/isoc/isocrates_01.xml.body.vertical] working/corpus/isoc/isocrates_01.xml.body.vertical
+crunching [3000 of 3956 working/corpus/isoc/isocrates_01.xml.body.vertical] working/corpus/isoc/isocrates_01.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_01.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 20 min 54 sec
+reformatting metadata of working/corpus/isoc/isocrates_01.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_01.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_01.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_13.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_13.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_13.xml.body.vertical
+crunching working/corpus/isoc/isocrates_13.xml.body.vertical as beta-code
+crunching [1000 of 1717 working/corpus/isoc/isocrates_13.xml.body.vertical] working/corpus/isoc/isocrates_13.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_13.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 09 min 28 sec
+reformatting metadata of working/corpus/isoc/isocrates_13.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_13.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_13.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_02.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_02.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_02.xml.body.vertical
+crunching working/corpus/isoc/isocrates_02.xml.body.vertical as beta-code
+crunching [1000 of 6318 working/corpus/isoc/isocrates_02.xml.body.vertical] working/corpus/isoc/isocrates_02.xml.body.vertical
+crunching [2000 of 6318 working/corpus/isoc/isocrates_02.xml.body.vertical] working/corpus/isoc/isocrates_02.xml.body.vertical
+crunching [3000 of 6318 working/corpus/isoc/isocrates_02.xml.body.vertical] working/corpus/isoc/isocrates_02.xml.body.vertical
+crunching [4000 of 6318 working/corpus/isoc/isocrates_02.xml.body.vertical] working/corpus/isoc/isocrates_02.xml.body.vertical
+crunching [5000 of 6318 working/corpus/isoc/isocrates_02.xml.body.vertical] working/corpus/isoc/isocrates_02.xml.body.vertical
+crunching [6000 of 6318 working/corpus/isoc/isocrates_02.xml.body.vertical] working/corpus/isoc/isocrates_02.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_02.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 35 min 50 sec
+reformatting metadata of working/corpus/isoc/isocrates_02.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_02.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_02.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_07.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_07.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_07.xml.body.vertical
+crunching working/corpus/isoc/isocrates_07.xml.body.vertical as beta-code
+crunching [1000 of 5921 working/corpus/isoc/isocrates_07.xml.body.vertical] working/corpus/isoc/isocrates_07.xml.body.vertical
+crunching [2000 of 5921 working/corpus/isoc/isocrates_07.xml.body.vertical] working/corpus/isoc/isocrates_07.xml.body.vertical
+crunching [3000 of 5921 working/corpus/isoc/isocrates_07.xml.body.vertical] working/corpus/isoc/isocrates_07.xml.body.vertical
+crunching [4000 of 5921 working/corpus/isoc/isocrates_07.xml.body.vertical] working/corpus/isoc/isocrates_07.xml.body.vertical
+crunching [5000 of 5921 working/corpus/isoc/isocrates_07.xml.body.vertical] working/corpus/isoc/isocrates_07.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_07.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 33 min 59 sec
+reformatting metadata of working/corpus/isoc/isocrates_07.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_07.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_07.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_06.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_06.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_06.xml.body.vertical
+crunching working/corpus/isoc/isocrates_06.xml.body.vertical as beta-code
+crunching [1000 of 7928 working/corpus/isoc/isocrates_06.xml.body.vertical] working/corpus/isoc/isocrates_06.xml.body.vertical
+crunching [2000 of 7928 working/corpus/isoc/isocrates_06.xml.body.vertical] working/corpus/isoc/isocrates_06.xml.body.vertical
+crunching [3000 of 7928 working/corpus/isoc/isocrates_06.xml.body.vertical] working/corpus/isoc/isocrates_06.xml.body.vertical
+crunching [4000 of 7928 working/corpus/isoc/isocrates_06.xml.body.vertical] working/corpus/isoc/isocrates_06.xml.body.vertical
+crunching [5000 of 7928 working/corpus/isoc/isocrates_06.xml.body.vertical] working/corpus/isoc/isocrates_06.xml.body.vertical
+crunching [6000 of 7928 working/corpus/isoc/isocrates_06.xml.body.vertical] working/corpus/isoc/isocrates_06.xml.body.vertical
+crunching [7000 of 7928 working/corpus/isoc/isocrates_06.xml.body.vertical] working/corpus/isoc/isocrates_06.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_06.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 43 min 28 sec
+reformatting metadata of working/corpus/isoc/isocrates_06.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_06.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_06.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_09.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_09.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_09.xml.body.vertical
+crunching working/corpus/isoc/isocrates_09.xml.body.vertical as beta-code
+crunching [1000 of 6005 working/corpus/isoc/isocrates_09.xml.body.vertical] working/corpus/isoc/isocrates_09.xml.body.vertical
+crunching [2000 of 6005 working/corpus/isoc/isocrates_09.xml.body.vertical] working/corpus/isoc/isocrates_09.xml.body.vertical
+crunching [3000 of 6005 working/corpus/isoc/isocrates_09.xml.body.vertical] working/corpus/isoc/isocrates_09.xml.body.vertical
+crunching [4000 of 6005 working/corpus/isoc/isocrates_09.xml.body.vertical] working/corpus/isoc/isocrates_09.xml.body.vertical
+crunching [5000 of 6005 working/corpus/isoc/isocrates_09.xml.body.vertical] working/corpus/isoc/isocrates_09.xml.body.vertical
+crunching [6000 of 6005 working/corpus/isoc/isocrates_09.xml.body.vertical] working/corpus/isoc/isocrates_09.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_09.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 32 min 42 sec
+reformatting metadata of working/corpus/isoc/isocrates_09.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_09.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_09.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_03.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_03.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_03.xml.body.vertical
+crunching working/corpus/isoc/isocrates_03.xml.body.vertical as beta-code
+crunching [1000 of 4928 working/corpus/isoc/isocrates_03.xml.body.vertical] working/corpus/isoc/isocrates_03.xml.body.vertical
+crunching [2000 of 4928 working/corpus/isoc/isocrates_03.xml.body.vertical] working/corpus/isoc/isocrates_03.xml.body.vertical
+crunching [3000 of 4928 working/corpus/isoc/isocrates_03.xml.body.vertical] working/corpus/isoc/isocrates_03.xml.body.vertical
+crunching [4000 of 4928 working/corpus/isoc/isocrates_03.xml.body.vertical] working/corpus/isoc/isocrates_03.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_03.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 26 min 49 sec
+reformatting metadata of working/corpus/isoc/isocrates_03.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_03.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_03.xml.vert
+splitting header and body of working/corpus/isoc/isocrates_08.xml
+header not found, using default
+verticalising working/corpus/isoc/isocrates_08.xml.body as beta-code
+done verticalising working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching working/corpus/isoc/isocrates_08.xml.body.vertical as beta-code
+crunching [1000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [2000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [3000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [4000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [5000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [6000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [7000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [8000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [9000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+crunching [10000 of 10298 working/corpus/isoc/isocrates_08.xml.body.vertical] working/corpus/isoc/isocrates_08.xml.body.vertical
+done crunching working/corpus/isoc/isocrates_08.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 56 min 32 sec
+reformatting metadata of working/corpus/isoc/isocrates_08.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/isoc/isocrates_08.xml.body.vertical.crunched.metad
+added header to working/corpus/isoc/isocrates_08.xml.vert
+splitting header and body of working/corpus/antiphon/Antiphon2.xml
+verticalising working/corpus/antiphon/Antiphon2.xml.body as unicode
+done verticalising working/corpus/antiphon/Antiphon2.xml.body.vertical
+crunching working/corpus/antiphon/Antiphon2.xml.body.vertical as unicode
+crunching [1000 of 4102 working/corpus/antiphon/Antiphon2.xml.body.vertical] working/corpus/antiphon/Antiphon2.xml.body.vertical
+crunching [2000 of 4102 working/corpus/antiphon/Antiphon2.xml.body.vertical] working/corpus/antiphon/Antiphon2.xml.body.vertical
+crunching [3000 of 4102 working/corpus/antiphon/Antiphon2.xml.body.vertical] working/corpus/antiphon/Antiphon2.xml.body.vertical
+crunching [4000 of 4102 working/corpus/antiphon/Antiphon2.xml.body.vertical] working/corpus/antiphon/Antiphon2.xml.body.vertical
+done crunching working/corpus/antiphon/Antiphon2.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 19 min 53 sec
+reformatting metadata of working/corpus/antiphon/Antiphon2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/antiphon/Antiphon2.xml.body.vertical.crunched.metad
+added header to working/corpus/antiphon/Antiphon2.xml.vert
+splitting header and body of working/corpus/antiphon/Antiphon1.xml
+verticalising working/corpus/antiphon/Antiphon1.xml.body as unicode
+done verticalising working/corpus/antiphon/Antiphon1.xml.body.vertical
+crunching working/corpus/antiphon/Antiphon1.xml.body.vertical as unicode
+crunching [1000 of 2964 working/corpus/antiphon/Antiphon1.xml.body.vertical] working/corpus/antiphon/Antiphon1.xml.body.vertical
+crunching [2000 of 2964 working/corpus/antiphon/Antiphon1.xml.body.vertical] working/corpus/antiphon/Antiphon1.xml.body.vertical
+done crunching working/corpus/antiphon/Antiphon1.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 15 min 21 sec
+reformatting metadata of working/corpus/antiphon/Antiphon1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/antiphon/Antiphon1.xml.body.vertical.crunched.metad
+added header to working/corpus/antiphon/Antiphon1.xml.vert
+splitting header and body of working/corpus/antiphon/Antiphon6.xml
+verticalising working/corpus/antiphon/Antiphon6.xml.body as unicode
+done verticalising working/corpus/antiphon/Antiphon6.xml.body.vertical
+crunching working/corpus/antiphon/Antiphon6.xml.body.vertical as unicode
+crunching [1000 of 6519 working/corpus/antiphon/Antiphon6.xml.body.vertical] working/corpus/antiphon/Antiphon6.xml.body.vertical
+crunching [2000 of 6519 working/corpus/antiphon/Antiphon6.xml.body.vertical] working/corpus/antiphon/Antiphon6.xml.body.vertical
+crunching [3000 of 6519 working/corpus/antiphon/Antiphon6.xml.body.vertical] working/corpus/antiphon/Antiphon6.xml.body.vertical
+crunching [4000 of 6519 working/corpus/antiphon/Antiphon6.xml.body.vertical] working/corpus/antiphon/Antiphon6.xml.body.vertical
+crunching [5000 of 6519 working/corpus/antiphon/Antiphon6.xml.body.vertical] working/corpus/antiphon/Antiphon6.xml.body.vertical
+crunching [6000 of 6519 working/corpus/antiphon/Antiphon6.xml.body.vertical] working/corpus/antiphon/Antiphon6.xml.body.vertical
+done crunching working/corpus/antiphon/Antiphon6.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 29 min 56 sec
+reformatting metadata of working/corpus/antiphon/Antiphon6.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/antiphon/Antiphon6.xml.body.vertical.crunched.metad
+added header to working/corpus/antiphon/Antiphon6.xml.vert
+splitting header and body of working/corpus/antiphon/Antiphon4.xml
+verticalising working/corpus/antiphon/Antiphon4.xml.body as unicode
+done verticalising working/corpus/antiphon/Antiphon4.xml.body.vertical
+crunching working/corpus/antiphon/Antiphon4.xml.body.vertical as unicode
+crunching [1000 of 3394 working/corpus/antiphon/Antiphon4.xml.body.vertical] working/corpus/antiphon/Antiphon4.xml.body.vertical
+crunching [2000 of 3394 working/corpus/antiphon/Antiphon4.xml.body.vertical] working/corpus/antiphon/Antiphon4.xml.body.vertical
+crunching [3000 of 3394 working/corpus/antiphon/Antiphon4.xml.body.vertical] working/corpus/antiphon/Antiphon4.xml.body.vertical
+done crunching working/corpus/antiphon/Antiphon4.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 14 min 55 sec
+reformatting metadata of working/corpus/antiphon/Antiphon4.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/antiphon/Antiphon4.xml.body.vertical.crunched.metad
+added header to working/corpus/antiphon/Antiphon4.xml.vert
+splitting header and body of working/corpus/antiphon/Antiphon3.xml
+verticalising working/corpus/antiphon/Antiphon3.xml.body as unicode
+done verticalising working/corpus/antiphon/Antiphon3.xml.body.vertical
+crunching working/corpus/antiphon/Antiphon3.xml.body.vertical as unicode
+crunching [1000 of 3817 working/corpus/antiphon/Antiphon3.xml.body.vertical] working/corpus/antiphon/Antiphon3.xml.body.vertical
+crunching [2000 of 3817 working/corpus/antiphon/Antiphon3.xml.body.vertical] working/corpus/antiphon/Antiphon3.xml.body.vertical
+crunching [3000 of 3817 working/corpus/antiphon/Antiphon3.xml.body.vertical] working/corpus/antiphon/Antiphon3.xml.body.vertical
+done crunching working/corpus/antiphon/Antiphon3.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 16 min 15 sec
+reformatting metadata of working/corpus/antiphon/Antiphon3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/antiphon/Antiphon3.xml.body.vertical.crunched.metad
+added header to working/corpus/antiphon/Antiphon3.xml.vert
+splitting header and body of working/corpus/antiphon/Antiphon5.xml
+verticalising working/corpus/antiphon/Antiphon5.xml.body as unicode
+done verticalising working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching working/corpus/antiphon/Antiphon5.xml.body.vertical as unicode
+crunching [1000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [2000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [3000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [4000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [5000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [6000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [7000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [8000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [9000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [10000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+crunching [11000 of 11945 working/corpus/antiphon/Antiphon5.xml.body.vertical] working/corpus/antiphon/Antiphon5.xml.body.vertical
+done crunching working/corpus/antiphon/Antiphon5.xml.body.vertical.crunched
+Time taken: 0 days 00 hr 49 min 52 sec
+reformatting metadata of working/corpus/antiphon/Antiphon5.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/antiphon/Antiphon5.xml.body.vertical.crunched.metad
+added header to working/corpus/antiphon/Antiphon5.xml.vert
+splitting header and body of working/corpus/plato/Plato (Gorgias).xml
+verticalising working/corpus/plato/Plato (Gorgias).xml.body as beta-code
+done verticalising working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching working/corpus/plato/Plato (Gorgias).xml.body.vertical as beta-code
+crunching [1000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [2000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [3000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [4000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [5000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [6000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [7000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [8000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [9000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [10000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [11000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [12000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [13000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [14000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [15000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [16000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [17000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [18000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [19000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [20000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [21000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [22000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [23000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [24000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [25000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [26000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [27000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [28000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [29000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [30000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [31000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [32000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [33000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [34000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [35000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [36000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [37000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [38000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [39000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [40000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [41000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [42000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+crunching [43000 of 43673 working/corpus/plato/Plato (Gorgias).xml.body.vertical] working/corpus/plato/Plato (Gorgias).xml.body.vertical
+done crunching working/corpus/plato/Plato (Gorgias).xml.body.vertical.crunched
+Time taken: 0 days 03 hr 20 min 16 sec
+reformatting metadata of working/corpus/plato/Plato (Gorgias).xml.body.vertical.crunched
+done reformatting metadata of working/corpus/plato/Plato (Gorgias).xml.body.vertical.crunched.metad
+added header to working/corpus/plato/Plato (Gorgias).xml.vert
+splitting header and body of working/corpus/plato/PlatoRep1.xml
+header not found, using default
+verticalising working/corpus/plato/PlatoRep1.xml.body as beta-code
+done verticalising working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching working/corpus/plato/PlatoRep1.xml.body.vertical as beta-code
+crunching [1000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [2000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [3000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [4000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [5000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [6000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [7000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [8000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [9000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [10000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [11000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [12000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+crunching [13000 of 13931 working/corpus/plato/PlatoRep1.xml.body.vertical] working/corpus/plato/PlatoRep1.xml.body.vertical
+done crunching working/corpus/plato/PlatoRep1.xml.body.vertical.crunched
+Time taken: 0 days 01 hr 08 min 04 sec
+reformatting metadata of working/corpus/plato/PlatoRep1.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/plato/PlatoRep1.xml.body.vertical.crunched.metad
+added header to working/corpus/plato/PlatoRep1.xml.vert
+splitting header and body of working/corpus/plato/PlatoRep2.xml
+header not found, using default
+verticalising working/corpus/plato/PlatoRep2.xml.body as beta-code
+done verticalising working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching working/corpus/plato/PlatoRep2.xml.body.vertical as beta-code
+crunching [1000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [2000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [3000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [4000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [5000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [6000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [7000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [8000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [9000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [10000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [11000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+crunching [12000 of 12514 working/corpus/plato/PlatoRep2.xml.body.vertical] working/corpus/plato/PlatoRep2.xml.body.vertical
+done crunching working/corpus/plato/PlatoRep2.xml.body.vertical.crunched
+Time taken: 0 days 01 hr 08 min 23 sec
+reformatting metadata of working/corpus/plato/PlatoRep2.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/plato/PlatoRep2.xml.body.vertical.crunched.metad
+added header to working/corpus/plato/PlatoRep2.xml.vert
+splitting header and body of working/corpus/plato/PlatoRep3.xml
+header not found, using default
+verticalising working/corpus/plato/PlatoRep3.xml.body as beta-code
+done verticalising working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching working/corpus/plato/PlatoRep3.xml.body.vertical as beta-code
+crunching [1000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [2000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [3000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [4000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [5000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [6000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [7000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [8000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [9000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [10000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [11000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [12000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [13000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+crunching [14000 of 14730 working/corpus/plato/PlatoRep3.xml.body.vertical] working/corpus/plato/PlatoRep3.xml.body.vertical
+done crunching working/corpus/plato/PlatoRep3.xml.body.vertical.crunched
+Time taken: 0 days 01 hr 11 min 31 sec
+reformatting metadata of working/corpus/plato/PlatoRep3.xml.body.vertical.crunched
+done reformatting metadata of working/corpus/plato/PlatoRep3.xml.body.vertical.crunched.metad
+added header to working/corpus/plato/PlatoRep3.xml.vert
+splitting header and body of working/corpus/plato/Plato (Phaedrus).xml
+verticalising working/corpus/plato/Plato (Phaedrus).xml.body as beta-code
+done verticalising working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching working/corpus/plato/Plato (Phaedrus).xml.body.vertical as beta-code
+crunching [1000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [2000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [3000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [4000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [5000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [6000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [7000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [8000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [9000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [10000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [11000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [12000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [13000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [14000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [15000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [16000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [17000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [18000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [19000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [20000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [21000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [22000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [23000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+crunching [24000 of 24735 working/corpus/plato/Plato (Phaedrus).xml.body.vertical] working/corpus/plato/Plato (Phaedrus).xml.body.vertical
+done crunching working/corpus/plato/Plato (Phaedrus).xml.body.vertical.crunched
+Time taken: 0 days 02 hr 00 min 31 sec
+reformatting metadata of working/corpus/plato/Plato (Phaedrus).xml.body.vertical.crunched
+done reformatting metadata of working/corpus/plato/Plato (Phaedrus).xml.body.vertical.crunched.metad
+added header to working/corpus/plato/Plato (Phaedrus).xml.vert
+done
+killing descendant processes
+assembling vertical file
+done
