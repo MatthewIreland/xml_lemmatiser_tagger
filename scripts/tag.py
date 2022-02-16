@@ -420,6 +420,7 @@ class Tagger:
             "funder",
             "notesStmt",
             "sponsor",
+            "placeName",
             "principal",
             "profileDesc",
             "publicationStmt",
