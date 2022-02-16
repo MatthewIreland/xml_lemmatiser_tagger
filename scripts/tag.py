@@ -456,6 +456,7 @@ class Tagger:
             "pb",              # pagebreak
             "q",
             "quote",
+            "term",
             "TEI",             # wraps doc in unicode docs
             "TEI.2",           # wraps doc
             "teiHeader",       # wraps header
@@ -525,9 +526,11 @@ class Tagger:
 
         if element.tag == "head" or element.tag == "title":
             self.__addText(element.text, True, True)
+            # TODO: check whether element.tail should be added
 
         if element.tag == "l":
             self.__addText(element.text)
+            # TODO: check whether element.tail should be added
 
         if element.tag == "cit" or element.tag == "lg":
             tail = element.tail
@@ -580,7 +583,7 @@ class Tagger:
             if element.tail is not None and element.tail != "" and element.tail != "\n":
                 self.__addText(element.tail)
 
-        if element.tag == "q":
+        if element.tag == "q" or element.tag == "term":
             self.__addText(element.text)
 
             if element.tail is not None and element.tail != "" and element.tail != "\n":
