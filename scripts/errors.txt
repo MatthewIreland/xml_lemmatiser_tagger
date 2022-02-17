@@ -1,2 +1,646 @@
-Φαῖδρε    unknown error
-χθὲς    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+ἀντίκειται    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+ro\s    ρὸς    can't find pos tags
+ro\s    ρὸς    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+prowdopepoi/hke    προωδοπεποίηκε    can't find pos tags
+prowdopepoi/hke    προωδοπεποίηκε    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+lexqe/ntos    λεχθέντος    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)le/xqh    ἐλέχθη    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)gkexeirh/kasin    ἐγκεχειρήκασιν    can't find pos tags
+e)gkexeirh/kasin    ἐγκεχειρήκασιν    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+pro/pon    πρόπον    can't find pos tags
+pro/pon    πρόπον    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+dionusoko/lakas    διονυσοκόλακας    can't find pos tags
+dionusoko/lakas    διονυσοκόλακας    can't find lemma
+οἱ    unknown error
+lexqe\n    λεχθὲν    can't find lemma
+parh/mpisxen    παρήμπισχεν    can't find pos tags
+parh/mpisxen    παρήμπισχεν    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+lexqei=sai    λεχθεῖσαι    can't find lemma
+a)lh/llois    ἀλήλλοις    can't find pos tags
+a)lh/llois    ἀλήλλοις    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+ka/mnousi    κάμνουσι    can't find pos tags
+peperq/nqai    πεπερθ/νθαι    can't find pos tags
+peperq/nqai    πεπερθ/νθαι    can't find lemma
+οἱ    unknown error
+ἀντίκειται    unknown error
+ἀντίκειται    unknown error
+da/pedo/nde    δάπεδόνδε    can't find pos tags
+da/pedo/nde    δάπεδόνδε    can't find lemma
+οἱ    unknown error
+xi/meqla    χίμεθλα    can't find pos tags
+xi/meqla    χίμεθλα    can't find lemma
+lexqh=nai    λεχθῆναι    can't find lemma
+lexqh=|    λεχθῇ    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+lexqe/ntes    λεχθέντες    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+diablhte/on    διαβλητέον    can't find pos tags
+diablhte/on    διαβλητέον    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+seautw=|    σεαυτῷ    can't find pos tags
+seautw=|    σεαυτῷ    can't find lemma
+poiou=oin    ποιοῦοιν    can't find pos tags
+poiou=oin    ποιοῦοιν    can't find lemma
+οἱ    unknown error
+polu/xous    πολύχους    can't find pos tags
+polu/xous    πολύχους    can't find lemma
+eu)dokimhko/ta    εὐδοκιμηκότα    can't find pos tags
+eu)dokimhko/ta    εὐδοκιμηκότα    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)le/xqh    ἐλέχθη    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+tou=*fili/ppou    τοῦΦιλίππου    can't find pos tags
+tou=*fili/ppou    τοῦΦιλίππου    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+sauto\n    σαυτὸν    can't find pos tags
+sauto\n    σαυτὸν    can't find lemma
+e)llebori/zeis    ἐλλεβορίζεις    can't find pos tags
+e)llebori/zeis    ἐλλεβορίζεις    can't find lemma
+sautw=|    σαυτῷ    can't find pos tags
+sautw=|    σαυτῷ    can't find lemma
+οἱ    unknown error
+εἴων    unknown error
+οἱ    unknown error
+pula/goros    πυλάγορος    can't find pos tags
+pula/goros    πυλάγορος    can't find lemma
+e)misqw/qhkai\    ἐμισθώθηκαὶ    can't find pos tags
+e)misqw/qhkai\    ἐμισθώθηκαὶ    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+pulago/rois    πυλαγόροις    can't find pos tags
+pulago/rois    πυλαγόροις    can't find lemma
+pulago/rous    πυλαγόρους    can't find pos tags
+pulago/rous    πυλαγόρους    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)pulago/rhsen    ἐπυλαγόρησεν    can't find pos tags
+e)pulago/rhsen    ἐπυλαγόρησεν    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+qarghliw=nos    θαργηλιῶνος    can't find pos tags
+qarghliw=nos    θαργηλιῶνος    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+seautou=    σεαυτοῦ    can't find pos tags
+seautou=    σεαυτοῦ    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+ἐσάωσαν    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)phnw/rqwtai    ἐπηνώρθωται    can't find pos tags
+e)phnw/rqwtai    ἐπηνώρθωται    can't find lemma
+sauto/n    σαυτόν    can't find pos tags
+sauto/n    σαυτόν    can't find lemma
+οἱ    unknown error
+Κίρωνος    Κίρωνος    can't find pos tags
+Κίρωνος    Κίρωνος    can't find lemma
+ltκαὶgt    λτκαὶγτ    can't find pos tags
+ltκαὶgt    λτκαὶγτ    can't find lemma
+Κίρων    Κίρων    can't find pos tags
+Κίρων    Κίρων    can't find lemma
+Ναυσιμένει    Ναυσιμένει    can't find pos tags
+Ναυσιμένει    Ναυσιμένει    can't find lemma
+Ναυσιμένους    Ναυσιμένους    can't find pos tags
+Ναυσιμένους    Ναυσιμένους    can't find lemma
+Κίρωνός    Κίρωνός    can't find pos tags
+Κίρωνός    Κίρωνός    can't find lemma
+Πιθέως    Πιθέως    can't find pos tags
+Πιθέως    Πιθέως    can't find lemma
+πάμπολυ    πάμπολυ    can't find pos tags
+πάμπολυ    πάμπολυ    can't find lemma
+ltτοὺςgt    λττοὺςγτ    can't find pos tags
+ltτοὺςgt    λττοὺςγτ    can't find lemma
+ltπράξασθαιgt    λτπράξασθαιγτ    can't find pos tags
+ltπράξασθαιgt    λτπράξασθαιγτ    can't find lemma
+Εὐκλείδην    Εὐκλείδην    can't find pos tags
+Εὐκλείδην    Εὐκλείδην    can't find lemma
+ltἐκgt    λτἐκγτ    can't find pos tags
+ltἐκgt    λτἐκγτ    can't find lemma
+ltΜαρτυρίαgt    λτΜαρτυρίαγτ    can't find pos tags
+ltΜαρτυρίαgt    λτΜαρτυρίαγτ    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+lexqh=nai    λεχθῆναι    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+sautw=|    σαυτῷ    can't find pos tags
+sautw=|    σαυτῷ    can't find lemma
+seautou=    σεαυτοῦ    can't find pos tags
+seautou=    σεαυτοῦ    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+cu/m    ξύμ    can't find pos tags
+cu/m    ξύμ    can't find lemma
+lexqe\n    λεχθὲν    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+lexqe/nta    λεχθέντα    can't find lemma
+pa/mpolu    πάμπολυ    can't find pos tags
+pa/mpolu    πάμπολυ    can't find lemma
+οἱ    unknown error
+e)le/xqh    ἐλέχθη    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+i(ppomo/rfw    ἱππομόρφω    can't find pos tags
+i(ppomo/rfw    ἱππομόρφω    can't find lemma
+οἱ    unknown error
+nikh/sh|    νικήσῃ    can't find pos tags
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+o(qendh\    ὁθενδὴ    can't find pos tags
+o(qendh\    ὁθενδὴ    can't find lemma
+pa/mpolla    πάμπολλα    can't find pos tags
+pa/mpolla    πάμπολλα    can't find lemma
+οἱ    unknown error
+lexqh/setai    λεχθήσεται    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)leinologi/as    ἐλεινολογίας    can't find pos tags
+e)leinologi/as    ἐλεινολογίας    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)le/xqhsan    ἐλέχθησαν    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)le/xqh    ἐλέχθη    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+e)pithdeute/on    ἐπιτηδευτέον    can't find pos tags
+e)pithdeute/on    ἐπιτηδευτέον    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+genoi/sqhn    γενοίσθην    can't find pos tags
+genoi/sqhn    γενοίσθην    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+prosdeh/setai    προσδεήσεται    can't find pos tags
+prosdeh/setai    προσδεήσεται    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+e)strwme/nwn    ἐστρωμένων    can't find pos tags
+e)strwme/nwn    ἐστρωμένων    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+prosdehso/meqa    προσδεησόμεθα    can't find pos tags
+prosdehso/meqa    προσδεησόμεθα    can't find lemma
+pampo/llwn    παμπόλλων    can't find pos tags
+pampo/llwn    παμπόλλων    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+suntonoludisti\    συντονολυδιστὶ    can't find pos tags
+suntonoludisti\    συντονολυδιστὶ    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+a(ploi/zesqai    ἁπλοίζεσθαι    can't find pos tags
+a(ploi/zesqai    ἁπλοίζεσθαι    can't find lemma
+οἱ    unknown error
+sauto/n    σαυτόν    can't find pos tags
+sauto/n    σαυτόν    can't find lemma
+sauto\n    σαυτὸν    can't find pos tags
+sauto\n    σαυτὸν    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+dussune/twn    δυσσυνέτων    can't find pos tags
+dussune/twn    δυσσυνέτων    can't find lemma
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
+οἱ    unknown error
