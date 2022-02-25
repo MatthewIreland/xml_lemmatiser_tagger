@@ -698,6 +698,13 @@ def initialise_analysis_cache():
     """
     __initialise_cache_entry("a)poktinnu/nai", ["ἀποκτείνω"], ["verb"], ["pres", "inf", "act"], [])
     __initialise_cache_entry("sautou=", ["σεαυτοῦ"], ["pron"], [], ["gen", "masc", "neut", "sg"])
+    __initialise_cache_entry("οἱ", ["ἕ", "ὅς", "ὅς", "ὁ"], ["pron", "article"], [], ["pl", "masc", "nom", "dat"])
+    __initialise_cache_entry("sauto/n", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "acc", "neut", "nom", "acc"])
+    __initialise_cache_entry("sauto\\n", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "acc", "neut", "nom", "acc"])
+    __initialise_cache_entry("sautw=|", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "dat"])
+    __initialise_cache_entry("seautou=", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "gen", "neut"])
+    __initialise_cache_entry("a(ploi/zesqai", ["ἁπλοΐζομαι"], [], [], [])
+    __initialise_cache_entry("zw|otokei=", ["ζωοτοκέω"], ["verb"], ["pres", "ind", "act", "3rd", "sg"], [])
 
 
 
