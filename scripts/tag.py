@@ -128,7 +128,7 @@ class PerseusAnalysis:
                     nominal_morph_tags.append(tag)
 
         if num_pos_tags == 0:
-            with open('errors.txt', 'a') as f:
+            with open(xml_file_path+'.errors.txt', 'a') as f:
                 if self.__should_log_error(greek_word):
                     f.write(f"{greek_word}    {unicode_greek_word}    can't find pos tags\n")
 
@@ -148,7 +148,7 @@ class PerseusAnalysis:
                 num_lemmata += 1
 
         if num_lemmata == 0:
-            with open('errors.txt', 'a') as f:
+            with open(xml_file_path+'.errors.txt', 'a') as f:
                 if self.__should_log_error(greek_word):
                     f.write(f"{greek_word}    {unicode_greek_word}    can't find lemma\n")
 
@@ -280,7 +280,7 @@ class VerticalSentence(VerticalObject):
                 tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
                 print(tab_separated_string, flush=True)
 
-                with open('errors.txt', 'a') as f:
+                with open(xml_file_path+'.errors.txt', 'a') as f:
                     f.write(f"{greek_word}    unknown error\n")
         print("</s>")
 
@@ -709,6 +709,7 @@ def initialise_analysis_cache():
 
 
 if __name__ == "__main__":
+    global xml_file_path
     xml_file_path = sys.argv[1]
 
     initialise_analysis_cache()
