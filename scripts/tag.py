@@ -446,6 +446,7 @@ class Tagger:
             "div",
             "div1",            # wraps speeches
             "gap",
+            "group",           # wrapper -- should parse children
             "head",
             "l",
             "lb",              # linebreak
