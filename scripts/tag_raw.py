@@ -1,0 +1,924 @@
+import os
+
+import betacode.conv
+import urllib.request
+import re
+import sys
+import time
+import xml.etree.ElementTree as ET
+
+from pathlib import Path
+
+
+AnalysisCache = {}
+UnicodeMode = False
+
+class PerseusAnalysis:
+    def __init__(self, greek_word):
+        self.__greek_word_betacode = greek_word
+
+        if greek_word in AnalysisCache:
+            return
+
+        self.__possible_pos_tags = [
+            "adj",
+            "adv",
+            "article",
+            "conj",
+            "enclitic",
+            "exclam",
+            "indeclform",
+            "noun",
+            "numeral",
+            "partic",
+            "prep",
+            "proclitic",
+            "pron",
+            "verb",
+        ]
+
+        self.__possible_verbal_morph_tags = [
+            "1st",
+            "2nd",
+            "3rd",
+            "act",
+            "aor",
+            "fut",
+            "futperf",
+            "imperat",
+            "imperf",
+            "ind",
+            "inf",
+            "mid",
+            "mp",
+            "opt",
+            "part",
+            "pass",
+            "perf",
+            "plup",
+            "pres",
+            "pres_",
+            "subj",
+        ]
+
+        self.__possible_nominal_morph_tags = [
+            "comp?",
+            "comp_only?",
+            "dat",
+            "dual",
+            "fem",
+            "gen",
+            "irreg_comp",
+            "irreg_superl",
+            "masc",
+            "neut",
+            "nom",
+            "pl",
+            "sg",
+            "superl",
+            "voc",
+        ]
+
+        self.__get_perseus_analysis(greek_word)
+
+
+    def __get_perseus_analysis(self, greek_word):
+        greek_word_encoded = urllib.parse.quote_plus(greek_word)
+
+        if not UnicodeMode:
+            unicode_greek_word = betacode.conv.beta_to_uni(greek_word)
+        else:
+            unicode_greek_word = greek_word
+
+        try:
+            file = urllib.request.urlopen(f"https://www.perseus.tufts.edu/hopper/morph?l={greek_word_encoded}&la=greek")
+            data = file.read().decode("utf=8")
+            file.close()
+        except Exception:
+            try:
+                sys.stderr.write(f"Error looking up {greek_word_encoded}. Retrying...\n")
+                time.sleep(60)
+                file = urllib.request.urlopen(f"https://www.perseus.tufts.edu/hopper/morph?l={greek_word_encoded}&la=greek")
+                data = file.read().decode("utf=8")
+                file.close()
+            except Exception as e:
+                try:
+                    sys.stderr.write(f"Second error looking up {greek_word_encoded}. Retrying again...\n")
+                    time.sleep(300)
+                    file = urllib.request.urlopen(f"https://www.perseus.tufts.edu/hopper/morph?l={greek_word_encoded}&la=greek")
+                    data = file.read().decode("utf=8")
+                    file.close()
+                except:
+                    sys.stderr.write(f"Retry failed.\n")
+                    raise e
+
+
+        matches = re.findall('<td class="greek">(.*)</td>.*\n.*<td>(.*)</td>', data)
+
+        lemmata = []
+        pos_tags = []
+        verbal_morph_tags = []
+        nominal_morph_tags = []
+
+        num_pos_tags = 0
+        for match in matches:
+            for tag in match[1].split(" "):
+                # special case for "part" which implies pos tag is a verb
+                if tag == "part":
+                    pos_tags.append("verb")
+                    num_pos_tags += 1
+
+                if tag in self.__possible_pos_tags:
+                    pos_tags.append(tag)
+                    num_pos_tags += 1
+                if tag in self.__possible_verbal_morph_tags:
+                    verbal_morph_tags.append(tag)
+                if tag in self.__possible_nominal_morph_tags:
+                    nominal_morph_tags.append(tag)
+
+        if num_pos_tags == 0:
+            with open(xml_file_path+'.errors.txt', 'a') as f:
+                if self.__should_log_error(greek_word):
+                    f.write(f"{greek_word}    {unicode_greek_word}    can't find pos tags\n")
+
+
+        matches = re.findall('<h4 class="greek">(.*)</h4>', data)
+
+        num_lemmata = 0
+        if len(matches) > 1:
+            for match in matches:
+                # remove any lemmata ending in a digit, e.g. ἔχω2, καί3 (unless only one lemma)
+                if not match[-1].isdigit():
+                    lemmata.append(match)
+                    num_lemmata += 1
+        else:
+            for match in matches:
+                lemmata.append(match)
+                num_lemmata += 1
+
+        if num_lemmata == 0:
+            with open(xml_file_path+'.errors.txt', 'a') as f:
+                if self.__should_log_error(greek_word):
+                    f.write(f"{greek_word}    {unicode_greek_word}    can't find lemma\n")
+
+
+        if len(lemmata) == 0:
+            lemmata = ["NO_LEMMA"]
+
+        if len(pos_tags) == 0:
+            pos_tags = ["NO_POS"]
+
+        if len(verbal_morph_tags) == 0:
+            verbal_morph_tags = ["NO_VERBAL_MORPHOLOGY"]
+
+        if len(nominal_morph_tags) == 0:
+            nominal_morph_tags = ["NO_NOMINAL_MORPHOLOGY"]
+
+
+        self.__lemmata = list(set(lemmata))
+        self.__pos_tags = list(set(pos_tags))
+        self.__verbal_morphology = list(set(verbal_morph_tags))
+        self.__nominal_morphology = list(set(nominal_morph_tags))
+
+
+    def get_pos_tags(self):
+        return self.__pos_tags
+
+    def get_lemmata(self):
+        return self.__lemmata
+
+    def get_verbal_morphology(self):
+        return self.__verbal_morphology
+
+    def get_nominal_morphology(self):
+        return self.__nominal_morphology
+
+
+    def get_tab_separated_vertical_format(self):
+        if self.__greek_word_betacode in AnalysisCache:
+            return AnalysisCache[self.__greek_word_betacode]
+
+        if not UnicodeMode:
+            greek_word = betacode.conv.beta_to_uni(self.__greek_word_betacode)
+        else:
+            greek_word = self.__greek_word_betacode
+        lemmata = ";".join(self.get_lemmata())
+        pos_tags = ";".join(self.get_pos_tags())
+        verbal_morph_tags = ";".join(self.get_verbal_morphology())
+        nominal_morph_tags = ";".join(self.get_nominal_morphology())
+
+        tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, nominal_morph_tags, verbal_morph_tags])
+
+        AnalysisCache[self.__greek_word_betacode] = tab_separated_string
+        return tab_separated_string
+
+    def __should_log_error(self, betacode_word):
+        # don't log words starting with a capital word to errors, or numerals
+        return not (betacode_word.startswith('*') or any(c.isdigit() for c in betacode_word))
+
+
+class VerticalObject:
+    def doAnalysis(self):
+        pass
+
+
+class VerticalHeader(VerticalObject):
+    def __init__(self):
+        self.__title = None
+        self.__author = None
+
+    def setTitle(self, title):
+        if self.__title is None:
+            self.__title = title
+
+    def setAuthor(self, author):
+        if self.__author is None:
+            self.__author = author
+
+    def setFilename(self, filename):
+        head, tail = os.path.split(filename)
+        self.__filename = tail
+
+    def doAnalysis(self):
+        title = self.__title
+        if title is None or title == "":
+            title = self.__filename
+        print(f"<doc title=\"{title}\" author=\"{self.__author}\">")
+
+
+class VerticalSection(VerticalObject):
+    def __init__(self, positionInfo):
+        self.__positionInfo = PositionInfo()
+        self.__positionInfo.copy(positionInfo)
+        self.__sentences = []
+
+    def pushSentence(self, sentence):
+        self.__sentences.append(sentence)
+
+    def doAnalysis(self):
+        positionInfo = self.__positionInfo.render()
+        print(f"<p {positionInfo}>")
+        for sentence in self.__sentences:
+            sentence.doAnalysis()
+        print("</p>")
+
+
+class VerticalSentence(VerticalObject):
+    def __init__(self):
+        self.__words = []
+
+    def pushWord(self, word):
+        self.__words.append(word)
+
+    def doAnalysis(self):
+        print("<s>")
+        for word in self.__words:
+            try:
+                analysis = PerseusAnalysis(word)
+                print(analysis.get_tab_separated_vertical_format(), flush=True)
+            except:
+                if not UnicodeMode:
+                    greek_word = betacode.conv.beta_to_uni(word)
+                else:
+                    greek_word = word
+                lemmata = "ERROR"
+                pos_tags = "ERROR"
+                verbal_morph_tags = "ERROR"
+                nominal_morph_tags = "ERROR"
+
+                tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, verbal_morph_tags, nominal_morph_tags])
+                print(tab_separated_string, flush=True)
+
+                with open(xml_file_path+'.errors.txt', 'a') as f:
+                    f.write(f"{greek_word}    unknown error\n")
+        print("</s>")
+
+class PositionInfo:
+    def __init__(self):
+        self.book = None          # div1 type="Book"
+        self.speech = None        # div1 type="speech"
+        self.section = None       # div2
+
+        self.section = None       # milestone unit="section"
+        self.line = None          # milestone unit="line" or unit="Line"
+        self.part = None          # milestone unit="part"
+        self.chapter = None       # milestone unit="chapter"
+        self.page = None          # milestone unit="page"
+        self.tetralogy = None     # milestone unit="tetralogy"
+
+    def setDiv1(self, type, n):
+        if type == "Book" or type == "book":
+            self.__reset()
+            self.book = n
+            return
+
+        if type == "speech":
+            self.__reset()
+            self.speech = n
+            return
+
+        if type == "section":
+            self.__reset()
+            self.section = n
+            return
+
+        raise Exception("unknown div1 type: " + type)
+
+    def setMilestone(self, unit, n):
+        if unit == "section":
+            self.section = n
+            self.line = None
+            return
+
+        if unit == "line" or unit == "Line":
+            self.line = n
+            return
+
+        if unit == "tetralogy":
+            self.tetralogy = n
+            self.line = None
+            return
+
+        if unit == "part":
+            self.part = n
+            self.line = None
+            return
+
+        if unit == "page":
+            self.page = n
+            self.line = None
+            return
+
+        if unit == "chapter":
+            self.chapter = n
+            self.line = None
+            return
+
+        if unit == "para":
+            # ignore
+            return
+
+        raise Exception("unknown milestone unit: " + unit)
+
+    def copy(self, other):
+        self.book = other.book
+        self.speech = other.speech
+
+        self.section = other.section
+        self.line = other.line
+        self.part = other.part
+        self.chapter = other.chapter
+        self.page = other.page
+
+    def render(self):
+        metadata = ""
+
+        if self.book is not None:
+            metadata += f"book=\"{self.book}\""
+
+        if self.speech is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"speech=\"{self.speech}\""
+
+        if self.tetralogy is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"tetralogy=\"{self.speech}\""
+
+        if self.section is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"section=\"{self.section}\""
+
+        if self.line is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"line=\"{self.line}\""
+
+        if self.part is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"part=\"{self.part}\""
+
+        if self.page is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"page=\"{self.page}\""
+
+        if self.chapter is not None:
+            if metadata != "":
+                metadata += " "
+            metadata += f"chapter=\"{self.chapter}\""
+
+        return metadata
+
+
+    def __reset(self):
+        self.book = None
+        self.speech = None
+
+        self.section = None
+        self.line = None
+        self.part = None
+        self.chapter = None
+        self.tetralogy = None
+
+
+class Tagger:
+    def __init__(self, xml_file_path):
+        self.__headerTagsToIgnore = [
+            "biblStruct",     # repeats title and author
+            "date",
+            "encodingDesc",
+            "editor",
+            "extent",
+            "funder",
+            "notesStmt",
+            "sponsor",
+            "placeName",
+            "principal",
+            "profileDesc",
+            "publicationStmt",
+            "respStmt",
+            "revisionDesc",
+            "sourceDesc",
+        ]
+        self.__knownHeaderTags = [
+            "author",
+            "fileDesc",       # wraps metadata, e.g. title and author
+            "title",
+            "titleStmt",
+        ]
+        self.__tagsToIgnore = [
+            "bibl",
+            "castList",
+        ]
+        self.__knownTags = [
+            "add",             # appears before note
+            "body",            # wraps main body content
+            "cit",
+            "del",             # appears before note
+            "div",
+            "div1",            # wraps speeches
+            "div2",
+            "gap",
+            "group",           # wrapper -- should parse children
+            "head",
+            "l",
+            "lb",              # linebreak
+            "lg",
+            "milestone",
+            "note",
+            "speaker",
+            "p",
+            "pb",              # pagebreak
+            "q",
+            "quote",
+            "term",
+            "TEI",             # wraps doc in unicode docs
+            "TEI.2",           # wraps doc
+            "teiHeader",       # wraps header
+            "text",            # wraps body
+            "title",
+        ]
+
+        self.__xml_file_path = xml_file_path
+        self.__tree = ET.parse(xml_file_path)
+        self.__verticalObjects = []
+        self.__header = VerticalHeader()
+        self.__currentSection = None
+        self.__currentSentence = None
+        self.__forceNewSectionStartOnNextTag = False
+        self.__positionInfo = PositionInfo()
+
+        self.__header.setFilename(xml_file_path)
+
+    def tag(self):
+        self.traverseXml(self.__tree.getroot())
+
+        if self.__currentSentence is not None:
+            self.__finishCurrentSentence()
+
+        if self.__currentSection is not None:
+            self.__finishCurrentSection()
+
+    def traverseXml(self, element):
+        traverseChildren = True
+
+        tg = self.__parse_tag(element.tag)
+
+        if tg in self.__tagsToIgnore:
+            return
+
+        if tg not in self.__knownTags:
+            raise Exception("unknown tag: " + element.tag)
+
+        if tg == "TEI":
+            UnicodeMode = True
+
+        if tg == "teiHeader":
+            for elem in element.getchildren():
+                self.traverseHeaderXml(elem)
+            return
+
+        # ignore linebreaks and pagebreaks
+        if tg == "lb" or tg == "pb":
+            self.__addText(element.tail)
+
+        if tg == "add":
+            self.__addText(element.text)
+
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
+
+        if tg == "del":
+            self.__addText(element.text)
+
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
+
+        if tg == "div1" or tg == "div2":
+            self.__positionInfo.setDiv1(element.attrib.get("type"), element.attrib.get("n"))
+
+        if tg == "gap":
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
+
+        if tg == "head" or element.tag == "title":
+            self.__addText(element.text, True, True)
+            # TODO: check whether element.tail should be added
+
+        if tg == "l":
+            self.__addText(element.text)
+            # TODO: check whether element.tail should be added
+
+        if tg == "cit" or element.tag == "lg":
+            tail = element.tail
+
+            for elem in element.getchildren():
+                self.traverseXml(elem)
+
+            if tail is not None and tail != "" and tail != "\n":
+                self.__addText(tail)
+            traverseChildren = False   # already done before adding tail
+
+        if tg == "quote":
+            tail = element.tail
+
+            for elem in element.getchildren():
+                self.traverseXml(elem)
+
+            if tail is not None and tail != "" and tail != "\n":
+                self.__addText(tail)
+            traverseChildren = False   # already done before adding tail
+
+        if tg == "milestone":
+            self.__positionInfo.setMilestone(element.attrib.get("unit"), element.attrib.get("n"))
+
+            unitIsLine = element.attrib.get("unit") == "Line" or element.attrib.get("unit") == "line"
+
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail, not unitIsLine, not unitIsLine)
+            else:
+                self.__forceNewSectionStartOnNextTag = not unitIsLine
+
+        # this is not div1 :)
+        # a div is Antiphon's version of a milestone, but it wraps a section! Note that there may be other
+        # elements (e.g. note) within the section
+        if tg == "div":
+            self.__positionInfo.setMilestone(element.attrib.get("type"), element.attrib.get("n"))
+
+            unitIsLine = element.attrib.get("unit") == "Line" or element.attrib.get("unit") == "line"
+
+            self.__addText(element.text, not unitIsLine, not unitIsLine)
+
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail, not unitIsLine, not unitIsLine)
+            else:
+                self.__forceNewSectionStartOnNextTag = not unitIsLine
+
+        if tg == "note":
+            traverseChildren = False
+
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
+
+        if tg == "q" or tg == "term":
+            self.__addText(element.text)
+
+            if element.tail is not None and element.tail != "" and element.tail != "\n":
+                self.__addText(element.tail)
+
+        if tg == "speaker":
+            self.__addText(element.text, True, True)
+            self.__addText(element.tail, True, True)
+
+        if traverseChildren:
+            for elem in element.getchildren():
+                self.traverseXml(elem)
+
+    def traverseHeaderXml(self, element):
+        tg = self.__parse_tag(element.tag)
+        
+        if tg in self.__headerTagsToIgnore:
+            return
+
+        if tg not in self.__knownHeaderTags:
+            raise Exception("unknown header tag: " + element.tag)
+
+        if tg == "title":
+            self.__header.setTitle(element.text)
+
+        if tg == "author":
+            self.__header.setAuthor(element.text)
+
+        for elem in element.getchildren():
+            self.traverseHeaderXml(elem)
+
+    def doAnalysis(self):
+        self.__header.doAnalysis()
+        for obj in self.__verticalObjects:
+            obj.doAnalysis()
+        print("</doc>")
+
+    def __parse_tag(self, tag):
+        if tag.startswith("{"):
+            return tag.split('}', 1)[1]
+        return tag
+
+    def __addText(self, unsplitText, forceSectionStart=False, forceSentenceStart=False, sectionMetadata=None):
+        if self.__forceNewSectionStartOnNextTag:
+            forceSectionStart = True
+        self.__forceNewSectionStartOnNextTag = False
+
+        if (forceSectionStart or forceSentenceStart) and self.__currentSentence is not None:
+            self.__finishCurrentSentence()
+
+        if forceSectionStart and self.__currentSection is not None:
+            self.__finishCurrentSection()
+
+        if self.__currentSection is None:
+            self.__startNewSection()
+
+        if self.__currentSentence is None:
+            self.__startNewSentence()
+
+        if unsplitText is None:
+            return
+
+        # See betacode spec here: https://en.wikipedia.org/wiki/Beta_Code
+        for word in self.__splitWords(unsplitText):
+            endOfSentence = False
+
+            if self.__currentSentence is None:
+                self.__startNewSentence()
+
+            # strip punctuation
+            if "." in word or ";" in word:    # betacode uses ; for a question mark
+                word = word.replace(".", "")
+                word = word.replace(";", "")
+                endOfSentence = True
+            translation_table = dict.fromkeys(map(ord, '（）† （）†“”‘’&·—ʹ.,:_#-"“ʼ‘“”'), None)
+            word = word.translate(translation_table)
+
+            if len(word) > 0:
+                self.__currentSentence.pushWord(word)
+
+            if endOfSentence:
+                self.__finishCurrentSentence()
+
+
+    def __splitWords(self, text):
+        return text.split()
+
+    def __startNewSection(self):
+        self.__currentSection = VerticalSection(self.__positionInfo)
+
+    def __finishCurrentSection(self):
+        self.__verticalObjects.append(self.__currentSection)
+        self.__currentSection = None
+
+    def __startNewSentence(self):
+        self.__currentSentence = VerticalSentence()
+
+    def __finishCurrentSentence(self):
+        self.__currentSection.pushSentence(self.__currentSentence)
+        self.__currentSentence = None
+
+
+class TaggerRaw:
+    def __init__(self, txt_file_path):
+        self.__txt_file_path = txt_file_path
+        self.__txt_input = Path(txt_file_path).read_text()
+        self.__txt_input = self.__txt_input.replace('\n', '')
+        self.__verticalObjects = []
+        self.__header = VerticalHeader()
+        self.__currentSection = None
+        self.__currentSentence = None
+        self.__forceNewSectionStartOnNextTag = False
+        self.__positionInfo = PositionInfo()
+
+        self.__header.setFilename(xml_file_path)
+
+    def tag(self):
+        self.__addText(self.__txt_input)
+
+        if self.__currentSentence is not None:
+            self.__finishCurrentSentence()
+
+        if self.__currentSection is not None:
+            self.__finishCurrentSection()
+        
+
+    def doAnalysis(self):
+        self.__header.doAnalysis()
+        for obj in self.__verticalObjects:
+            obj.doAnalysis()
+        print("</doc>")
+
+    def __parse_tag(self, tag):
+        if tag.startswith("{"):
+            return tag.split('}', 1)[1]
+        return tag
+
+    def __addText(self, unsplitText, forceSectionStart=False, forceSentenceStart=False, sectionMetadata=None):
+        if self.__forceNewSectionStartOnNextTag:
+            forceSectionStart = True
+        self.__forceNewSectionStartOnNextTag = False
+
+        if (forceSectionStart or forceSentenceStart) and self.__currentSentence is not None:
+            self.__finishCurrentSentence()
+
+        if forceSectionStart and self.__currentSection is not None:
+            self.__finishCurrentSection()
+
+        if self.__currentSection is None:
+            self.__startNewSection()
+
+        if self.__currentSentence is None:
+            self.__startNewSentence()
+
+        if unsplitText is None:
+            return
+
+        # See betacode spec here: https://en.wikipedia.org/wiki/Beta_Code
+        for word in self.__splitWords(unsplitText):
+            endOfSentence = False
+
+            if self.__currentSentence is None:
+                self.__startNewSentence()
+
+            # strip punctuation
+            if "." in word or ";" in word:    # betacode uses ; for a question mark
+                word = word.replace(".", "")
+                word = word.replace(";", "")
+                endOfSentence = True
+            translation_table = dict.fromkeys(map(ord, '（）† （）†“”‘’&·—ʹ.,:_#-"“ʼ‘“”'), None)
+            word = word.translate(translation_table)
+
+            if len(word) > 0:
+                self.__currentSentence.pushWord(word)
+
+            if endOfSentence:
+                self.__finishCurrentSentence()
+
+
+    def __splitWords(self, text):
+        return text.split()
+
+    def __startNewSection(self):
+        self.__currentSection = VerticalSection(self.__positionInfo)
+
+    def __finishCurrentSection(self):
+        self.__verticalObjects.append(self.__currentSection)
+        self.__currentSection = None
+
+    def __startNewSentence(self):
+        self.__currentSentence = VerticalSentence()
+
+    def __finishCurrentSentence(self):
+        self.__currentSection.pushSentence(self.__currentSentence)
+        self.__currentSentence = None
+
+        
+def __initialise_cache_entry(word_betacode, lemmata_list, pos_list, verbal_morph_list, nominal_morph_list):
+    greek_word = betacode.conv.beta_to_uni(word_betacode)
+    lemmata = ";".join(lemmata_list)
+    pos_tags = ";".join(pos_list)
+    verbal_morph_tags = ";".join(verbal_morph_list)
+    nominal_morph_tags = ";".join(nominal_morph_list)
+
+    tab_separated_string = "\t".join([greek_word, pos_tags, lemmata, nominal_morph_tags, verbal_morph_tags])
+
+    AnalysisCache[word_betacode] = tab_separated_string
+
+def initialise_analysis_cache():
+    """
+    Some words are not listed in Perseus -- some of these are manually annotated to minimise repeated errors
+    """
+    __initialise_cache_entry("a)poktinnu/nai", ["ἀποκτείνω"], ["verb"], ["pres", "inf", "act"], [])
+    __initialise_cache_entry("sautou=", ["σεαυτοῦ"], ["pron"], [], ["gen", "masc", "neut", "sg"])
+    __initialise_cache_entry("οἱ", ["ἕ", "ὅς", "ὅς", "ὁ"], ["pron", "article"], [], ["pl", "masc", "nom", "dat"])
+    __initialise_cache_entry("sauto/n", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "acc", "neut", "nom", "acc"])
+    __initialise_cache_entry("sauto\\n", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "acc", "neut", "nom", "acc"])
+    __initialise_cache_entry("sautw=|", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "dat"])
+    __initialise_cache_entry("seautou=", ["σεαυτοῦ"], ["adj"], [], ["sg", "masc", "gen", "neut"])
+    __initialise_cache_entry("a(ploi/zesqai", ["ἁπλοΐζομαι"], [], [], [])
+    __initialise_cache_entry("zw|otokei=", ["ζωοτοκέω"], ["verb"], ["pres", "ind", "act", "3rd", "sg"], [])
+
+    #def __initialise_cache_entry(word_betacode, lemmata_list, pos_list, verbal_morph_list, nominal_morph_list):    
+
+    # Thuc2
+    __initialise_cache_entry("Θουκυδίδης", ["Θουκυδίδης"], ["noun"], [], ["sg", "masc", "nom"])
+
+    # XenAna
+    __initialise_cache_entry("ou)pw/poq'", ["οὐπώποτε"], ["adv"], [], ["indeclform"])
+    __initialise_cache_entry("e)le/xqhsan", ["λέγω2","λέγω3"], ["verb"], ["aor", "ind", "pass", "3rd", "pl"], [])
+    __initialise_cache_entry("pa/mpolu", ["πάμπολυς"], ["adj"], [], ["sg", "neut", "nom", "acc", "voc"])
+    __initialise_cache_entry("lexqe/ntwn", ["λέγω2","λέγω3"], ["verb"], ["aor", "part", "pl", "pass", "masc", "gen", "neut", "gen"], [])
+    __initialise_cache_entry("pampo/llois", ["πάμπολυς"], ["adj"], [], ["pl", "masc", "dat", "neut"])
+    __initialise_cache_entry("borra=s", ["βορεάς"], ["noun"], [], ["pl", "masc", "acc", "sg", "masc", "nom"])
+    __initialise_cache_entry("a)ntemplh/santes", ["ἀντεμπίμπλημι"], ["verb"], ["part", "pl", "aor", "act", "masc", "nom", "voc"], [])
+    __initialise_cache_entry("pa/mpolla", ["πάμπολυς"], ["adj"], [], ["sg", "fem", "nom", "voc", "pl", "neut", "nom", "acc", "dual", "voc"])
+    __initialise_cache_entry("e(/cphxu", ["ἕξπηχυς"], ["noun"], [], ["sg", "masc", "voc"])
+    __initialise_cache_entry("paresxhme/nos", ["παρέχω"], ["verb"], ["part", "pl", "perf", "mp", "masc", "nom", "voc"], [])
+    __initialise_cache_entry("prounoou/mhn", ["προνοέω"], ["verb"], ["1st", "sg", "imperf", "ind", "mp"], [])
+    __initialise_cache_entry("oi(=o/nper", ["οἷοσπερ"], ["adj"], [], ["sg", "neut", "voc", "acc", "nom", "masc"])
+    __initialise_cache_entry("dekape/nte", ["δεκαπέντε"], ["numeral"], [], ["indeclform"])
+    __initialise_cache_entry("w(=|tini", ["ᾧτινι"], ["pron"], [], ["sg", "masc", "dat", "neut"])
+    __initialise_cache_entry("b", ["b"], ["numeral"], [], ["indeclform"])
+
+    # XenHel
+    __initialise_cache_entry("spondw=n", ["σπονδή"], ["noun"], [], ["pl", "fem", "gen"])
+    __initialise_cache_entry("fai/nousin", ["φαίνω"], ["verb"], ["3rd", "pl", "pres", "ind", "act", "part", "neut", "dat", "masc", "dat"], [])
+    __initialise_cache_entry("prosdeh/sointo", ["προσδέω"], ["verb"], ["3rd", "pl", "fut", "opt", "mid"], [])
+    __initialise_cache_entry("a)ntene/plhsan", ["ἀντεμπίμπλημι"], ["verb"], ["3rd", "pl", "aor", "ind", "act"], [])
+    __initialise_cache_entry("e)piqalattidi/as", ["ἐπιθαλαττίδιος"], ["adj"], [], ["sg", "fem", "gen", "pl", "fem", "acc"])
+    __initialise_cache_entry("lexqe/nta", ["λέγω2", "λέγω3"], ["verb"], ["part", "pl", "aor", "pass", "neut", "voc", "sg", "masc", "acc", "nom"], [])
+    __initialise_cache_entry("pa/mpolloi", ["παμπολύς"], ["adj"], [], ["pl", "masc", "nom", "voc"])
+    __initialise_cache_entry("pa/mpolla", ["παμπολύς"], ["adj"], [], ["pl", "neut", "nom", "acc", "sg", "fem", "voc"])
+    __initialise_cache_entry("pa/mpolu", ["παμπολύς"], ["adj"], [], ["sg", "neut", "nom", "acc"])
+    __initialise_cache_entry("pampo/llwn", ["παμπολύς"], ["adj"], [], ["pl", "masc", "gen", "fem", "neut"])
+    __initialise_cache_entry("pampo/llous", ["παμπολύς"], ["adj"], [], ["pl", "masc", "acc"])
+    __initialise_cache_entry("oi(=o/nper", ["ὅσπερ"], ["adj"], [], ["sg", "masc", "acc", "neut", "nom", "voc"])
+    __initialise_cache_entry("a)krobolismou=", ["ἀκροβολισμός"], ["noun"], [], ["sg", "masc", "dat"])
+    __initialise_cache_entry("lakwnismw=|", ["λακωνισμός"], ["noun"], [], ["sg", "masc", "dat"])
+    __initialise_cache_entry("a)rgolizo/ntwn", ["ἀργολίζω"], ["verb"], ["part", "pl", "pres", "act", "masc", "gen", "neut"], [])
+    __initialise_cache_entry("a)poktinnu/s", ["κτίννυμι"], ["verb"], ["part", "sg", "pres", "act", "masc", "nom"], [])
+    __initialise_cache_entry("e)kstrateute/on", ["ἐκστρατευτέος"], ["adj"], [], ["sg", "fem", "acc", "masc", "neut", "nom", "voc"])
+    __initialise_cache_entry("e)pari/tous", ["ἐπάριτος"], ["adj"], [], ["pl", "masc", "acc"])
+
+    # Thuc 3
+    __initialise_cache_entry("Θουκυδίδης", ["Θουκυδίδης"], ["noun"], [], ["sg", "masc", "nom"])
+
+    # Galen
+    __initialise_cache_entry("ΤΩΝ", ["ὁ"], ["article"], [], ["pl", "masc", "gen", "fem", "neut"])
+    __initialise_cache_entry("ΘΕΡΑΠΕΥΤΙΚΩΝ", ["θεραπευτικός"], ["adj"], [], ["pl", "masc", "gen", "fem", "neut"])
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+if __name__ == "__main__":
+    global xml_file_path
+    xml_file_path = sys.argv[1]
+
+    initialise_analysis_cache()
+    tagger = TaggerRaw(xml_file_path)
+    tagger.tag()
+    tagger.doAnalysis()
+
+
+"""
+    try:
+        # remove brackets
+        translation_table = dict.fromkeys(map(ord, '（）† '), None)
+        stripped_word = word.translate(translation_table)
+
+        # deal with bracket at start of work
+        if "（" in word:
+            print("（")
+
+        analysis = PerseusAnalysis(stripped_word)
+        print(analysis.get_tab_separated_vertical_format())
+
+        if "）" in word:
+            print("）")
+
+    except Exception:
+        unicode_greek_word = betacode.conv.beta_to_uni(word)
+        print(unicode_greek_word)
+        with open('errors.txt', 'a') as f:
+            f.write(f"{word}    {unicode_greek_word}    unknown error\n")
+        sys.stderr.write(f"Cannot find lemma for word {word}\n")
+"""
